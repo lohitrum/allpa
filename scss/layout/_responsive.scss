@@ -1,0 +1,455 @@
+img.responsive { max-width: 100%; height: auto; display: block; }
+
+@media only screen and (max-width: 1950px) { 
+    
+}
+
+/*		Large Desktop Layout: > 1281px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 1281px) and (max-width: 1700px) {    
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1281px) {    
+  
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (max-width: 1024px) {
+  body.home main, main {
+    margin-top: 125px;
+  } 
+  .header__botones{display: none;}
+  .slicknav_nav .btn__header{
+    border-bottom: 0;
+    a{
+      display: block;
+      font-weight: 500;
+      font-size: 21px;
+      color: $white;
+      padding: 15px 35px;
+      background-color: $color-secondary;
+      padding-left: 15px;
+      margin-bottom: 5px; 
+      max-width: 306px;
+      margin-bottom: 40px;
+      img {
+        padding-right: 5px;
+        vertical-align: middle;
+        width: 42px;
+        height: auto;
+      }
+    }   
+  }
+  
+  
+
+  .slicknav_nav[aria-hidden=false] {
+    .header__botones{display: block;}
+  }
+
+  .menu__home {
+    display: block;
+    padding: 12px 0;
+      .slicknav_menu { display: block; }
+  }
+  #menu-scroll{display: none;}
+  #topmenu{display: none;}
+
+  #topmenu.abierto{
+    .header__botones {
+      display: block;
+      left: 40px;
+      top: 150px;
+       a:nth-child(2){
+         display: none; 
+        }
+    }
+  }  
+  .header__logo{
+    position: fixed;   
+    padding: 0;
+    padding-top: 25px;    
+    background-image: url(../img/img-responsive-header.jpg);
+    box-shadow: 0 0 7px rgba(0,0,0,.1);
+  }
+  .header__logo h1.logo{
+    margin-left: 30px;
+  }
+  #topmenu{padding-bottom: 3px;}
+  .slicknav_menu { 
+    display: block;  
+    ul.sub-menu{
+      position: relative;
+      left: 0;
+      top: 0;
+      border: 0;
+      margin: 0;
+      padding-top: 0;
+      background: none;
+      box-shadow: none;
+      &::before{
+        content: none;
+      }
+      li{
+        margin: 0;
+        display: block;
+        border: 0;
+        a{
+          color: $white;
+          font-size: 21px;
+          &:hover{
+            transition: $hovertransition;
+            color: $color-base;
+          }
+        }
+      }
+    }
+    ul.sub-menu img.menu-image{
+      display: none;
+    }
+  } 
+  .slicknav_nav {
+      position: fixed;
+      width: 100%;      
+      height: 100vh;
+      background-image: url(../img/bg-responsive.jpg);
+      background-position: center bottom; 
+      background-size: cover;     
+      left: 0;
+      top: 125px;
+      z-index: -1;      
+      padding-top: 30px;
+      &::after{
+        content: "958900678";
+        position: absolute;
+        bottom: 160px;
+        right: 45px;
+        background-image: url(../img/icons/icon-tel.svg);
+        background-repeat: no-repeat;
+        padding-left: 75px;
+        background-position: center left;
+        height: 60px;
+        font-size: 29px;
+        line-height: 2;    
+      }
+  }
+  .menu-image-title.menu-image-title-above, .menu-image-title.menu-image-title-below{text-align: left;}
+  .slicknav_open{
+    .slicknav_item a, .slicknav_arrow {
+      //color: $color-base;
+      font-weight: bold;
+    }
+  }
+  .slicknav_nav .slicknav_arrow{
+    float: right;
+  }
+}
+
+
+/*		Mobile Layout: < 768px
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout Mobile.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 768px)  {
+    /*******************************************
+      General
+    *****************************************/
+    h2 { font-size: 30px; }
+    h3 { font-size: 24px; }
+    h4 { font-size: 20px; }
+    
+    
+    /*******************************************
+      Encabezado
+    *****************************************/    
+    .navbar-brand img, .menu__home .menu__home--header h1 img { width: 232px; margin-left: 10px; }
+    
+    
+    /************************************
+      Home
+    ***********************************/
+    section.home__banner { min-height: 0; height: 200px; background-size: auto 100%; }
+    section.home__slider .item{ background-position: -130px 0px; min-height: 172px;}
+    .home__delivery--contenido h2{
+      font-size: 20px;
+      width: 140px;
+      height: 140px; 
+      line-height: 18px;
+      border: 5px solid rgba(255, 175, 30, 0.5);
+    }
+    .home__delivery--contenido h2 a.delivery img{ width: 30px; height: 30px;}
+    .home__delivery--contenido h2 a.delivery, .home__delivery--contenido h2 span{font-size: 13px;}
+    section.home__delivery{padding-top: 20px;}
+    section.home__slider .item .item__titulo{display: none;}
+    .js-categorias:hover{background-color: $color-secondary; color: $black; border-color: $color-secondary;}
+  
+    .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle{background-color: $color-secondary; color: $black;}
+    .btn-primary:focus, .btn-primary.focus{box-shadow: none;}
+    section.home__slider .item .item__titulo h2{ padding: 0; padding: 4px 15px; margin: 0 15px; background-color: $color-secondary; font-size: 10px; line-height: 22px; border-radius: 35px; &::before{content: none;}}
+    .home__delivery--contenido{position: absolute; right: 10px; margin-top: -80px;}
+    .home__delivery--autos{text-align: center;}
+    section.home__delivery .home__delivery--autos h2{text-align: left; margin-top: 50px; display: inline-block;}
+    section.home__delivery .item--catalogo{margin-bottom: 30px;}
+    .catalogo{padding-top: 70px;}
+    section.catalogo .tab-content{margin-top: 20px;}
+    aside.catalogo__sidebar{padding: 0px;}
+    section.catalogo{padding-bottom: 50px;}
+    .catalogo .catalogo__contenedor .post-listing{margin-right: 0; margin-top: 30px; padding: 0; height: auto;}
+    .medios__pagos .medios__pagos--texto p{text-align: center;}
+    .medios__pagos .medios__pagos--item ul{text-align: center; margin-bottom: 30px;}
+    .medios__pagos .medios__pagos--item ul li{ margin: auto; display: block;  padding-top: 20px;}
+    .medios__pagos .medios__pagos--item ul li:first-child{padding-bottom: 0px; padding-top: 30px; margin-bottom: -15px;}
+    .medios__pagos .medios__pagos--item ul li:nth-child(2){ padding-bottom: 0;  padding-top: 0; margin-bottom: -10px;}
+    .medios__pagos .medios__pagos--item ul li:nth-child(3){ padding-bottom: 0; padding-top: 0;}
+    .medios__pagos .medios__pagos--item ul li:nth-child(5){ padding-top: 30px;}
+    .mantenimiento{ background-image: none; background-color: $color-extra1; padding-bottom: 30px;}
+    .mantenimiento .mantenimiento__contenido h2{text-align: center; font-size: 28px;}
+    .mantenimiento .mantenimiento__contenido h2 span{margin-left: 0 !important;}
+    .mantenimiento .mantenimiento__contenido h2 img{display: none;}
+    .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--tel{text-align: center;}
+    section.acceso__rapido .acceso__rapido--item{ margin-top: 0 !important; margin-bottom: 30px;}
+    section.acceso__rapido{padding-top: 50px;}
+    section.home__contacto .home__contacto--wrap{position: relative; left: 0; top: 0; margin: auto; margin-top: 30px;}
+    .home__historias{img{max-width: 100%;}}    
+    section.home__autosup .home__autosup--img h2{ font-size: 10px; padding-left: 0; background-color: $color-secondary; padding: 4px 10px; &::before{content: none;}}
+    section.home__autosup .home__autosup--img{margin: 0;  margin-top: 25px;}
+    .footer__top .menu__footer ul{margin-bottom: 30px; text-align: center;}
+    .footer__top .footer__back, .footer__bottom .footer__texto2{text-align: center; margin-top: 10px;}
+    .white-popup{margin-bottom: 0;}
+
+    .blog__ultimo .blog__hashtag h2, .blog__primero .blog__hashtag h2 {
+        padding: 5px 20px;
+    }
+       
+    /*--------Seccion-Distribuidor---------*/
+    section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--btn{display: none;}
+
+    
+    .home__blog--top .align-right { text-align: left; }
+    section.home__blog .home__blog--top { margin-bottom: 30px; }
+    .blog__ultimo .blog__ultimo--texto h2, .blog__primero .blog__ultimo--texto h2 { font-size: 25px; line-height: 1.4em; }
+    section.home__pagos { padding-top: 60px; padding-bottom: 60px; }
+    section.home__autosup{ padding: 80px 10px; padding-bottom: 100px;}    
+    
+    
+   /*----seccion-Nosotros---*/
+   section.page__nosotros .page__nosotros--contenido{margin-left: 0;}
+   section.page__nosotros{background-image: none; background-color: #e0e0e0; padding: 50px 0;}
+   section.page__nosotros .page__nosotros--contenido h3{font-size: 18px;}
+   section.page__nosotros .page__nosotros--contenido p{font-size: 14px;}
+   .pages__titulo--general{text-align: center;}
+   .pages__titulo--general h2{text-align: left; margin-top: 50px; display: inline-block;}
+   section.pages__nosotros--cualidades .pages__nosotros--cualidades-item{margin-bottom: 45px;}
+   section.pages__nosotros--cualidades .pages__nosotros--cualidades-item img{margin-bottom: 15px;}
+   section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas{text-align: center;}
+   section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav a.btn__azul{ margin: 0; margin: auto; display: block; margin-bottom: 15px;}
+   section.page__nosotros--mantenimiento .mantenimiento{margin-top: 0; background-color: $color-extra1; background-image: none;}
+   section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav a.llamanos{margin: 0; margin-top: 15px;}
+   section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--costo{text-align: center; margin-left: 0;}
+   section.page__nosotros--mantenimiento{padding-bottom: 15px;}
+   section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--costo h3::before{content: none;}
+
+   /*-------Seccion-Servicios----------*/
+   section.page__servicios{padding-bottom: 15px;}
+   section.page__servicios .page__servicios--wrap .page__servicios--titulo h2{font-size: 20px; margin-bottom: 20px; text-align: center;}
+   section.page__servicios .page__servicios--wrap .page__servicios--btn a{display: none;}
+   section.page__servicios .page__servicios--wrap .page__servicios--btn{text-align: center;}
+   section.page__servicios .page__servicios--wrap{padding: 25px; padding-top: 50px;}
+   section.page__servicios .home__delivery--contenido{ right: 0; margin-top: -132px;}
+
+    /*-------Seccion-Empresa----------------------*/
+    section.page__empresa .page__empresa--wrap .page__empresa--titulo h2{font-size: 20px; text-align: center;  margin-bottom: 20px;}
+    section.page__empresa .page__empresa--wrap{padding: 25px; padding-top: 50px;}
+    section.page__empresa .page__empresa--wrap .page__empresa--texto p{text-align: center;}
+    section.page__empresa .page__empresa--wrap .page__empresa--btn, section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn{text-align: center;}
+    section.page__empresa .page__empresa--wrap .page__empresa--btn a{ margin: auto; display: block;text-align: center; margin-bottom: 10px; display: none;}
+    section.page__empresa .page__empresa--wrap .page__empresa--texto{padding-bottom: 50px;}
+    section.page__empresa .pages__empresa--cualidades-item{margin-bottom: 45px;}
+    section.page__empresa .pages__empresa--cualidades-item img{margin-bottom: 15px;}
+    section.page__empresa .page__empresa--cuadro-wrap{padding-top: 0;}
+    section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-texto h2{padding: 20px 15px;}
+    section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-texto{padding-top: 30px;}
+    section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn nav a.btn__azul{margin: auto; text-align: center; display: block; margin-top: 10px;}
+    section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn nav a.llamanos{margin-top: 15px; margin-bottom: 15px;}
+
+    .owl-theme .owl-nav.disabled+.owl-dots{padding-right: 0;}
+    
+    /*----seccion-blog----*/
+    .blog__ultimo .blog__ultimo--autor a.btn__compartir, .blog__ultimo .blog__primero--autor a.btn__compartir, .blog__primero .blog__ultimo--autor a.btn__compartir, .blog__primero .blog__primero--autor a.btn__compartir{font-size: 14px;}
+    main.blog .home__blog__wrap{ background-position-y: -100px;}
+    .blog__ultimo, .blog__primero{margin-bottom: 20px;}
+    .home__blog--btn a{text-align: center;}
+    .blog__ultimo .blog__ultimo--autor, .blog__ultimo .blog__primero--autor, .blog__primero .blog__ultimo--autor, .blog__primero .blog__primero--autor{padding: 0; padding-top: 30px; }
+    .blog__ultimo .blog__ultimo--autor, .blog__ultimo .blog__primero--autor, .blog__primero .blog__ultimo--autor, .blog__primero .blog__primero--autor{ padding: 0; padding-top: 30px; text-align: left; padding-left: 25px; padding-bottom: 25px;}
+    .blog__ultimo .blog__ultimo--img, .blog__ultimo .blog__primero--img, .blog__primero .blog__ultimo--img, .blog__primero .blog__primero--img{height: auto; padding-top: 30px;}
+    main.blog .blog__featured .blog__featured--autor p, .blog__ultimo .blog__ultimo--autor p, .blog__ultimo .blog__primero--autor p, .blog__primero .blog__ultimo--autor p, .blog__primero .blog__primero--autor p{font-size: 14px;}
+    main.blog .blog__featured .blog__featured--img img{max-width: 100%;}
+    main.blog .blog__featured .blog__featured--img{height: auto;}
+    .post__thumb{height: auto;}
+    .post__thumb img{max-width: 100%; filter: brightness(150%);}
+    .post__contenido{margin-top: 0;}
+    .post__thumb h2{font-size: 25px;}
+    .single__wrap .post__title a{ margin: auto; text-align: center; display: block; margin-bottom: 10px;}
+    .single__wrap .post__title a:last-child{margin-left: 0;}
+    .footer__top{padding-top: 50px; padding-left: 20px; padding-right: 20px; padding-bottom: 50px;}
+    .single__wrap .entry .p__share{padding-top: 30px;}
+
+
+    .nav-tabs .nav-item{  display: block; text-align: center; padding: 0;}
+   
+    .single__wrap .post__title{padding: 0; padding-top: 0; position: relative; top: 0; right: 0; display: none;}
+
+    .blog__ultimo .blog__ultimo--texto-contenido, .blog__primero .blog__ultimo--texto-contenido{border-left: 0;}
+    .footer__top .logo__footer{margin-bottom: 30px;}
+    
+    section.single__baterias{background-repeat: repeat;}
+    section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-top .single__baterias--contenido-cat{padding: 20px 0;}
+    section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-top .single__baterias--contenido-btn{text-align: center;}
+    section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-top .single__baterias--contenido-btn a{ display: block;  text-align: center;margin-bottom: 10px;}
+    section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto .single__baterias--contenido-garantia, section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto .single__baterias--contenido-garantia p.garantia{display: block;}
+    section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto .single__baterias--contenido-garantia p.garantia{font-size: 12px;}
+    section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto .single__baterias--contenido-garantia a{   
+      display: block;
+      float: none;
+      width: 100%;
+      margin: auto;
+      max-width: 100%;
+      text-align: center;
+    }
+    section.single__baterias .single__baterias--wrap{padding: 25px;}
+    section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto nav a.btn__cotiza{text-align: center; display: block; margin: auto;}
+    section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto nav a.whatsapp{text-align: center; display: block; font-size: 12px;}
+    section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto nav a.llamanos{margin: auto; margin-top: 20px; margin-bottom: 15px;}
+    section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto nav{text-align: center;}
+    section.single__baterias .single__baterias--wrap .catalogo__contenedor .post-listing--titulo-single{  padding: 0;  padding-top: 50px;}
+    section.single__baterias .single__baterias--wrap .catalogo__contenedor .post-listing{margin-right: 0; padding-left: 0; margin-top: 30px; padding: 0;  height: auto;}
+    section.single__baterias .single__baterias--wrap .catalogo__contenedor .post-listing--titulo-single h2{text-align: center;}
+
+
+    .formulario__contacto input.input__enviar{margin-top: 10px;}
+    .page__contacto .page__contacto--wrap img{height: 270px;}
+
+    /*--------TAB-RESPOSNIVE---------*/
+    section.catalogo .nav-tabs .nav-link.active, section.catalogo .nav-tabs .nav-item.show .nav-link{font-size: 17px;}
+    section.catalogo .nav-tabs .nav-link{font-size: 17px;}
+    .catalogo h3.menu__nombre{      
+      margin: auto;
+      text-align: center;
+      margin-bottom: 20px;
+      display: none;
+    }
+    .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle{border-color: $color-secondary;}
+    .js-categorias {
+      display: block;
+      width: 100%;
+      background-color: $color-secondary;
+      border: 1px solid $color-secondary;
+      color: $black;
+    }
+    .js-categorias:focus {
+      outline: none;
+      box-shadow: none !important;
+    }
+    aside.catalogo__sidebar {
+      display: none;
+    }
+    .catalogo__contenedor{
+      display: block;
+      overflow: hidden;  
+      position: relative;
+      z-index: 1;
+      margin-bottom: -1px;
+      .nav-tabs {
+          overflow-x: auto;
+          flex-wrap: nowrap;
+          border-bottom: 0;          
+      }
+      .nav-item {
+          margin-bottom: 0;
+          margin-right: 15px;          
+          &:last-child {
+              padding-right: 0px;
+          }
+      }
+      .nav-link {
+          white-space: nowrap;
+      }
+      .dragscroll:active,
+      .dragscroll:active a {
+          cursor: -webkit-grabbing;
+      }
+    }
+
+    .nav-tabs-wrapper-border {
+      display: block;
+      width: 100%;
+      border-top: 1px solid #ddd;
+    }
+
+    .tab-pane {
+      padding: 1rem;
+    }
+
+    /*---Popup---*/
+    .popup__cotiza .formulario__contacto::after{width: 140px; height: 26px;}
+    .mfp-close-btn-in .mfp-close{right: 10px; top: 0; }
+    .mfp-close:active{top: 0 !important;}
+    .formulario__contacto input.input__enviar{margin-top: 15px;}
+    .popup__cotiza .align-self-center { display: none;}
+
+}
+
+
+
+/*		Wide Mobile Layout: =480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+@media only screen and  (max-width: 380px) {
+  .slicknav_open .slicknav_menutxt{
+    font-size: 16px;
+  }
+  .slicknav_nav li a{
+    font-size: 20px;
+  }
+  .slicknav_nav .btn__header a{
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 8px 35px;
+    max-width: 265px;
+  }
+  .slicknav_menu ul.sub-menu li a{
+    font-size: 15px;
+  }
+  .slicknav_nav .menu__icon img{
+    height: 45px;
+  }
+  .slicknav_nav .menu__line a{
+    line-height: 25px;
+  }
+  .slicknav_nav .menu__icon{
+    margin-top: 15px;
+  }
+}
+@media only screen and  (max-width: 367px) {
+  section.home__autosup .home__autosup--img h2{font-size: 7px;}
+}

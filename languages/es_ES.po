@@ -1,0 +1,656 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inntek\n"
+"POT-Creation-Date: 2019-06-05 18:52-0500\n"
+"PO-Revision-Date: 2019-06-05 19:05-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:10
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+#: ../404.php:12
+msgid "Return home?"
+msgstr "¿Regresar al inicio?"
+
+#: ../archive.php:8
+msgid "Archives"
+msgstr "Archivos"
+
+#: ../archive.php:21 ../category.php:21 ../index.php:16 ../page.php:32
+#: ../single.php:62 ../template-home.php:33
+msgid "Sorry, nothing to display."
+msgstr "Disculpa, nada que mostrar"
+
+#: ../category.php:8
+msgid "Categories for "
+msgstr "Categorías para"
+
+#: ../cmb2/includes/CMB2_Base.php:422
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%2$s\" "
+"parameter."
+msgstr ""
+
+#: ../cmb2/includes/CMB2_Base.php:426
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%2$s\" parameter."
+msgstr ""
+
+#: ../cmb2/includes/CMB2_Base.php:456
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+
+#: ../cmb2/includes/CMB2_Base.php:458
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+
+#: ../cmb2/includes/CMB2_Options_Hookup.php:139
+msgid "Nothing to update."
+msgstr ""
+
+#: ../cmb2/includes/CMB2_Options_Hookup.php:143
+msgid "Settings updated."
+msgstr ""
+
+#: ../cmb2/includes/CMB2_Types.php:226
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+
+#: ../cmb2/includes/CMB2_hookup.php:466
+#, php-format
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller.php:378
+msgid "A human-readable description of the object."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller.php:385
+#, fuzzy
+#| msgid "These are widgets for the sidebar."
+msgid "The id for the object."
+msgstr "Estos widget van al sidebar"
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+msgid "No field found by that id."
+msgstr ""
+
+#: ../cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, php-format
+msgid "Value Error for %s"
+msgstr ""
+
+#: ../cmb2/includes/shim/WP_REST_Controller.php:25
+#, php-format
+msgid "Method '%s' must be overridden."
+msgstr ""
+
+#: ../cmb2/includes/shim/WP_REST_Controller.php:35
+#: ../cmb2/includes/shim/WP_REST_Controller.php:47
+#: ../cmb2/includes/shim/WP_REST_Controller.php:59
+#: ../cmb2/includes/shim/WP_REST_Controller.php:71
+#: ../cmb2/includes/shim/WP_REST_Controller.php:83
+#: ../cmb2/includes/shim/WP_REST_Controller.php:95
+#: ../cmb2/includes/shim/WP_REST_Controller.php:107
+#: ../cmb2/includes/shim/WP_REST_Controller.php:119
+#: ../cmb2/includes/shim/WP_REST_Controller.php:131
+#: ../cmb2/includes/shim/WP_REST_Controller.php:143
+#: ../cmb2/includes/shim/WP_REST_Controller.php:155
+#: ../cmb2/includes/shim/WP_REST_Controller.php:168
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+
+#: ../cmb2/includes/shim/WP_REST_Controller.php:273
+msgid "Current page of the collection."
+msgstr ""
+
+#: ../cmb2/includes/shim/WP_REST_Controller.php:281
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: ../cmb2/includes/shim/WP_REST_Controller.php:290
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: ../cmb2/includes/shim/WP_REST_Controller.php:308
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: ../comments.php:3
+#, fuzzy
+#| msgid ""
+#| "This post is password protected. Enter the password to view comments."
+msgid "Post is password protected. Enter the password to view any comments."
+msgstr ""
+"Este post está protegido con clave. Ingrese la clave para ver los comentarios"
+
+#: ../comments.php:18
+#, fuzzy
+#| msgid "Comments are closed."
+msgid "Comments are closed here."
+msgstr "Los comentarios están cerrados."
+
+#: ../comments.php:32
+msgid "Name"
+msgstr "Nombre"
+
+#: ../comments.php:35
+#, fuzzy
+msgid "Email"
+msgstr "Email:"
+
+#: ../comments.php:39
+msgid "Comment"
+msgstr "Comentario"
+
+#: ../footer.php:7
+msgid "Powered by"
+msgstr "Diseño por"
+
+#: ../functions.php:15
+msgid "Primary Navigation"
+msgstr "Navegación principal"
+
+#: ../functions.php:72
+msgid "Sidebar Widgets"
+msgstr "Widgets del sidebar"
+
+#: ../functions.php:74
+msgid "These are widgets for the sidebar."
+msgstr "Estos widget van al sidebar"
+
+#: ../functions.php:139
+msgid "Looking for..."
+msgstr "Buscar..."
+
+#: ../includes/admin/customizer.php:7
+msgid "Upload Logo"
+msgstr "Subir logo"
+
+#: ../includes/post-types/people_define.php:7
+#: ../includes/post-types/people_define.php:8
+msgid "Equipo"
+msgstr ""
+
+#: ../includes/post-types/producto_define.php:7
+msgid "Productos"
+msgstr ""
+
+#: ../includes/post-types/producto_define.php:8
+msgid "Producto"
+msgstr ""
+
+#: ../includes/post-types/slider_define.php:7
+msgid "Sliders"
+msgstr ""
+
+#: ../includes/post-types/slider_define.php:8
+msgid "Slider"
+msgstr ""
+
+#: ../includes/post-types/slider_define.php:30
+#: ../includes/post-types/slider_define.php:37
+msgid "Slides"
+msgstr ""
+
+#: ../includes/post-types/slider_define.php:47
+msgid "Titulo del slide"
+msgstr ""
+
+#: ../includes/post-types/slider_define.php:53
+msgid "Imagen del slide"
+msgstr ""
+
+#: ../includes/widgets/recentpost.php:14
+msgid "Recent Posts"
+msgstr ""
+
+#: ../includes/wp-bootstrap-navwalker.php:317
+msgid "Add a menu"
+msgstr "Agregar al menu"
+
+#: ../scss/meta-box-class/class-usage-demo.php:149
+msgid "Enable conditinal fields? "
+msgstr ""
+
+#: ../scss/meta-box-class/class-usage-demo.php:150
+msgid ""
+"<small>Turn ON if you want to enable the <strong>conditinal fields</strong>."
+"</small>"
+msgstr ""
+
+#: ../scss/meta-box-class/my-meta-box-class.php:420
+#: ../scss/meta-box-class/my-meta-box-class.php:459
+msgid "Remove"
+msgstr "Borrar"
+
+#: ../scss/meta-box-class/my-meta-box-class.php:432
+#, fuzzy
+msgid "Add"
+msgstr "Añadir"
+
+#: ../scss/meta-box-class/my-meta-box-class.php:789
+msgid "Select a color"
+msgstr "Elegir un color"
+
+#: ../scss/meta-box-class/my-meta-box-class.php:877
+msgid "Select ..."
+msgstr "Seleccionar..."
+
+#: ../scss/meta-box-class/my-meta-box-class.php:1824
+#: ../scss/meta-box-class/my-meta-box-class.php:1832
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr ""
+
+#: ../searchform.php:3
+msgid "To search, type and hit enter."
+msgstr "Para buscar, escribe y presiona enter"
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr "Buscar"
+
+#: ../single.php:33
+msgid "Published by"
+msgstr "Publicado por"
+
+#: ../single.php:34
+msgid "Leave your thoughts"
+msgstr "Deja tus comentarios"
+
+#: ../single.php:34
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: ../single.php:34
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#: ../single.php:41
+msgid "Tags: "
+msgstr "Etiquetas:"
+
+#: ../single.php:43
+msgid "Categorised in: "
+msgstr "Categorías:"
+
+#: ../single.php:45
+msgid "This post was written by "
+msgstr "Este post fue escrito por "
+
+#~ msgid "Error 404 - Page Not Found"
+#~ msgstr "Error 404 - Página no encontrada"
+
+#~ msgid "No Responses"
+#~ msgstr "No hay comentarios"
+
+#~ msgid "One Response"
+#~ msgstr "Un comentario"
+
+#~ msgid "% Responses"
+#~ msgstr "% Comentarios"
+
+#~ msgid "Leave a Reply"
+#~ msgstr "Deja un Comentario"
+
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "Deja un Comentario a %s"
+
+#~ msgid "You must be"
+#~ msgstr "Usted debe ser "
+
+#~ msgid "logged in"
+#~ msgstr "Logeado "
+
+#~ msgid "to post a comment."
+#~ msgstr "para postear un comentario."
+
+#~ msgid "Logged in as"
+#~ msgstr "Logeado como "
+
+#~ msgid "Log out"
+#~ msgstr "Cerrar"
+
+#~ msgid "Mail"
+#~ msgstr "E-mail"
+
+#~ msgid "(will not be published)"
+#~ msgstr "(no será publicado)"
+
+#~ msgid "Website"
+#~ msgstr "Sitio Web"
+
+#~ msgid "Read More"
+#~ msgstr "Leer Más"
+
+#~ msgid "Edit this entry."
+#~ msgstr "Editar la entrada"
+
+#, fuzzy
+#~ msgid "Warning"
+#~ msgstr "1 - Alerta"
+
+#, fuzzy
+#~ msgid "Page Widget Area"
+#~ msgstr "Primer area de widgets de página principal"
+
+#, fuzzy
+#~ msgid "Blog Widget Area"
+#~ msgstr "Primer area de widgets de página principal"
+
+#, fuzzy
+#~ msgid "Search Widget Area"
+#~ msgstr "Primer area de widgets de página principal"
+
+#, fuzzy
+#~ msgid "Archive Widget Area"
+#~ msgstr "Primer area de widgets de página principal"
+
+#, fuzzy
+#~ msgid "404 Widget Area"
+#~ msgstr "Primer area de widgets de página principal"
+
+#, fuzzy
+#~ msgid "Portfolio Widget Area"
+#~ msgstr "Primer area de widgets de página principal"
+
+#, fuzzy
+#~ msgid "Select Custom Shortcode:"
+#~ msgstr "&Introducir comando personalizado..."
+
+#, fuzzy
+#~ msgid "No Style"
+#~ msgstr "&Aplicar Estilo"
+
+#, fuzzy
+#~ msgid "Progress Bar"
+#~ msgstr "Barra de &conexión rápida"
+
+#, fuzzy
+#~ msgid "Social Icons"
+#~ msgstr "&Organizar iconos"
+
+#, fuzzy
+#~ msgid "Code"
+#~ msgstr "Código postal:"
+
+#, fuzzy
+#~ msgid "3 Column"
+#~ msgstr "Propiedades de columna"
+
+#, fuzzy
+#~ msgid "4 Column"
+#~ msgstr "Propiedades de columna"
+
+#, fuzzy
+#~ msgid "5 Column"
+#~ msgstr "Propiedades de columna"
+
+#, fuzzy
+#~ msgid "Divider Top"
+#~ msgstr "Poner los directorios arriba"
+
+#, fuzzy
+#~ msgid "Left Aligned"
+#~ msgstr "Alinear a la izquierda"
+
+#, fuzzy
+#~ msgid "Right Aligned"
+#~ msgstr "Alinear a la derecha"
+
+#, fuzzy
+#~ msgid "Image alignment/lightbox"
+#~ msgstr "PCX: imagen inválida"
+
+#, fuzzy
+#~ msgid "Centered"
+#~ msgstr "Centrado"
+
+#, fuzzy
+#~ msgid "Tabs, Accordings, Toggle"
+#~ msgstr "Cerrar todas las pestañas"
+
+#, fuzzy
+#~ msgid "Tabs"
+#~ msgstr "Tabulaciones"
+
+#, fuzzy
+#~ msgid "Generate Buttons"
+#~ msgstr "Generar base de datos"
+
+#, fuzzy
+#~ msgid "Title: "
+#~ msgstr "Título:"
+
+#, fuzzy
+#~ msgid "Link: "
+#~ msgstr "<ENLACE>"
+
+#, fuzzy
+#~ msgid "Background Color"
+#~ msgstr "Color de fondo"
+
+#, fuzzy
+#~ msgid "Button Size: "
+#~ msgstr "Formato de tamaño"
+
+#, fuzzy
+#~ msgid "Button Type: "
+#~ msgstr "&Modo de acceso:"
+
+#, fuzzy
+#~ msgid "Simple"
+#~ msgstr "Tema monocromo sencillo"
+
+#, fuzzy
+#~ msgid "Button Target: "
+#~ msgstr "Archivo destino:"
+
+#, fuzzy
+#~ msgid "List Icons"
+#~ msgstr "&Organizar iconos"
+
+#, fuzzy
+#~ msgid "List Type"
+#~ msgstr "&Modo de acceso:"
+
+#, fuzzy
+#~ msgid "Line"
+#~ msgstr "Línea"
+
+#, fuzzy
+#~ msgid "Check"
+#~ msgstr "Comprobación de actualización"
+
+#, fuzzy
+#~ msgid "Circle Bullet"
+#~ msgstr "Estilo de &viñeta:"
+
+#, fuzzy
+#~ msgid "Info Boxes"
+#~ msgstr "Información de proyecto"
+
+#, fuzzy
+#~ msgid "Title Link: "
+#~ msgstr "Borrando enlace simbólico"
+
+#, fuzzy
+#~ msgid "Box Type: "
+#~ msgstr "&Modo de acceso:"
+
+#, fuzzy
+#~ msgid "Title Only"
+#~ msgstr "Sólo lectura"
+
+#, fuzzy
+#~ msgid "With Description"
+#~ msgstr "%s con %d bits"
+
+#, fuzzy
+#~ msgid "Box Icon: "
+#~ msgstr "No se puede cargar el icono de '%s'."
+
+#, fuzzy
+#~ msgid "NO ICON"
+#~ msgstr "No hay ningún sonido"
+
+#, fuzzy
+#~ msgid "Note"
+#~ msgstr "Nota, 8 1/2 x 11 in"
+
+#, fuzzy
+#~ msgid "Info"
+#~ msgstr "2 - Informativo"
+
+#, fuzzy
+#~ msgid "Close"
+#~ msgstr "Cerrar"
+
+#, fuzzy
+#~ msgid "Download"
+#~ msgstr "Descargar"
+
+#, fuzzy
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#, fuzzy
+#~ msgid "Simple Boxes"
+#~ msgstr "Tema monocromo sencillo"
+
+#, fuzzy
+#~ msgid "Border Size (px): "
+#~ msgstr "%d archivo. Tamaño total: %s"
+
+#, fuzzy
+#~ msgid "Title : "
+#~ msgstr "Título:"
+
+#, fuzzy
+#~ msgid "Links with icons"
+#~ msgstr "%d directorio con sus contenidos"
+
+#, fuzzy
+#~ msgid "URL: "
+#~ msgstr "URL de FTP"
+
+#, fuzzy
+#~ msgid "Print"
+#~ msgstr "Imprimir"
+
+#, fuzzy
+#~ msgid "Start"
+#~ msgstr "Comenzar tran&sferencia inmediatamente"
+
+#, fuzzy
+#~ msgid "Link"
+#~ msgstr "Enlace"
+
+#, fuzzy
+#~ msgid "External Link"
+#~ msgstr "Borrando enlace simbólico"
+
+#, fuzzy
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#, fuzzy
+#~ msgid "Insert"
+#~ msgstr "Insertar"
+
+#~ msgid "Pages: "
+#~ msgstr "Páginas"
+
+#~ msgid "number"
+#~ msgstr "numero:"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "(required)"
+#~ msgstr "(requerido)"

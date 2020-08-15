@@ -1,0 +1,277 @@
+article.post { 
+    a { color:$color-base; }
+}
+.post__details { color:$grey; margin-bottom: 15px; }
+
+.comments { padding-top:30px;  }
+
+.commentlist {
+    list-style: none;
+    margin: 25px 0;    
+    li {
+        border-bottom: 1px solid $lightgrey;
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+    }
+}
+
+.post__thumb {    
+    overflow: hidden;    
+    width: 100%;
+    position: relative;
+    height: 550px;    
+    h2{        
+        font-size: 50px;
+        color: $color-extra1;
+        font-weight: bold;
+        margin: 0;                
+        z-index: 1;
+        position: absolute;
+        top: 60px;
+        width: 70%;
+        left: 60px;    
+    }
+    img { 
+        max-width: none;
+        min-width: 100%;
+        height: auto;
+        width: auto;
+        min-height: 100%;
+    }
+}
+.post__contenido{
+    background-color: $white;
+    padding: 40px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-top: -100px;
+    h2{
+        font-weight: 900;
+        font-size: 50px;
+        color: $color-base;
+        line-height: 50px;
+    }
+    .post__tiempo{
+        text-align: right;
+        padding-bottom: 20px;
+        p{
+            margin: 0;
+            font-size: 14px;
+            font-weight: 500;
+            color: $color-base;
+        }
+    }
+    .wp-block-quote{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        max-width: 500px;
+        margin: auto;
+        p{
+            font-size: 20px;
+            font-weight: 500;
+            color: $textcolor;
+            font-style: italic;
+            position: relative;
+            &::before{
+                content: url(../img/icons/icon-quote1.png);
+                position: absolute;
+                left: -25px;       
+            }
+            &::after{
+                content: url(../img/icons/icon-quote2.png);
+                padding-left: 10px;            
+            }
+        }
+    }
+}
+
+
+/*---SingleBateri---*/
+section.single__baterias{
+    background-image: url(../img/bg-single.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    .single__baterias--wrap{
+        background-color: $white;
+        background-image: url(../img/bg-sombra.png);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 35px;
+        .single__baterias--titulo{
+            padding-bottom: 20px;
+            h2{
+                font-size: 25px; font-weight: bold; color: $color-extra1; margin: 0;
+            }
+        }
+        .single__baterias--banner{
+            border: 2px solid $color-extra1;
+            max-width: 375px;
+            min-height: 375px;
+            padding: 0 20px;
+            text-align: center;
+            vertical-align: middle;
+            height: 375px;
+            width: 375px;
+            display: table-cell;
+            img{max-width: 100%; height: auto; margin: auto; vertical-align: middle;}
+        }
+        .single__baterias--contenido{
+            .single__baterias--contenido-top{
+                border-bottom: 3px solid #e0e0e0 ;
+                padding-bottom: 20px;
+                .single__baterias--contenido-cat{
+                    text-align: left;
+                    span{color: $color-extra1; padding: 0 3px;}
+                    a{
+                        font-weight: 400; color: $color-extra1; font-size: 14px;
+                        span{color: $color-extra1; padding:0 5px;}
+                        &:hover{color: $color-secondary;}
+                    }
+                }
+                .single__baterias--contenido-btn{
+                    text-align: right;
+                    a{
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: $black;
+                        background-color: $color-secondary;
+                        border-radius: 25px;
+                        padding: 5px 25px;
+                        &:hover{
+                            background-color: $color-extra1; color: $white;  transition: $hovertransition;
+                        }
+                    }
+                }
+            }
+            .single__baterias--contenido-texto{
+                padding-top: 10px;
+                p{
+                    margin: 0; font-weight: 400; font-size: 14px; color: $color-extra1; line-height: 25px;
+                }
+                h2{margin: 0; font-weight: bold; font-size: 20px; color: $color-extra1; margin-bottom: 15px;}
+                p.beneficios{
+                    margin-bottom: 20px;
+                    a{
+                        color: $color-extra1; font-weight: bold;
+                        &:hover{color: $color-secondary;}
+                    }
+                }
+                .single__baterias--contenido-garantia{
+                    background-color: $color-extra1; padding-right: 0;
+                    padding-right: 0; margin-top: 20px; margin-bottom: 20px;
+                    display: inline-block;
+                    width: 100%;
+                    p.garantia{                        
+                        font-size: 14px; font-weight: 400; color: $white; margin: 0;  display: inline-block;
+                        padding: 10px 15px;
+                        &.icon1{
+                            &::before{
+                                content: url(../img/icons/icon-garantia.svg); 
+                                width: 53px; height: 39px;
+                                display: inline-block;
+                                vertical-align: middle;
+                                margin-right: 10px;
+                            }
+                        }
+                        &.icon2{
+                            &::before{
+                                content: url(../img/icons/icon-mantenimiento.svg); 
+                                width: 53px; height: 32px;
+                                display: inline-block;
+                                vertical-align: middle;
+                                margin-right: 10px;
+                            }
+                        }
+                    }     
+                    a{
+                        font-size: 14px; font-weight: 400; color: $black; background-color: $color-secondary;  float: right; padding: 11px 20px; max-width: 130px;
+                        &:hover{ color: $color-extra1; }
+                    }               
+                }             
+                nav{                
+                    a.llamanos{
+                        font-weight: 400; color: $color-extra1; font-size: 12px; position: relative;
+                        display: inline-block;
+                        padding-left: 30px;
+                        vertical-align: middle;
+                        line-height: 18px;
+                        text-align: left;
+                        span{font-size: 16px;}
+                        &:hover{color: $color-secondary;}
+                        &::before{
+                            content: url(../img/icons/phone2.png);                
+                            vertical-align: middle;                
+                            padding-right: 15px;
+                            position: absolute;
+                            left: 0;
+                        }
+                    }
+                    a.whatsapp{
+                        color: $color-extra1; font-size: 14px; margin-left: 20px; &:hover{color: $color-secondary;}             
+                        &::before{
+                            content: url(../img/icons/chat2.svg); 
+                            width: 50px;
+                            display: inline-block;
+                            vertical-align: middle;
+                            margin-right: 10px;
+                        }
+                    }
+                    a.btn__cotiza{
+                        display: inline-block;
+                        color: $black;
+                        font-weight: 400;
+                        font-size: 14px;
+                        background-color: $color-secondary;
+                        border-radius: 25px;
+                        padding: 6px 18px;
+                        margin-right: 15px;                    
+                        &:last-child{margin-right: 0;}
+                        &:hover{
+                            background-color: $color-extra1;
+                            color: $white;
+                            transition: $hovertransition;
+                        }
+                    }
+                }
+
+            }
+        }        
+        .catalogo__contenedor{
+            background-color: $white;
+            padding-top: 50px;
+            .post-listing--titulo-single{
+                h2{
+                    font-weight: bold; font-size: 25px; color: $color-extra1; margin: 0; 
+                }
+                padding-left: 20px;
+                padding-bottom: 20px;
+            }
+            .post-listing{            
+                height: 750px;   
+                position: relative;
+                overflow: auto;
+                padding-right: 20px;
+                margin-right: 20px;
+                padding-left: 20px;
+            }
+        }
+        h3.menu__nombre{
+            font-weight: bold;
+            font-size: 16px;
+            color: $color-extra1;
+            margin-left: 30px;
+        }
+        a.catalogo__image__wrap {
+            display: block; width: 100%; height: auto; overflow: hidden; background-color: $white; transition: all 0.5s;        
+            img {
+                object-position: center; object-fit: cover; max-width: 100%;
+            }
+        }
+        aside.catalogo__sidebar{padding-left: 0;}
+    }
+}
+body.single-mkt_bateria section.home__blog .home__blog--wrap{ margin-top: -140px;}

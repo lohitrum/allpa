@@ -1,0 +1,75 @@
+/*------------------------------------*\
+    $STYLE
+\*------------------------------------*/
+/**
+ * Aqui incluimos todos los modulos (archivos .scss) que se van
+ * a compilar en el CSS definitivo: /css/style.css.
+ */
+
+/**************************************
+  Bootstrap
+****************************************/
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+// @import "jumbotron";
+@import "bootstrap/alert";
+//@import "progress";
+@import "bootstrap/media";
+//@import "list-group";
+@import "bootstrap/close";
+//@import "toasts";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+//@import "carousel";
+//@import "spinners";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
+
+/**************************************
+  Otros
+****************************************/
+@import "base/settings";
+@import "base/wordpress";
+@import "layout/general";
+@import "layout/header"; 
+@import "layout/nav";
+@import "layout/internas";
+@import "layout/home";
+@import "layout/page";
+@import "layout/blog";
+@import "layout/single"; 
+@import "layout/catalogo"; 
+@import "layout/footer";
+
+/**************************************
+  Componentes
+****************************************/
+@import "components/owl";
+@import "components/gravity";
+
+/***********************************
+  Responsive
+*********************************/
+@import "layout/responsive";

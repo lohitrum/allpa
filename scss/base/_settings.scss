@@ -1,0 +1,73 @@
+/*------------------------------------*\
+    $LAYOUT
+\*------------------------------------*/
+/**
+ * Constant layout values, apart from these we can also declare values
+ * for different blocks sizes and more.
+ */
+$baselineheight:     1.4;
+$radius:             3px;
+$hovertransition:    .3s;
+$animationtime: .8s;
+
+
+/*------------------------------------*\
+    $FONT-FACE
+\*------------------------------------*/
+/**
+ * Fonts definitions
+ */
+ @font-face {
+    font-family: 'Arcon-Rounded-Regular';
+    src: url('Arcon-Rounded-Regular.eot') format('embedded-opentype');
+    src: url('../fonts/Arcon-Rounded-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Arcon-Rounded-Regular.woff') format('woff'),
+        url('../fonts/Arcon-Rounded-Regular.ttf') format('truetype'),
+        url('../fonts/Arcon-Rounded-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+ 
+ $basefont : 'Kanit', sans-serif;
+ $altfont : 'Kanit', serif;
+ $altfont2 : 'Kanit', sans-serif;
+$baseheadingfont : $altfont;
+
+$baseheadingfontweight : normal;
+$baseheadingfontcolor : inherit;
+
+$basefontsize : 13px;
+
+
+
+/*------------------------------------*\
+    $COLORS
+\*------------------------------------*/
+/**
+ * Brand colors
+ */ 
+    $color-base:       #0e29a6;
+    $color-base-light: #cfbe9f;
+    $color-base-dark:  #481809;
+    $color-secondary:  #ffaf1e;
+
+    $color-extra1: #102eba;  
+    $color-extra2: #fdc63a;
+    $color-extra3: #4D4D4D;
+    $color-extra4: #333333;
+    $color-extra5: #5a287f; 
+    $color-extra6: #99BBC4;  
+    $color-extra7: #588D97;
+    $color-extra8: #71A5AF;
+    $textcolor: #bebebe;  
+    /**
+    * Grey Scale
+    * This is mainly to hold back designers from adding 200 different greys ;)
+    */
+    $black:                rgb(0,0,0);
+    $darkergrey:             lighten(black, 20%);
+    $darkgrey:               lighten(black, 30%);
+    $grey:                   lighten(black, 45%);
+    $lightgrey:              lighten(black, 75%);
+    $lightergrey:            lighten(black, 90%);
+    $white: rgb(255,255,255);

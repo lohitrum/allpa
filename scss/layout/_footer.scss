@@ -1,0 +1,102 @@
+.footer__top{       
+  padding-top: 40px;
+  padding-bottom: 80px;  
+    .menu__footer{
+      ul{
+          padding: 0;
+          list-style: none;                
+          li { 
+              display: inline-block;
+              margin-right: 18px;        
+              &.current-menu-item{          
+                a{
+                  color:$color-base;
+                }
+              }
+              &:last-child{
+                margin-right: 0px;
+              }
+              &:hover{transition: $hovertransition;
+                a{
+                  color: $color-base;
+                  &::after{
+                    transform-origin: bottom left;
+                    transform: scaleX(1);
+                  }
+                }
+              }
+              > a {                        
+                  color:$color-base;
+                  font-size: 16px; 
+                  font-weight: 500;  
+                  transition: all 0.5s; 
+                  padding: 0px;
+                  position: relative;
+                  &::after{
+                    content: "";              
+                    height: 4px;
+                    width: 100%;
+                    background: $color-secondary;
+                    position: absolute;
+                    left: 0%;
+                    bottom: -5px;
+                    z-index: -1;
+                    transform: scaleX(0);
+                    transform-origin: bottom right;
+                    transition: transform 0.3s;
+                  }           
+                  &:hover {
+                      transition: all 0.5s; 
+                  }
+              }                   
+          }          
+      }
+  }
+   
+    
+    .footer__back{
+      text-align: right;      
+      a{
+        color: $black;
+        letter-spacing: 4px;
+        font-weight: 500;
+        font-size: 15px;
+        border-radius: 25px;
+        padding: 5px 15px;
+        background-color: $color-secondary;
+        cursor: pointer;
+        text-transform: uppercase;
+        &:hover{
+          color: $white;
+          background-color: $color-base;
+          transition: $hovertransition;
+            img {
+                animation-name: destaca;
+                animation-duration: 0.3s;
+            }
+        }
+          img { width: 50px; }
+      }
+    }
+}
+
+.footer__bottom{
+  border-bottom: 30px solid $color-base;
+  background-color: $color-secondary;  
+  .footer__texto2{            
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+    p{font-size: 16px; font-weight: 400; color:$black; margin: 0;
+      a{
+        color:$black;
+        border-bottom: 1px solid;
+        padding-bottom: 3px;
+        &:hover{
+          color: $color-extra1;
+          transition: $hovertransition;
+        }
+      }
+    }
+}
+}
