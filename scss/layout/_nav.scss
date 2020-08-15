@@ -1,4 +1,4 @@
-body.home #topmenu{ width: 100%; position: relative; padding-bottom: 0;}
+body.home #topmenu{ width: 100%; position: relative; padding-bottom: 0; padding-top: 0;}
 #topmenu { width: 100%; position: relative; padding-bottom: 3px;}
 
 #menuscroll.navbar { padding: 0; }
@@ -112,13 +112,9 @@ ul.mega-sub-menu{
 
 ul#menu-top-menu, ul#mega-menu-primary{    
     >li { 
-        padding: 20px 25px;        
+        padding: 15px 30px;        
         position: relative !important;
-        line-height: 1.35em;
-        border-bottom: 1px solid $white;
-        &#menu-item-56 {
-            padding-top: 35px; padding-bottom: 35px;
-        }
+        line-height: 1.35em;       
         &.current-menu-item{
           &::after{
             content: "";
@@ -134,18 +130,10 @@ ul#menu-top-menu, ul#mega-menu-primary{
           }
         }
             
-        &:hover{transition: 1s;
-          &::after{
-            content: "";
-            position: absolute;
-            height: 4px;
-            width: 100%;
-            background-color: $color-secondary;
-            bottom: -1px;
-            left: 0;
-          }
+        &:hover{transition: 1s;          
+          background-color: $color-secondary;
           >a{
-            color: $color-secondary;          
+            color: $white;          
           }
           ul.sub-menu{
             li{
@@ -156,9 +144,9 @@ ul#menu-top-menu, ul#mega-menu-primary{
           }
         }
         > a {                        
-            color:$white;
-            font-size: 16px;  
-            font-weight: 400;  
+            color:$color-base;
+            font-size: 14px;  
+            font-weight: 500;  
             transition: all 0.5s; 
             padding: 0px ;
             position: relative;              

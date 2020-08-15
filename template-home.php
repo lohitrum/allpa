@@ -5,14 +5,13 @@
 
 	<main role="main">
 		<section class="home__slider">
-			<?php echo do_shortcode('[slider id="25"]'); ?>
+			<?php echo do_shortcode('[slider id="20"]'); ?>
 		</section>	
 
 		<section class="home__delivery">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">		
-					Aqui cambiamos todo a allpa									
+					<div class="col-md-6">														
 					</div>
 					<div class="col-md-6">
 						<div class="home__delivery--contenido">

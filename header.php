@@ -13,6 +13,7 @@
     <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.png" rel="shortcut icon">
     <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php bloginfo('description'); ?>">
@@ -37,7 +38,7 @@
                                             <?php
                                         $logo = get_theme_mod( 'baset_logo' );
                                         if($logo == "") {
-                                                $logo =  get_bloginfo("template_url").'/img/logo.svg';
+                                                $logo =  get_bloginfo("template_url").'/img/logo.png';
                                         }
                                         ?>
                                             <img alt="<?php bloginfo('name'); ?>" src="<?php echo $logo; ?>" class="img-responsive" />
@@ -73,7 +74,7 @@
                             <?php
                             $logo = get_theme_mod( 'baset_logo' );
                             if($logo == "") {
-                                $logo =  get_bloginfo("template_url").'/img/logo.svg';
+                                $logo =  get_bloginfo("template_url").'/img/logo.png';
                             }
                             ?>
                                 <img alt="<?php bloginfo('name'); ?>" src="<?php echo $logo; ?>" class="img-responsive" />

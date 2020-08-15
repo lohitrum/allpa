@@ -7443,7 +7443,7 @@ h4 {
 
 /*--Menu--*/
 main {
-  margin-top: 150px; }
+  margin-top: 154px; }
 
 body.home main {
   margin-top: 150px; }
@@ -8155,12 +8155,12 @@ li#menu-item-56 ul.sub-menu {
   display: none; }
 
 .slicknav_open .slicknav_menutxt {
-  font-size: 22px;
+  font-size: 20px;
   color: white;
   font-weight: 500;
   position: relative;
   padding-right: 30px;
-  left: -30px;
+  left: -40px;
   top: 0px; }
   .slicknav_open .slicknav_menutxt::after {
     content: "";
@@ -8183,19 +8183,19 @@ li#menu-item-56 ul.sub-menu {
   -moz-border-radius: 4px;
   border-radius: 4px;
   position: absolute;
-  right: 40px;
-  top: -55px;
+  right: 15px;
+  top: -60px;
   width: 40px;
   height: 40px; }
 
 .slicknav_nav {
   padding: 40px; }
   .slicknav_nav li {
-    margin-bottom: 6px; }
+    margin-bottom: 10px; }
     .slicknav_nav li a {
       font-weight: 400;
       font-size: 35px;
-      display: block;
+      display: inline-block;
       color: white;
       position: relative;
       z-index: 1;
@@ -8205,12 +8205,12 @@ li#menu-item-56 ul.sub-menu {
         font-family: "Kanit", sans-serif; }
       .slicknav_nav li a::after {
         content: "";
-        height: 8px;
+        height: 4px;
         width: 100%;
         background: #ffaf1e;
         position: absolute;
         left: 0%;
-        bottom: -5px;
+        bottom: 0px;
         z-index: -1;
         transform: scaleX(0);
         transform-origin: bottom right;
@@ -8277,7 +8277,8 @@ section.page__nosotros {
   section.page__nosotros .page__nosotros--contenido {
     background-color: #0e29a6;
     padding: 40px;
-    padding-top: 25px; }
+    padding-top: 25px;
+    margin-left: 20px; }
     section.page__nosotros .page__nosotros--contenido h3 {
       margin: 0;
       color: black;
@@ -8341,7 +8342,8 @@ section.page__nosotros--mantenimiento {
       margin: 0;
       font-size: 18px;
       color: #102eba;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      font-weight: bold; }
     section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas p {
       margin: 0;
       font-size: 14px;
@@ -8355,7 +8357,7 @@ section.page__nosotros--mantenimiento {
         font-size: 15px;
         position: relative;
         display: inline-block;
-        padding-left: 40px;
+        padding-left: 30px;
         vertical-align: middle;
         line-height: 18px;
         margin-left: 60px; }
@@ -8469,9 +8471,10 @@ section.page__servicios {
           transition: 0.3s; }
     section.page__servicios .page__servicios--wrap .page__servicios--item {
       margin-bottom: 60px;
-      position: relative; }
+      position: relative;
+      border: 2px solid #102eba; }
       section.page__servicios .page__servicios--wrap .page__servicios--item .page__servicios--item-content {
-        border: 2px solid #102eba; }
+        min-height: 275px; }
         section.page__servicios .page__servicios--wrap .page__servicios--item .page__servicios--item-content h2 {
           background-color: #102eba;
           color: white;
@@ -8487,8 +8490,7 @@ section.page__servicios {
           color: #102eba;
           line-height: 25px;
           padding: 40px;
-          padding-bottom: 20px;
-          padding-right: 20px; }
+          padding-bottom: 20px; }
         section.page__servicios .page__servicios--wrap .page__servicios--item .page__servicios--item-content a {
           font-size: 14px;
           font-weight: 400;
@@ -8957,7 +8959,8 @@ section.home__slider {
       line-height: 0; }
       .home__delivery--contenido h2 a.delivery img {
         width: 42px;
-        height: 42px; }
+        height: 42px;
+        margin-right: 5px; }
       .home__delivery--contenido h2 a.delivery:hover {
         color: #0e29a6;
         transition: 0.3s; }
@@ -9108,7 +9111,7 @@ section.home__autosup {
         content: "";
         background-color: #ffaf1e;
         border-radius: 25px;
-        margin-left: -15px;
+        margin-left: -30px;
         width: 97%;
         height: 27px;
         position: absolute;
@@ -9141,25 +9144,31 @@ section.home__contacto {
         section.home__contacto .home__contacto--wrap p a:hover {
           color: #ffaf1e; }
       section.home__contacto .home__contacto--wrap p.ubi::before {
-        content: url(../img/icons/ubi.png);
+        content: url(../img/icons/ubi.svg);
         vertical-align: middle;
         padding-right: 15px;
+        width: 36px;
+        height: 36px;
         position: absolute;
         left: 0; }
       section.home__contacto .home__contacto--wrap p.phone::before {
-        content: url(../img/icons/phone.png);
+        content: url(../img/icons/phone.svg);
         vertical-align: middle;
         padding-right: 15px;
+        width: 33px;
+        height: 32px;
         position: absolute;
         left: 0;
         top: -5px; }
       section.home__contacto .home__contacto--wrap p.mail::before {
-        content: url(../img/icons/mail.png);
+        content: url(../img/icons/mail.svg);
         vertical-align: middle;
         padding-right: 15px;
+        width: 40px;
+        height: 20px;
         position: absolute;
         left: 0;
-        top: 3px; }
+        top: 0; }
     section.home__contacto .home__contacto--wrap .home__contacto--redes ul {
       list-style: none;
       padding: 0;
@@ -9592,11 +9601,16 @@ section.home__blog {
   font-weight: 400;
   padding: 20px 30px;
   background-color: #102eba;
-  display: block; }
+  display: block;
+  max-width: 272px;
+  text-align: center; }
   .home__blog--btn a:hover {
     background-color: #ffaf1e;
     transition: 0.3s;
     color: black; }
+
+body.single-post .home__blog .home__blog--wrap .container {
+  max-width: 1100px; }
 
 aside.sidebar .widget {
   padding: 20px 20px;
@@ -9725,7 +9739,7 @@ ul.latestposts {
       font-weight: bold; }
   .single__wrap .entry {
     padding: 30px;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 14px;
     line-height: 27px;
     padding-left: 0;
@@ -9736,6 +9750,8 @@ ul.latestposts {
     padding-top: 20px;
     max-width: 950px;
     margin: auto; }
+    .single__wrap .entry p {
+      margin-bottom: 25px; }
     .single__wrap .entry .p__share {
       padding-top: 60px;
       font-size: 16px;
@@ -10190,7 +10206,7 @@ figure {
     background-repeat: no-repeat;
     background-size: contain; }
     .catalogo .catalogo__contenedor .post-listing {
-      height: 750px;
+      height: 850px;
       position: relative;
       overflow: auto;
       padding-right: 20px;
@@ -10760,7 +10776,7 @@ body.home .catalogo__final {
         position: relative; }
         .footer__top .menu__footer ul li > a::after {
           content: "";
-          height: 8px;
+          height: 4px;
           width: 100%;
           background: #ffaf1e;
           position: absolute;
@@ -10795,7 +10811,7 @@ body.home .catalogo__final {
         width: 50px; }
 
 .footer__bottom {
-  border-bottom: 30px solid white;
+  border-bottom: 30px solid #0e29a6;
   background-color: #ffaf1e; }
   .footer__bottom .footer__texto2 {
     padding-top: 30px;
@@ -11132,7 +11148,7 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 @media only screen and (max-width: 1024px) {
   body.home main, main {
-    margin-top: 129px; }
+    margin-top: 125px; }
 
   .header__botones {
     display: none; }
@@ -11161,7 +11177,7 @@ px      68    160    252    344    436    528    620    712    */
 
   .menu__home {
     display: block;
-    padding: 10px 0; }
+    padding: 12px 0; }
     .menu__home .slicknav_menu {
       display: block; }
 
@@ -11181,7 +11197,7 @@ px      68    160    252    344    436    528    620    712    */
   .header__logo {
     position: fixed;
     padding: 0;
-    padding-top: 32px;
+    padding-top: 25px;
     background-image: url(../img/img-responsive-header.jpg);
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.1); }
 
@@ -11225,7 +11241,7 @@ px      68    160    252    344    436    528    620    712    */
     background-position: center bottom;
     background-size: cover;
     left: 0;
-    top: 128px;
+    top: 125px;
     z-index: -1;
     padding-top: 30px; }
     .slicknav_nav::after {
@@ -11273,7 +11289,8 @@ px      68    160    252    */
     Encabezado
   *****************************************/
   .navbar-brand img, .menu__home .menu__home--header h1 img {
-    width: 232px; }
+    width: 232px;
+    margin-left: 10px; }
 
   /************************************
     Home
@@ -11283,20 +11300,65 @@ px      68    160    252    */
     height: 200px;
     background-size: auto 100%; }
 
+  section.home__slider .item {
+    background-position: -130px 0px;
+    min-height: 172px; }
+
+  .home__delivery--contenido h2 {
+    font-size: 20px;
+    width: 140px;
+    height: 140px;
+    line-height: 18px;
+    border: 5px solid rgba(255, 175, 30, 0.5); }
+
+  .home__delivery--contenido h2 a.delivery img {
+    width: 30px;
+    height: 30px; }
+
+  .home__delivery--contenido h2 a.delivery, .home__delivery--contenido h2 span {
+    font-size: 13px; }
+
+  section.home__delivery {
+    padding-top: 20px; }
+
+  section.home__slider .item .item__titulo {
+    display: none; }
+
+  .js-categorias:hover {
+    background-color: #ffaf1e;
+    color: black;
+    border-color: #ffaf1e; }
+
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    background-color: #ffaf1e;
+    color: black; }
+
+  .btn-primary:focus, .btn-primary.focus {
+    box-shadow: none; }
+
   section.home__slider .item .item__titulo h2 {
     padding: 0;
     padding: 4px 15px;
-    margin: 0 10px;
-    background-color: #ffaf1e; }
+    margin: 0 15px;
+    background-color: #ffaf1e;
+    font-size: 10px;
+    line-height: 22px;
+    border-radius: 35px; }
     section.home__slider .item .item__titulo h2::before {
       content: none; }
 
   .home__delivery--contenido {
-    position: relative; }
+    position: absolute;
+    right: 10px;
+    margin-top: -80px; }
+
+  .home__delivery--autos {
+    text-align: center; }
 
   section.home__delivery .home__delivery--autos h2 {
-    text-align: center;
-    margin-top: 50px; }
+    text-align: left;
+    margin-top: 50px;
+    display: inline-block; }
 
   section.home__delivery .item--catalogo {
     margin-bottom: 30px; }
@@ -11329,22 +11391,39 @@ px      68    160    252    */
   .medios__pagos .medios__pagos--item ul li {
     margin: auto;
     display: block;
-    margin-bottom: 10px; }
+    padding-top: 20px; }
+
+  .medios__pagos .medios__pagos--item ul li:first-child {
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-bottom: -15px; }
+
+  .medios__pagos .medios__pagos--item ul li:nth-child(2) {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: -10px; }
+
+  .medios__pagos .medios__pagos--item ul li:nth-child(3) {
+    padding-bottom: 0;
+    padding-top: 0; }
+
+  .medios__pagos .medios__pagos--item ul li:nth-child(5) {
+    padding-top: 30px; }
 
   .mantenimiento {
     background-image: none;
-    background-color: #102eba; }
+    background-color: #102eba;
+    padding-bottom: 30px; }
 
   .mantenimiento .mantenimiento__contenido h2 {
     text-align: center;
     font-size: 28px; }
 
   .mantenimiento .mantenimiento__contenido h2 span {
-    margin-left: 0; }
+    margin-left: 0 !important; }
 
   .mantenimiento .mantenimiento__contenido h2 img {
-    display: block;
-    margin: auto; }
+    display: none; }
 
   .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--tel {
     text-align: center; }
@@ -11379,13 +11458,22 @@ px      68    160    252    */
     margin-top: 25px; }
 
   .footer__top .menu__footer ul {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    text-align: center; }
 
   .footer__top .footer__back, .footer__bottom .footer__texto2 {
-    text-align: center; }
+    text-align: center;
+    margin-top: 10px; }
+
+  .white-popup {
+    margin-bottom: 0; }
 
   .blog__ultimo .blog__hashtag h2, .blog__primero .blog__hashtag h2 {
     padding: 5px 20px; }
+
+  /*--------Seccion-Distribuidor---------*/
+  section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--btn {
+    display: none; }
 
   .home__blog--top .align-right {
     text-align: left; }
@@ -11394,14 +11482,21 @@ px      68    160    252    */
     margin-bottom: 30px; }
 
   .blog__ultimo .blog__ultimo--texto h2, .blog__primero .blog__ultimo--texto h2 {
-    font-size: 16px;
+    font-size: 25px;
     line-height: 1.4em; }
 
   section.home__pagos {
     padding-top: 60px;
     padding-bottom: 60px; }
 
+  section.home__autosup {
+    padding: 80px 10px;
+    padding-bottom: 100px; }
+
   /*----seccion-Nosotros---*/
+  section.page__nosotros .page__nosotros--contenido {
+    margin-left: 0; }
+
   section.page__nosotros {
     background-image: none;
     background-color: #e0e0e0;
@@ -11413,15 +11508,19 @@ px      68    160    252    */
   section.page__nosotros .page__nosotros--contenido p {
     font-size: 14px; }
 
+  .pages__titulo--general {
+    text-align: center; }
+
   .pages__titulo--general h2 {
-    text-align: center;
-    margin-top: 50px; }
+    text-align: left;
+    margin-top: 50px;
+    display: inline-block; }
 
   section.pages__nosotros--cualidades .pages__nosotros--cualidades-item {
-    margin-bottom: 35px; }
+    margin-bottom: 45px; }
 
   section.pages__nosotros--cualidades .pages__nosotros--cualidades-item img {
-    margin-bottom: 10px; }
+    margin-bottom: 15px; }
 
   section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas {
     text-align: center; }
@@ -11438,15 +11537,30 @@ px      68    160    252    */
     background-image: none; }
 
   section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav a.llamanos {
-    margin: 0; }
+    margin: 0;
+    margin-top: 15px; }
 
   section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--costo {
-    text-align: center; }
+    text-align: center;
+    margin-left: 0; }
+
+  section.page__nosotros--mantenimiento {
+    padding-bottom: 15px; }
+
+  section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--costo h3::before {
+    content: none; }
 
   /*-------Seccion-Servicios----------*/
+  section.page__servicios {
+    padding-bottom: 15px; }
+
   section.page__servicios .page__servicios--wrap .page__servicios--titulo h2 {
     font-size: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-align: center; }
+
+  section.page__servicios .page__servicios--wrap .page__servicios--btn a {
+    display: none; }
 
   section.page__servicios .page__servicios--wrap .page__servicios--btn {
     text-align: center; }
@@ -11457,7 +11571,7 @@ px      68    160    252    */
 
   section.page__servicios .home__delivery--contenido {
     right: 0;
-    margin-top: -140px; }
+    margin-top: -132px; }
 
   /*-------Seccion-Empresa----------------------*/
   section.page__empresa .page__empresa--wrap .page__empresa--titulo h2 {
@@ -11469,6 +11583,9 @@ px      68    160    252    */
     padding: 25px;
     padding-top: 50px; }
 
+  section.page__empresa .page__empresa--wrap .page__empresa--texto p {
+    text-align: center; }
+
   section.page__empresa .page__empresa--wrap .page__empresa--btn, section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn {
     text-align: center; }
 
@@ -11476,22 +11593,26 @@ px      68    160    252    */
     margin: auto;
     display: block;
     text-align: center;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    display: none; }
 
   section.page__empresa .page__empresa--wrap .page__empresa--texto {
     padding-bottom: 50px; }
 
   section.page__empresa .pages__empresa--cualidades-item {
-    margin-bottom: 35px; }
+    margin-bottom: 45px; }
 
   section.page__empresa .pages__empresa--cualidades-item img {
-    margin-bottom: 10px; }
+    margin-bottom: 15px; }
 
   section.page__empresa .page__empresa--cuadro-wrap {
-    padding-top: 30px; }
+    padding-top: 0; }
 
   section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-texto h2 {
     padding: 20px 15px; }
+
+  section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-texto {
+    padding-top: 30px; }
 
   section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn nav a.btn__azul {
     margin: auto;
@@ -11507,6 +11628,12 @@ px      68    160    252    */
     padding-right: 0; }
 
   /*----seccion-blog----*/
+  .blog__ultimo .blog__ultimo--autor a.btn__compartir, .blog__ultimo .blog__primero--autor a.btn__compartir, .blog__primero .blog__ultimo--autor a.btn__compartir, .blog__primero .blog__primero--autor a.btn__compartir {
+    font-size: 14px; }
+
+  main.blog .home__blog__wrap {
+    background-position-y: -100px; }
+
   .blog__ultimo, .blog__primero {
     margin-bottom: 20px; }
 
@@ -11517,9 +11644,19 @@ px      68    160    252    */
     padding: 0;
     padding-top: 30px; }
 
+  .blog__ultimo .blog__ultimo--autor, .blog__ultimo .blog__primero--autor, .blog__primero .blog__ultimo--autor, .blog__primero .blog__primero--autor {
+    padding: 0;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 25px; }
+
   .blog__ultimo .blog__ultimo--img, .blog__ultimo .blog__primero--img, .blog__primero .blog__ultimo--img, .blog__primero .blog__primero--img {
     height: auto;
     padding-top: 30px; }
+
+  main.blog .blog__featured .blog__featured--autor p, .blog__ultimo .blog__ultimo--autor p, .blog__ultimo .blog__primero--autor p, .blog__primero .blog__ultimo--autor p, .blog__primero .blog__primero--autor p {
+    font-size: 14px; }
 
   main.blog .blog__featured .blog__featured--img img {
     max-width: 100%; }
@@ -11531,7 +11668,8 @@ px      68    160    252    */
     height: auto; }
 
   .post__thumb img {
-    max-width: 100%; }
+    max-width: 100%;
+    filter: brightness(150%); }
 
   .post__contenido {
     margin-top: 0; }
@@ -11567,7 +11705,11 @@ px      68    160    252    */
     padding-top: 0;
     position: relative;
     top: 0;
-    right: 0; }
+    right: 0;
+    display: none; }
+
+  .blog__ultimo .blog__ultimo--texto-contenido, .blog__primero .blog__ultimo--texto-contenido {
+    border-left: 0; }
 
   .footer__top .logo__footer {
     margin-bottom: 30px; }
@@ -11638,6 +11780,9 @@ px      68    160    252    */
   .formulario__contacto input.input__enviar {
     margin-top: 10px; }
 
+  .page__contacto .page__contacto--wrap img {
+    height: 270px; }
+
   /*--------TAB-RESPOSNIVE---------*/
   section.catalogo .nav-tabs .nav-link.active, section.catalogo .nav-tabs .nav-item.show .nav-link {
     font-size: 17px; }
@@ -11648,11 +11793,22 @@ px      68    160    252    */
   .catalogo h3.menu__nombre {
     margin: auto;
     text-align: center;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    display: none; }
+
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    border-color: #ffaf1e; }
 
   .js-categorias {
     display: block;
-    width: 100%; }
+    width: 100%;
+    background-color: #ffaf1e;
+    border: 1px solid #ffaf1e;
+    color: black; }
+
+  .js-categorias:focus {
+    outline: none;
+    box-shadow: none !important; }
 
   aside.catalogo__sidebar {
     display: none; }
@@ -11734,5 +11890,8 @@ px      68    160    252    344    436    */
 
   .slicknav_nav .menu__icon {
     margin-top: 15px; } }
+@media only screen and (max-width: 367px) {
+  section.home__autosup .home__autosup--img h2 {
+    font-size: 7px; } }
 
 /*# sourceMappingURL=style.css.map */

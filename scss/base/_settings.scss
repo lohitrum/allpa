@@ -18,18 +18,18 @@ $animationtime: .8s;
  * Fonts definitions
  */
  @font-face {
-    font-family: 'Arcon-Rounded-Regular';
-    src: url('Arcon-Rounded-Regular.eot') format('embedded-opentype');
-    src: url('../fonts/Arcon-Rounded-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Arcon-Rounded-Regular.woff') format('woff'),
-        url('../fonts/Arcon-Rounded-Regular.ttf') format('truetype'),
-        url('../fonts/Arcon-Rounded-Regular.svg') format('svg');
+    font-family: 'Neufreit-ExtraBold';
+    src: url('Neufreit-ExtraBold.eot') format('embedded-opentype');
+    src: url('../fonts/Neufreit-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Neufreit-ExtraBold.woff') format('woff'),
+        url('../fonts/Neufreit-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Neufreit-ExtraBold.svg') format('svg');
     font-weight: normal;
     font-style: normal;
   }
  
- $basefont : 'Kanit', sans-serif;
- $altfont : 'Kanit', serif;
+ $basefont : 'Arimo', sans-serif;
+ $altfont : 'Neufreit-ExtraBold', sans-serif;
  $altfont2 : 'Kanit', sans-serif;
 $baseheadingfont : $altfont;
 
@@ -46,10 +46,10 @@ $basefontsize : 13px;
 /**
  * Brand colors
  */ 
-    $color-base:       #0e29a6;
+    $color-base:       #c52929;
     $color-base-light: #cfbe9f;
     $color-base-dark:  #481809;
-    $color-secondary:  #ffaf1e;
+    $color-secondary:  #ed9d3e;
 
     $color-extra1: #102eba;  
     $color-extra2: #fdc63a;
