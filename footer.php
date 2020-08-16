@@ -8,21 +8,30 @@
             <section class="footer__top">
 				<div class="container">
 					<div class="row">					
-						<div class="col-md-8">
-							<nav class="menu__footer">
-								<ul>
-									<li><a href="<?php the_permalink(8); ?>">Nosotros</a></li>
-									<li><a href="<?php the_permalink(10); ?>">Baterías Automotrices</a></li>
-									<li><a href="<?php the_permalink(12); ?>">Servicios</a></li>
-									<li><a href="<?php the_permalink(14); ?>">Empresas</a></li>
-									<li><a href="<?php the_permalink(68); ?>">Blog</a></li>
-									<li><a href="<?php the_permalink(17); ?>">Contacto</a></li>												
-								</ul>
-							</nav>							
-						</div>
 						<div class="col-md-4">
-							<div class="footer__back">
-								<a id="backto">+ Ir al inicio -</a>
+							<div class="footer__top-contenido">
+								<h2>ALLPA INTI</h2>
+								<p>Somos una empresa desarrollada con el corazón, orientada a darle valor a nuestra tierra, su gente y a sus cultivos, desarrollando capacidades de innovación y tecnología en todos nuestros procesos, permitiendo así la obtención de productos de gran calidad para satisfacer a nuestros clientes en todo el Perú. Realizamos la siembra, cultivo, cosecha y distribución de papa única, papa canchan, palta Hass y cebolla morada, que nuestros cultivos naturales representativos de nuestro Perú.</p>
+							</div>
+						</div>
+						<div class="col-md-2 align-self-center">
+							<div class="nav__productos">
+								<h2>Productos</h2>
+								<ul>
+									<li>- Papa Única</li>
+									<li>- Papá Canchan</li>
+									<li>- Cebolla Morada</li>
+									<li>- Palta Hass</li>
+								</ul>
+							</div>		
+						</div>
+						<div class="col-md-6 align-self-center">
+							<div class="footer__contacto">
+								<h2>¡Contáctanos! </h2>
+								<h3>Nos encantaría resolver tus dudas</h3>
+								<p>982707385 <a href="mailto:info@allpainti.com">info@allpainti.com</a><br/>
+								Calle Benavides 206, Yanahuara, Arequipa</p>
+								<img src="<?php bloginfo("template_url"); ?>/img/img-footer.png">
 							</div>
 						</div>
 					</div>											

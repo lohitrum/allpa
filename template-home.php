@@ -8,106 +8,101 @@
 			<?php echo do_shortcode('[slider id="20"]'); ?>
 		</section>	
 
-		<section class="home__delivery">
+		<section class="home__somos">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-6">														
-					</div>
-					<div class="col-md-6">
-						<div class="home__delivery--contenido">
-							<h2><strong>Delivery</strong><br/>
-							 <span>en todo Arequipa</span>
-								<a href="https://wa.me//958900678" target="_blank" class="delivery"><img src="<?php bloginfo("template_url"); ?>/img/icons/icon-tel.svg" alt=""> 958900678</a>
-							</h2>
+				<div class="row">					
+					<div class="col-md-12">
+						<div class="home__somos--wrap">
+							<p>Somos una empresa en constante innovación de procesos y servicios para que de esta forma logremos revolucionar el rubro agroindustrial y crear un precedente con <span>cultivos ricos en cultura.</span></p>
+							<a href="#">@allpainticultivos</a>                        	
 						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="home__delivery--autos">
-							<h2><span>Baterías</span><br/>
-                        	<img src="<?php bloginfo("template_url"); ?>/img/icons/plus.svg" alt="">Automotrices</h2>
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="row">
-							<div class="col-md-3">
-								<div class="item--catalogo">
-                                    <a href="#" class="catalogo__image__wrap">
-										<img src="<?php bloginfo("template_url"); ?>/img/cat1.jpg" alt="">
-                                     </a>
-                                    <h3>Baterías para Camiones</h3>
-                                    <p class="catalogo__categoria"><a href="<?php echo get_category_link(24); ?>">Ver marcas y modelos de baterías</a></p>
-                                    <a href="<?php echo get_category_link(24); ?>" class="btn__comprar">Ver Baterías</a>
-                                </div>
-							</div>
-							<div class="col-md-3">
-								<div class="item--catalogo">
-                                    <a href="#" class="catalogo__image__wrap">
-										<img src="<?php bloginfo("template_url"); ?>/img/cat2.jpg" alt="">
-                                     </a>
-                                    <h3>Baterías para Autos</h3>
-                                    <p class="catalogo__categoria"><a href="<?php echo get_category_link(13); ?>">Ver marcas y modelos de baterías</a></p>
-                                    <a href="<?php echo get_category_link(13); ?>" class="btn__comprar">Ver Baterías</a>
-                                </div>
-							</div>
-							<div class="col-md-3">
-								<div class="item--catalogo">
-                                    <a href="#" class="catalogo__image__wrap">
-										<img src="<?php bloginfo("template_url"); ?>/img/cat3.jpg" alt="">
-                                     </a>
-                                    <h3>Baterías para Camionetas</h3>
-                                    <p class="catalogo__categoria"><a href="<?php echo get_category_link(3); ?>">Ver marcas y modelos de baterías</a></p>
-                                    <a href="<?php echo get_category_link(3); ?>" class="btn__comprar">Ver Baterías</a>
-                                </div>
-							</div>
-							<div class="col-md-3">
-								<div class="item--catalogo">
-                                    <a href="#" class="catalogo__image__wrap">
-										<img src="<?php bloginfo("template_url"); ?>/img/cat4.jpg" alt="">
-                                     </a>
-                                    <h3>Baterías para Maquinaria Pesada</h3>
-                                    <p class="catalogo__categoria"><a href="<?php echo get_category_link(23); ?>">Ver marcas y modelos de baterías</a></p>
-                                    <a href="<?php echo get_category_link(23); ?>" class="btn__comprar">Ver Baterías</a>
-                                </div>
-							</div>
+						<div class="home__somos--wrap2">
+							<h2>De nuestra tierra solo<br/>
+							las mejores cosechas</h2>
 						</div>
 					</div>
 				</div>				
 			</div>
 		</section>
 
-		<?php get_template_part('loops/loop', 'catalogo'); ?>
-
-		<section class="acceso__rapido">
+		<section class="home__productos">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
-						<div class="acceso__rapido--item">
-							<img src="<?php bloginfo("template_url"); ?>/img/icons/acceso1.svg" alt="">
-							<a href="<?php the_permalink(12); ?>">Servicios Complementarios</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="acceso__rapido--item">
-							<img src="<?php bloginfo("template_url"); ?>/img/icons/acceso2.svg" alt="">
-							<a href="<?php the_permalink(78); ?>">Distribuidores Autosup</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="acceso__rapido--item">
-							<img src="<?php bloginfo("template_url"); ?>/img/icons/acceso3.svg" alt="">
-							<a href="#small-dialog" data-effect="mfp-zoom-in"  class="btn__cotiza popup-with-zoom-anim">Cotiza tu Batería</a>
+					<div class="col-md-12">
+						<div class="home__productos--contenedor">
+							<div class="row">
+								<div class="col-md-3">
+									<div class="home__productos--item">
+										<h2>Papa Única</h2>
+										<div class="home__productos--item-img"><img src="<?php bloginfo("template_url"); ?>/img/producto1.png"></div>
+									</div>							
+								</div>
+								<div class="col-md-3">
+									<div class="home__productos--item">
+										<h2>Papa Canchan</h2>
+										<div class="home__productos--item-img"><img src="<?php bloginfo("template_url"); ?>/img/producto2.png"></div>
+									</div>							
+								</div>
+								<div class="col-md-3">
+									<div class="home__productos--item">
+										<h2>Cebolla Morada</h2>
+										<div class="home__productos--item-img"><img src="<?php bloginfo("template_url"); ?>/img/producto3.png"></div>
+									</div>							
+								</div>
+								<div class="col-md-3">
+									<div class="home__productos--item">
+										<h2>Palta Hass</h2>
+										<div class="home__productos--item-img"><img src="<?php bloginfo("template_url"); ?>/img/producto4.png"></div>
+									</div>							
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
+		<section class="home__allpa">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="home__allpa--contenido">
+							<h2>¿Por qué Allpa Inti?</h2>
+							<p>Nuestra forma de hacer las cosas es lo que nos hace diferentes, por qué en cada una de las etapas del proceso desde la siembra, cultivo, cosecha y distribución de nuestros alimentos de campo: papa única, papa canchan, palta Hass y cebolla morada,  lo hacemos con dedicación de hasta el más mínimo detalle, nuestros cultivos están localizados en Nazca y Arequipa, donde aplicamos estrategias de mejora constante, es así que cada uno de nuestros productos solo se presenten con calidad excepcional,  productos que sus clientes van a preferir.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<img src="<?php bloginfo("template_url"); ?>/img/img-allpa.png">
+					</div>
+				</div>
+			</div>
+		</section>
 		
+		<section class="home__compromiso">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6"></div>
+					<div class="col-md-6">
+						<div class="home__compromiso--item item1">
+							<h2>Compromiso Social</h2>
+							<p>Generamos oportunidades para el desarrollo integral y la mejora en las condiciones de vida de nuestro capital humano, sus familias y la comunidad.</p>
+						</div>
+						<div class="home__compromiso--item item2">
+							<h2>Compromiso Ambiental</h2>
+							<p>Promovemos el uso eficiente del agua, la energía y el tratamiento adecuado de residuos para preservar el medio ambiente para las siguientes generaciones.</p>
+						</div>
+						<div class="home__compromiso--item item3">
+							<h2>Compromiso Cultural</h2>
+							<p>Queremos fortalecer el lazo emocional de nuestra cultura gastronómica para que no se pierdan las tradiciones y el consumo de lo nuestro se mantenga en el tiempo.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-		<?php get_template_part('loops/loop', 'contactohome'); ?>
-		
-	   <?php get_template_part('loops/loop', 'instagram'); ?>
-	   <?php get_template_part('loops/loop', 'autosup'); ?>	   
+	   <?php get_template_part('loops/loop', 'instagram'); ?>	   
 		
 		
 	</main>
