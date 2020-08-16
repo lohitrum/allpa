@@ -8,139 +8,89 @@
     <section class="page__nosotros">
         <div class="container">
             <div class="row">					
-                <div class="col-md-5 align-self-center">
+                <div class="col-md-12 align-self-center">
                     <div class="page__nosotros--contenido">
-                        <h3>+  Conoce a Autosup  -</h3>
-                        <p><strong>2 generaciones y más de 35 años ofreciendo un servicio de gran calidad</strong> en el rubro de venta y distribución de baterías automotrices, complementos y accesorios en el sur del Perú con sede en Arequipa.<br/><br/>
-
-                        <strong>Nos destacamos y se nos reconoce por nuestra rápidez y atención personalizada</strong>, que es enfocada en la satisfacción de nuestros clientes, siendo nuestro eje para seguir brindando lo mejor de nosotros con diferenciación y valor agregado.<br/><br/>
-
-                            ¡Queremos que siempre estes en movimiento, con
-                            un servicio completo de extremo a extremo!
-
-                            </p>
+                        <div class="row">
+                            <div class="col-md-6 align-self-center">
+                                <h3>Cónoce a Allpa Inti</h3>
+                                <p>Somos una empresa desarrollada con el corazón, orientada a darle valor a nuestra tierra, su gente y a sus cultivos, desarrollando capacidades de innovación y tecnología en todos nuestros procesos, permitiendo así la obtención de productos como la papa única, papa canchan, palta Has y cebolla morada de gran calidad para satisfacer a nuestros clientes en todo el Perú.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="page__nosotros--contenido--img">
+                                    <img src="<?php bloginfo("template_url"); ?>/img/img-nosotros.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>                       
                     </div>
-                </div>
-                <div class="col-md-7 align-self-top">                   
-                </div>
+                </div>               
             </div>
         </div>
     </section>	
 
 
 
-    <section class="pages__nosotros--cualidades">
+    <section class="pages__nosotros--cultivos">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">											
-					</div>
+					<div class="col-md-12">											
+                        <h2 class="titulo">Cultivos ricos en cultura que son logrados<br/>
+                        gracias a nuestros valores</h2>
+					</div>					
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page__nosotros--cultivos--contenido">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="page__nosotros--cultivos--item">                                    
+                                        <div class="page__nosotros--cultivo--wrap">
+                                            <img src="<?php bloginfo("template_url"); ?>/img/img-cultivo1.svg" alt="">
+                                            <p>Honestidad y <br/>
+                                            Compromiso</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="page__nosotros--cultivos--item">
+                                        <div class="page__nosotros--cultivo--wrap">                                
+                                            <img src="<?php bloginfo("template_url"); ?>/img/img-cultivo2.svg" alt="">
+                                            <p>Innovación y <br/>
+                                            tecnología</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="page__nosotros--cultivos--item">
+                                        <div class="page__nosotros--cultivo--wrap">                             
+                                            <img src="<?php bloginfo("template_url"); ?>/img/img-cultivo3.svg" alt="">
+                                            <p>Trabajo en<br/>
+                                            Equipo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+					<div class="col-md-6"></div>
 					<div class="col-md-6">
-						<div class="home__delivery--contenido">
-							<h2><strong>Delivery</strong><br/>
-							 <span>en todo Arequipa</span>
-								<a href="https://wa.me//958900678" target="_blank" class="delivery"><img src="<?php bloginfo("template_url"); ?>/img/icons/icon-tel.svg" alt=""> 958900678</a>
-							</h2>
+						<div class="home__compromiso--item item1">
+							<h2>Compromiso Social</h2>
+							<p>Generamos oportunidades para el desarrollo integral y la mejora en las condiciones de vida de nuestro capital humano, sus familias y la comunidad.</p>
+						</div>
+						<div class="home__compromiso--item item2">
+							<h2>Compromiso Ambiental</h2>
+							<p>Promovemos el uso eficiente del agua, la energía y el tratamiento adecuado de residuos para preservar el medio ambiente para las siguientes generaciones.</p>
+						</div>
+						<div class="home__compromiso--item item3">
+							<h2>Compromiso Cultural</h2>
+							<p>Queremos fortalecer el lazo emocional de nuestra cultura gastronómica para que no se pierdan las tradiciones y el consumo de lo nuestro se mantenga en el tiempo.</p>
 						</div>
 					</div>
-					<div class="col-md-12">
-						<div class="pages__titulo--general">
-							<h2><span>Nuestras</span><br/>
-                        	<img src="<?php bloginfo("template_url"); ?>/img/icons/plus.svg" alt="">Cualidades</h2>
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="row">
-							<div class="col-md-3">
-								<div class="pages__nosotros--cualidades-item">
-                                    <img src="<?php bloginfo("template_url"); ?>/img/img-nosotros1.svg" alt="">
-                                    <p>Rapidez de atención<br/> todos los días del año</p>
-                                </div>
-							</div>
-							<div class="col-md-3">
-                                <div class="pages__nosotros--cualidades-item">
-                                    <img src="<?php bloginfo("template_url"); ?>/img/img-nosotros2.svg" alt="">
-                                    <p>Servicio personalizado<br/> con asesoría permanente</p>
-                                </div>
-							</div>
-							<div class="col-md-3">
-                                <div class="pages__nosotros--cualidades-item">
-                                    <img src="<?php bloginfo("template_url"); ?>/img/img-nosotros3.svg" alt="">
-                                    <p>Te ofrecemos productos y<br/>
-                                    servicios de verdadera calidad</p>
-                                </div>
-							</div>
-							<div class="col-md-3">
-                                <div class="pages__nosotros--cualidades-item">
-                                    <img src="<?php bloginfo("template_url"); ?>/img/img-nosotros4.svg" alt="">
-                                    <p>Trabajamos con honestidad<br/>
-                                    y compromiso ante todo</p>
-                                </div>
-							</div>
-						</div>
-					</div>
-				</div>				
+				</div>			
 			</div>
-		</section>
-        <section class="page__nosotros--mantenimiento" > 
-            <div class="container">                       
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="page__nosotros--mantenimiento-ventas">
-                                <h3>Venta de Baterías Automotrices para todo tipo de vehículo en todo Arequipa</h3>
-                                <p>En marcas ALFA, GLOBAL, ENERJET y ETNA para autos particulares, taxis, custers, buses, camionetas, camiones americanos, camiones medianos, europeos y maquinaria pesada.</p>
-                                <nav>
-                                    <a href="<?php the_permalink(10); ?>" class="btn__azul">Ver Baterías</a>
-                                    <a href="https://wa.me//958900678" target="_blank" class="btn__azul">Te Asesoramos</a>
-                                    <a href="https://wa.me//958900678" target="_blank" class="llamanos">Llámanos al<br/><span>958900678</span> </a>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="mantenimiento">
-                                <div class="mantenimiento__contenido">
-                                    <h2><span>Mantenimiento de</span><br/>
-                                    <img src="<?php bloginfo("template_url"); ?>/img/icons/plus.svg" alt="">Baterías Automotrices</h2>
-                                    <div class="mantenimiento__contenido--costo">
-                                        <h3><span>Sin costo por 1 año</span><br/>
-                                        por la compra de baterías</h3>
-                                    </div>
-                                    <div class="mantenimiento__contenido--tel">
-                                        <a href="https://wa.me//958900678" target="_blank"><img src="<?php bloginfo("template_url"); ?>/img/icons/chat.png" alt=""> 958900678</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>                
-            </div>
-        </section>
+        </section>        
         
-        <section class="acceso__rapido page__nosotros--acceso">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="acceso__rapido--item">
-							<img src="<?php bloginfo("template_url"); ?>/img/icons/acceso1.svg" alt="">
-							<a href="<?php the_permalink(12); ?>">Servicios Complementarios</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="acceso__rapido--item">
-							<img src="<?php bloginfo("template_url"); ?>/img/icons/acceso2.svg" alt="">
-							<a href="<?php the_permalink(78); ?>">Distribuidores Autosup</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="acceso__rapido--item">
-							<img src="<?php bloginfo("template_url"); ?>/img/icons/acceso3.svg" alt="">
-							<a href="#small-dialog" data-effect="mfp-zoom-in"  class="btn__cotiza popup-with-zoom-anim">Cotiza tu Batería</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-    <?php get_template_part('loops/loop', 'contactohome'); ?>
-    <?php get_template_part('loops/loop', 'instagram'); ?>
-	<?php get_template_part('loops/loop', 'autosup'); ?>	   
 </main>
 <?php get_footer(); ?>

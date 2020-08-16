@@ -7443,10 +7443,10 @@ h4 {
 
 /*--Menu--*/
 main {
-  margin-top: 154px; }
+  margin-top: 211px; }
 
 body.home main {
-  margin-top: 150px; }
+  margin-top: 211px; }
 
 .btn__solicita {
   display: inline-block;
@@ -7967,16 +7967,10 @@ ul#menu-top-menu > li, ul#mega-menu-primary > li {
   padding: 15px 30px;
   position: relative !important;
   line-height: 1.35em; }
-  ul#menu-top-menu > li.current-menu-item::after, ul#mega-menu-primary > li.current-menu-item::after {
-    content: "";
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    background-color: #ed9d3e;
-    bottom: -1px;
-    left: 0; }
-  ul#menu-top-menu > li.current-menu-item a, ul#mega-menu-primary > li.current-menu-item a {
-    color: #ed9d3e !important; }
+  ul#menu-top-menu > li.current-menu-item, ul#mega-menu-primary > li.current-menu-item {
+    background-color: #ed9d3e; }
+    ul#menu-top-menu > li.current-menu-item a, ul#mega-menu-primary > li.current-menu-item a {
+      color: white !important; }
   ul#menu-top-menu > li:hover, ul#mega-menu-primary > li:hover {
     transition: 1s;
     background-color: #ed9d3e; }
@@ -8259,387 +8253,185 @@ body.page-template-template-baterias section.catalogo, body.tax-seccionbateria s
 Nosotros
 -------------*/
 section.page__nosotros {
-  background-image: url(../img/bg-nosotros.jpg);
+  background-image: url(../img/slider.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
-  min-height: 499px;
+  background-size: cover;
+  min-height: 435px;
   padding: 30px 0; }
   section.page__nosotros .page__nosotros--contenido {
-    background-color: #c52929;
-    padding: 40px;
-    padding-top: 25px;
-    margin-left: 20px; }
-    section.page__nosotros .page__nosotros--contenido h3 {
-      margin: 0;
-      color: black;
-      font-size: 24px;
-      font-weight: 400;
-      display: inline-block;
-      background-color: #ed9d3e;
-      padding: 10px 25px;
-      border-radius: 25px;
-      margin-bottom: 20px; }
-    section.page__nosotros .page__nosotros--contenido p {
-      margin: 0;
-      color: white;
-      font-weight: 400;
-      font-size: 16px; }
-
-.pages__titulo--general h2 {
-  font-size: 34px;
-  color: #f27e00;
-  font-weight: bold;
-  line-height: 20px;
-  margin-bottom: 80px; }
-  .pages__titulo--general h2 span {
-    font-size: 29px;
-    font-weight: 400;
-    margin-left: 30px; }
-  .pages__titulo--general h2 img {
-    margin-right: 5px;
-    vertical-align: bottom;
-    height: 26px; }
-
-section.pages__nosotros--cualidades {
-  padding-top: 70px;
-  padding-bottom: 120px; }
-  section.pages__nosotros--cualidades .pages__nosotros--cualidades-item {
-    text-align: center; }
-    section.pages__nosotros--cualidades .pages__nosotros--cualidades-item img {
-      margin: auto;
-      max-width: 100%;
-      margin-bottom: 20px;
-      height: 112px; }
-    section.pages__nosotros--cualidades .pages__nosotros--cualidades-item p {
-      color: #f27e00;
-      font-size: 14px;
-      font-weight: 400;
-      margin: 0; }
-
-section.page__nosotros--mantenimiento {
-  background-image: url(../img/bg-mantenimiento-nosotros.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-color: #fdc63a;
-  min-height: 400px; }
-  section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas {
-    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.2);
-    padding: 40px;
-    background-color: white;
-    margin-top: -50px;
-    padding-top: 42px; }
-    section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas h3 {
-      margin: 0;
-      font-size: 18px;
-      color: #f27e00;
-      margin-bottom: 20px;
-      font-weight: bold; }
-    section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas p {
-      margin: 0;
-      font-size: 14px;
-      color: #f27e00;
-      line-height: 23px; }
-    section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav {
-      margin-top: 20px; }
-      section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav a.llamanos {
-        font-weight: 400;
-        color: #f27e00;
-        font-size: 15px;
-        position: relative;
-        display: inline-block;
-        padding-left: 30px;
-        vertical-align: middle;
-        line-height: 18px;
-        margin-left: 60px; }
-        section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav a.llamanos span {
-          font-size: 19px; }
-        section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav a.llamanos:hover {
-          color: #ed9d3e; }
-        section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav a.llamanos::before {
-          content: url(../img/icons/phone2.png);
-          vertical-align: middle;
-          position: absolute;
-          left: 0; }
-      section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav a.btn__azul {
-        display: inline-block;
-        color: white;
-        font-weight: 400;
-        font-size: 14px;
-        background-color: #f27e00;
-        border-radius: 25px;
-        padding: 6px 18px;
-        margin-right: 20px; }
-        section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav a.btn__azul:last-child {
-          margin-right: 0; }
-        section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav a.btn__azul:hover {
-          background-color: #ed9d3e;
-          color: black;
-          transition: 0.3s; }
-  section.page__nosotros--mantenimiento .mantenimiento {
-    background-image: url(../img/bg-mantenimiento2.jpg);
-    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.2);
-    margin-top: 0px;
-    margin-top: -50px; }
-    section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido h2 {
-      font-size: 19px; }
-      section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido h2 span {
-        margin-left: 30px; }
-      section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido h2 img {
-        height: 26px; }
-    section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--costo {
-      margin-left: 20px; }
-      section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--costo h3 {
-        font-size: 16px; }
-        section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--costo h3::before {
-          content: "";
-          width: 69px;
-          height: 69px;
-          top: -12px;
-          left: -25px; }
-        section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--costo h3 span {
-          font-size: 20px;
-          color: #fdc63a; }
-    section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--tel {
-      font-weight: 400;
-      font-size: 16px;
-      color: white; }
-      section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--tel a {
-        font-weight: 400;
-        font-size: 16px;
-        color: white; }
-        section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--tel a:hover {
-          color: #ed9d3e; }
-      section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--tel img {
-        margin-right: 10px; }
-
-.page__nosotros--acceso .acceso__rapido--item {
-  margin-top: -90px !important; }
-
-/*==========================
-    Servicios
-===========================*/
-section.page__servicios {
-  background-image: url(../img/bg-catalogo2.jpg);
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-color: #ed9d3e;
-  margin-bottom: 100px;
-  padding-top: 50px; }
-  section.page__servicios .medios__pagos {
-    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.2); }
-  section.page__servicios .page__servicios--wrap {
-    background-color: white;
-    padding: 40px;
-    padding-bottom: 0;
-    padding-top: 70px;
-    position: relative;
-    background-image: url(../img/bg-sombra.png);
+    background-image: url(../img/bg-nosotros.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: contain; }
-    section.page__servicios .page__servicios--wrap .page__servicios--titulo h2 {
+    padding: 40px 60px;
+    padding-top: 25px;
+    padding-right: 25px;
+    max-width: 934px;
+    margin: auto;
+    margin-bottom: -75px;
+    z-index: 1;
+    position: relative; }
+    section.page__nosotros .page__nosotros--contenido h3 {
       margin: 0;
-      font-size: 25px;
-      font-weight: bold;
-      color: #f27e00; }
-    section.page__servicios .page__servicios--wrap .page__servicios--line {
-      border-top: 3px solid #e0e0e0;
-      padding-top: 25px;
-      margin-top: 15px; }
-    section.page__servicios .page__servicios--wrap .page__servicios--btn {
-      text-align: right; }
-      section.page__servicios .page__servicios--wrap .page__servicios--btn a {
-        font-weight: 400;
-        font-size: 16px;
-        color: black;
+      color: #c52929;
+      font-size: 30px;
+      display: inline-block;
+      margin-bottom: 40px;
+      font-family: "Neufreit-ExtraBold", sans-serif; }
+      section.page__nosotros .page__nosotros--contenido h3::after {
+        content: "";
+        width: 16px;
+        height: 16px;
         background-color: #ed9d3e;
-        border-radius: 25px;
-        padding: 5px 25px; }
-        section.page__servicios .page__servicios--wrap .page__servicios--btn a:hover {
-          background-color: #f27e00;
-          color: white;
-          transition: 0.3s; }
-    section.page__servicios .page__servicios--wrap .page__servicios--item {
-      margin-bottom: 60px;
-      position: relative;
-      border: 2px solid #f27e00; }
-      section.page__servicios .page__servicios--wrap .page__servicios--item .page__servicios--item-content {
-        min-height: 275px; }
-        section.page__servicios .page__servicios--wrap .page__servicios--item .page__servicios--item-content h2 {
-          background-color: #f27e00;
-          color: white;
-          font-size: 20px;
-          font-weight: bold;
-          margin: 0;
-          padding: 20px 0;
-          text-align: center; }
-        section.page__servicios .page__servicios--wrap .page__servicios--item .page__servicios--item-content p {
-          margin: 0;
-          font-size: 14px;
-          font-weight: 400;
-          color: #f27e00;
-          line-height: 25px;
-          padding: 40px;
-          padding-bottom: 20px; }
-        section.page__servicios .page__servicios--wrap .page__servicios--item .page__servicios--item-content a {
-          font-size: 14px;
-          font-weight: 400;
-          color: black;
-          background-color: #ed9d3e;
-          border-radius: 25px;
-          display: block;
-          text-align: center;
-          padding: 0px 15px;
-          margin-top: 20px;
-          max-width: 115px; }
-          section.page__servicios .page__servicios--wrap .page__servicios--item .page__servicios--item-content a:hover {
-            transition: 0.3s;
-            color: white;
-            background-color: #f27e00; }
-      section.page__servicios .page__servicios--wrap .page__servicios--item img.img__servicio {
-        max-width: 100%;
-        width: 100%; }
-  section.page__servicios .home__delivery--contenido {
-    right: 25px; }
-    section.page__servicios .home__delivery--contenido h2 {
-      width: 132px;
-      height: 132px;
-      border: 7px solid rgba(255, 175, 30, 0.5);
-      font-size: 18px; }
-      section.page__servicios .home__delivery--contenido h2 span {
-        font-size: 11px; }
-      section.page__servicios .home__delivery--contenido h2 a.delivery {
-        font-size: 10px; }
-        section.page__servicios .home__delivery--contenido h2 a.delivery img {
-          width: 28px;
-          height: 28px; }
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 8px;
+        margin-bottom: -8px; }
+    section.page__nosotros .page__nosotros--contenido p {
+      margin: 0;
+      color: #575757;
+      font-weight: 400;
+      font-size: 14px; }
+    section.page__nosotros .page__nosotros--contenido .page__nosotros--contenido--img {
+      text-align: center; }
+      section.page__nosotros .page__nosotros--contenido .page__nosotros--contenido--img img {
+        position: relative;
+        bottom: -40px; }
 
-/*---------------
-Empresa
--------------*/
-body.page-template-template-empresa section.home__historias {
-  margin-top: -150px; }
-
-section.page__empresa {
-  background-image: url(../img/bg-catalogo2.jpg);
-  background-position: center top;
+section.pages__nosotros--cultivos {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #c52929;
+  background-image: url(../img/bg-nosotros2.jpg);
+  background-position: center bottom;
   background-repeat: no-repeat;
-  background-color: #ed9d3e;
-  padding-bottom: 210px;
-  padding-top: 50px; }
-  section.page__empresa .page__empresa--wrap {
-    background-color: white;
-    padding: 65px;
-    padding-bottom: 75px;
-    padding-top: 60px; }
-    section.page__empresa .page__empresa--wrap .page__empresa--titulo h2 {
-      margin: 0;
-      font-size: 25px;
-      font-weight: bold;
-      color: #f27e00; }
-    section.page__empresa .page__empresa--wrap .page__empresa--btn {
-      text-align: right; }
-      section.page__empresa .page__empresa--wrap .page__empresa--btn a {
-        font-weight: 400;
+  position: relative;
+  margin-bottom: 50px; }
+  section.pages__nosotros--cultivos h2.titulo {
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    font-family: "Neufreit-ExtraBold", sans-serif;
+    text-align: center; }
+  section.pages__nosotros--cultivos .page__nosotros--cultivos--contenido {
+    max-width: 934px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px; }
+    section.pages__nosotros--cultivos .page__nosotros--cultivos--contenido .page__nosotros--cultivos--item {
+      background-image: url(../img/icons/bg-producto.svg);
+      background-position: center top;
+      background-repeat: no-repeat;
+      text-align: center;
+      border-radius: 50%;
+      height: 257px;
+      width: 252px;
+      margin: auto;
+      padding: 12px;
+      display: table; }
+      section.pages__nosotros--cultivos .page__nosotros--cultivos--contenido .page__nosotros--cultivos--item .page__nosotros--cultivo--wrap {
+        background-color: white;
+        display: table-cell;
+        vertical-align: middle;
+        border-radius: 50%; }
+      section.pages__nosotros--cultivos .page__nosotros--cultivos--contenido .page__nosotros--cultivos--item img {
+        margin: auto;
+        max-width: 100%;
+        margin-bottom: 20px;
+        height: 57px; }
+      section.pages__nosotros--cultivos .page__nosotros--cultivos--contenido .page__nosotros--cultivos--item p {
+        color: #575757;
         font-size: 16px;
-        color: black;
-        background-color: #ed9d3e;
-        border-radius: 25px;
-        padding: 5px 25px;
-        margin-right: 10px; }
-        section.page__empresa .page__empresa--wrap .page__empresa--btn a:last-child {
-          margin-right: 0; }
-        section.page__empresa .page__empresa--wrap .page__empresa--btn a:hover {
-          background-color: #f27e00;
-          color: white;
-          transition: 0.3s; }
-    section.page__empresa .page__empresa--wrap .page__empresa--texto {
-      border-top: 3px solid #e0e0e0;
-      padding-top: 40px;
-      margin-top: 20px;
-      padding-bottom: 80px; }
-      section.page__empresa .page__empresa--wrap .page__empresa--texto p {
-        font-size: 14px;
-        color: #f27e00;
         font-weight: 400;
         margin: 0; }
-  section.page__empresa .pages__empresa--cualidades-item {
-    text-align: center; }
-    section.page__empresa .pages__empresa--cualidades-item img {
-      margin: auto;
-      max-width: 100%;
-      margin-bottom: 20px;
-      height: 112px; }
-    section.page__empresa .pages__empresa--cualidades-item p {
-      color: #f27e00;
+  section.pages__nosotros--cultivos .home__compromiso--item {
+    background-color: white;
+    padding: 30px 35px;
+    margin-bottom: 50px;
+    max-width: 427px;
+    position: relative; }
+    section.pages__nosotros--cultivos .home__compromiso--item:last-child {
+      margin-bottom: 0; }
+    section.pages__nosotros--cultivos .home__compromiso--item h2 {
+      font-size: 26px;
+      font-family: "Kanit", sans-serif;
+      color: #c52929;
+      margin: 0;
+      margin-bottom: 10px; }
+    section.pages__nosotros--cultivos .home__compromiso--item p {
+      color: #575757;
       font-size: 14px;
       font-weight: 400;
+      line-height: 27px;
       margin: 0; }
-  section.page__empresa .page__empresa--cuadro-wrap {
-    padding-top: 100px; }
-    section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-texto h2 {
-      background-color: #f27e00;
-      color: white;
-      font-size: 20px;
-      font-weight: bold;
+    section.pages__nosotros--cultivos .home__compromiso--item.item2 {
+      left: 38%; }
+    section.pages__nosotros--cultivos .home__compromiso--item.item3 {
+      left: 18%; }
+
+/*==========================
+    Porducto
+===========================*/
+section.page__productos {
+  background-image: url(../img/bg-producto.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #c52929;
+  padding-top: 50px;
+  background-size: contain;
+  min-height: 400px; }
+  section.page__productos .page__productos--wrap .page__productos--contenido {
+    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.2);
+    background-color: #ed9d3e;
+    max-width: 408px;
+    margin: auto;
+    padding: 50px 70px; }
+    section.page__productos .page__productos--wrap .page__productos--contenido h2 {
       margin: 0;
-      padding: 20px 0;
-      text-align: center; }
-    section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn {
-      text-align: right; }
-      section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn nav a.llamanos {
-        font-weight: 400;
-        color: #f27e00;
-        font-size: 15px;
-        position: relative;
-        display: inline-block;
-        padding-left: 30px;
-        vertical-align: middle;
-        line-height: 18px;
-        text-align: left; }
-        section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn nav a.llamanos span {
-          font-size: 19px; }
-        section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn nav a.llamanos:hover {
+      font-size: 30px;
+      color: white;
+      font-family: "Neufreit-ExtraBold", sans-serif;
+      margin-bottom: 15px; }
+    section.page__productos .page__productos--wrap .page__productos--contenido p {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: white;
+      line-height: 25px; }
+
+section.page__productos--lista {
+  padding-top: 300px;
+  padding-bottom: 250px; }
+  section.page__productos--lista .page__productos--item {
+    border-radius: 100px;
+    border: 5px solid #ed9d3e;
+    position: relative;
+    max-width: 934px;
+    margin: auto;
+    padding: 15px 75px;
+    padding-left: 250px;
+    margin-bottom: 200px; }
+    section.page__productos--lista .page__productos--item:last-child {
+      margin-bottom: 0; }
+    section.page__productos--lista .page__productos--item img {
+      position: absolute;
+      top: -35px;
+      left: -25px; }
+    section.page__productos--lista .page__productos--item h2 {
+      margin: 0;
+      font-size: 30px;
+      font-family: "Neufreit-ExtraBold", sans-serif;
+      color: #ed9d3e;
+      margin-bottom: 15px; }
+    section.page__productos--lista .page__productos--item p {
+      color: #3f3f3f;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 25px; }
+      section.page__productos--lista .page__productos--item p a {
+        color: #c52929; }
+        section.page__productos--lista .page__productos--item p a:hover {
           color: #ed9d3e; }
-        section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn nav a.llamanos::before {
-          content: url(../img/icons/phone2.png);
-          vertical-align: middle;
-          padding-right: 15px;
-          position: absolute;
-          left: 0; }
-      section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn nav a.btn__azul {
-        display: inline-block;
-        color: black;
-        font-weight: 400;
-        font-size: 14px;
-        background-color: #ed9d3e;
-        border-radius: 25px;
-        padding: 6px 18px;
-        margin-right: 15px; }
-        section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn nav a.btn__azul:last-child {
-          margin-right: 0; }
-        section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn nav a.btn__azul:hover {
-          background-color: #f27e00;
-          color: white;
-          transition: 0.3s; }
-  section.page__empresa .page__empresa--cuadro {
-    border: 2px solid #f27e00;
-    padding: 40px;
-    padding-bottom: 0; }
-    section.page__empresa .page__empresa--cuadro .page__empresa--cuadro-item {
-      margin-bottom: 40px;
-      text-align: center; }
-      section.page__empresa .page__empresa--cuadro .page__empresa--cuadro-item img {
-        margin-bottom: 10px; }
-      section.page__empresa .page__empresa--cuadro .page__empresa--cuadro-item p {
-        font-size: 14px;
-        font-weight: 400;
-        color: #f27e00;
-        margin: 0; }
-        section.page__empresa .page__empresa--cuadro .page__empresa--cuadro-item p a {
-          color: #f27e00; }
-          section.page__empresa .page__empresa--cuadro .page__empresa--cuadro-item p a:hover {
-            color: #ed9d3e; }
 
 section.home__historias {
   padding: 70px 0;
@@ -8714,149 +8506,6 @@ section.internas__contacto {
     color: white; }
   section.internas__contacto input::placeholder, section.internas__contacto textarea::placeholder {
     color: #575757; }
-
-/*---------------
-Distribuidor
--------------*/
-section.page__distribuidor {
-  background-image: url(../img/bg-catalogo2.jpg);
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-color: #ed9d3e;
-  padding-bottom: 50px;
-  padding-top: 50px; }
-  section.page__distribuidor .page__distribuidor--wrap {
-    background-color: white;
-    padding: 65px;
-    padding-bottom: 0px;
-    padding-top: 60px; }
-    section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--titulo h2 {
-      margin: 0;
-      font-size: 25px;
-      font-weight: bold;
-      color: #f27e00; }
-    section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--btn {
-      text-align: right; }
-      section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--btn a {
-        font-weight: 400;
-        font-size: 16px;
-        color: black;
-        background-color: #ed9d3e;
-        border-radius: 25px;
-        padding: 5px 25px; }
-        section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--btn a:hover {
-          background-color: #f27e00;
-          color: white;
-          transition: 0.3s; }
-    section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--texto {
-      border-top: 2px solid #e0e0e0;
-      padding-top: 70px;
-      margin-top: 15px;
-      padding-bottom: 80px; }
-      section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--texto .page__distribuidor--texto-ubicacion {
-        margin-bottom: 40px;
-        position: relative;
-        padding-left: 60px; }
-        section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--texto .page__distribuidor--texto-ubicacion:last-child {
-          margin-bottom: 0; }
-        section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--texto .page__distribuidor--texto-ubicacion::before {
-          content: url(../img/icons/icon-ubi.svg);
-          width: 45px;
-          height: 45px;
-          vertical-align: middle;
-          position: absolute;
-          left: 0; }
-        section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--texto .page__distribuidor--texto-ubicacion h3 {
-          margin: 0;
-          font-size: 20px;
-          font-weight: bold;
-          margin-bottom: 10px;
-          color: #f27e00; }
-        section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--texto .page__distribuidor--texto-ubicacion p {
-          font-size: 14px;
-          color: #f27e00;
-          font-weight: 400;
-          margin: 0; }
-        section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--texto .page__distribuidor--texto-ubicacion a {
-          font-weight: 400;
-          font-size: 14px;
-          color: black;
-          background-color: #ed9d3e;
-          border-radius: 25px;
-          padding: 3px 10px;
-          display: block;
-          max-width: 88px;
-          text-align: center;
-          margin-top: 10px; }
-          section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--texto .page__distribuidor--texto-ubicacion a:hover {
-            background-color: #f27e00;
-            color: white;
-            transition: 0.3s; }
-  section.page__distribuidor .home__contacto {
-    padding-bottom: 50px;
-    padding-top: 50px; }
-    section.page__distribuidor .home__contacto .home__contacto--mapa {
-      position: relative; }
-    section.page__distribuidor .home__contacto .home__contacto--wrap {
-      background-color: #f27e00;
-      max-width: 346px;
-      padding: 40px;
-      position: absolute;
-      top: 50%;
-      left: 5%;
-      margin-top: -180px; }
-      section.page__distribuidor .home__contacto .home__contacto--wrap img {
-        margin-bottom: 50px; }
-      section.page__distribuidor .home__contacto .home__contacto--wrap p {
-        font-weight: 300;
-        margin-bottom: 20px;
-        font-size: 14px;
-        padding-left: 40px;
-        position: relative;
-        color: white; }
-        section.page__distribuidor .home__contacto .home__contacto--wrap p a {
-          color: white; }
-          section.page__distribuidor .home__contacto .home__contacto--wrap p a:hover {
-            color: #ed9d3e; }
-        section.page__distribuidor .home__contacto .home__contacto--wrap p.ubi::before {
-          content: url(../img/icons/ubi.png);
-          vertical-align: middle;
-          padding-right: 15px;
-          position: absolute;
-          left: 0; }
-        section.page__distribuidor .home__contacto .home__contacto--wrap p.phone::before {
-          content: url(../img/icons/phone.png);
-          vertical-align: middle;
-          padding-right: 15px;
-          position: absolute;
-          left: 0;
-          top: -5px; }
-        section.page__distribuidor .home__contacto .home__contacto--wrap p.mail::before {
-          content: url(../img/icons/mail.png);
-          vertical-align: middle;
-          padding-right: 15px;
-          position: absolute;
-          left: 0;
-          top: 3px; }
-      section.page__distribuidor .home__contacto .home__contacto--wrap .home__contacto--redes ul {
-        list-style: none;
-        padding: 0;
-        margin: 0; }
-        section.page__distribuidor .home__contacto .home__contacto--wrap .home__contacto--redes ul li {
-          display: inline-block;
-          margin-right: 10px; }
-          section.page__distribuidor .home__contacto .home__contacto--wrap .home__contacto--redes ul li:last-child {
-            margin-right: 0; }
-          section.page__distribuidor .home__contacto .home__contacto--wrap .home__contacto--redes ul li img {
-            width: 32px;
-            height: 32px;
-            margin: auto; }
-          section.page__distribuidor .home__contacto .home__contacto--wrap .home__contacto--redes ul li a {
-            font-weight: 300;
-            font-size: 14px;
-            color: white; }
-            section.page__distribuidor .home__contacto .home__contacto--wrap .home__contacto--redes ul li a:hover {
-              color: #ed9d3e; }
 
 section.home__slider {
   background-color: #f3f3f3; }

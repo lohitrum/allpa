@@ -116,17 +116,9 @@ ul#menu-top-menu, ul#mega-menu-primary{
         position: relative !important;
         line-height: 1.35em;       
         &.current-menu-item{
-          &::after{
-            content: "";
-            position: absolute;
-            height: 4px;
-            width: 100%;
-            background-color: $color-secondary;
-            bottom: -1px;
-            left: 0;
-          }       
+          background-color: $color-secondary;              
           a{
-            color:$color-secondary !important;
+            color:$white !important;
           }
         }
             
