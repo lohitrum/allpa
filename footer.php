@@ -29,9 +29,9 @@
 							<div class="footer__contacto">
 								<h2>¡Contáctanos! </h2>
 								<h3>Nos encantaría resolver tus dudas</h3>
-								<p>982707385 <a href="mailto:info@allpainti.com">info@allpainti.com</a><br/>
-								Calle Benavides 206, Yanahuara, Arequipa</p>
-								<img src="<?php bloginfo("template_url"); ?>/img/img-footer.png">
+								<p><img class="img-icon" src="<?php bloginfo("template_url"); ?>/img/icons/icon-tel.svg">982707385 &nbsp;&nbsp;&nbsp; <img class="img-icon" src="<?php bloginfo("template_url"); ?>/img/icons/icon-mail.svg"> <a href="mailto:info@allpainti.com">info@allpainti.com</a><br/>
+								<img class="img-icon" src="<?php bloginfo("template_url"); ?>/img/icons/icon-ubi.svg">Calle Benavides 206, Yanahuara, Arequipa</p>
+								<img class="img-footer" src="<?php bloginfo("template_url"); ?>/img/img-footer.png">
 							</div>
 						</div>
 					</div>											

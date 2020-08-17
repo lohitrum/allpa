@@ -31,15 +31,15 @@ h4 { font-size: 20px; }
 .naranja { color:#f29c1f; }
 
 .btn-primary { background-color: $color-base; border:1px solid $color-base; }
-
+.owl-theme .owl-nav{margin-top: 0 !important;}
 .owl-carousel .owl-nav .owl-prev,.owl-carousel1 .owl-nav .owl-prev, .owl-carousel2 .owl-nav .owl-prev{
-    left: 0;
+    left: 30px;
     top: 50%;
     position: absolute;
     height: 51px;
     width: 21px;
     margin-top: -25px;
-    background-image: url(../img/icons/prev.png);
+    background-image: url(../img/icons/prev2.png) !important;
     background-repeat: no-repeat;
     overflow: hidden;
     text-indent: 999px;
@@ -47,13 +47,13 @@ h4 { font-size: 20px; }
     border-radius: 5px;*/
 }
 .owl-carousel .owl-nav .owl-next,.owl-carousel1 .owl-nav .owl-next, .owl-carousel2 .owl-nav .owl-next{
-    right: 0;
+    right: 30px;
     top: 50%;
     position: absolute;
     height: 51px;
     margin-top: -25px;
     width: 21px;
-    background-image: url(../img/icons/next.png);
+    background-image: url(../img/icons/next2.png) !important;
     background-repeat: no-repeat;
     overflow: hidden;
     text-indent: 999px;
@@ -192,7 +192,7 @@ h4 { font-size: 20px; }
 }
 /*--Menu--*/
 main {margin-top: 211px;}
-body.home main{margin-top: 211px;}
+body.home main{margin-top: 195px;}
 
 .btn__solicita{
     display: inline-block;

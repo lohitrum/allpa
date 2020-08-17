@@ -103,5 +103,4 @@
                 </div>
             </div>    
         </header>
-        <!-- /header -->
-        <?php get_template_part('loops/loop', 'modal'); ?>
+        <!-- /header -->        

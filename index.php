@@ -21,10 +21,7 @@
 					</div>					
 				</div>
 			</div>
-		</section>
-
-		<?php get_template_part('loops/loop', 'instagram'); ?>        
-		<?php get_template_part('loops/loop', 'autosup'); ?>      
+		</section> 
 
 	</main>
 

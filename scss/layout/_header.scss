@@ -8,6 +8,7 @@ header.header .container {
     background-size: cover;
     background-repeat: no-repeat;    
     border-top: 55px solid $color-base;
+    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.2);
     p { font-size: 16px; margin-bottom: 0px; transition: all 0.5s; position: absolute; top:-7px; left: 7px; font-family: $altfont; }
     h1.logo { text-align: center; margin: auto;
         a { padding: 0px; margin: 0;

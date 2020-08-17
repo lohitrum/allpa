@@ -113,7 +113,7 @@ function theme_shortcode_slide( $atts ) {
             'posts_per_page' => -1,
 			'p' => $id
         );
-        $rpta = '<div class="owl-carousel owl-slider owl-theme">';
+        $rpta = '<div class="owl-carousel owl-slider">';
         $the_query = new WP_Query( $args );
         // The Loop
         while ( $the_query->have_posts() ) :
@@ -549,35 +549,29 @@ function function_blog_ultimo( $atts ) {
        $pid = get_the_ID();
        $autor = get_post_meta(get_the_ID(), '_mkt_autor_blog', true);
        $thumbID = get_post_thumbnail_id( get_the_ID() );
-       $imgDestacada = wp_get_attachment_image_src( $thumbID, 'large' );
+       $imgDestacada = wp_get_attachment_image_src( $thumbID, 'full' );
        $hashtag = get_post_meta(get_the_ID(), '_mkt_hashtag', true);
-       $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'large' );
+       $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'largeblog' );
        $rpta .='
        <div class="col-md-12">
          <div class="blog__featured '.get_the_category(get_the_ID())[0]->slug.'">          
            <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
               <div class="blog__featured--img">
                 <a href="'.get_the_permalink().'">
                   <figure><img src="'.$large_image_url[0].'" alt=""></figure>
                 </a>
               </div>
-            </div>             
-             <div class="col-md-4">
-               <div class="blog__featured--wrap">
+              <div class="blog__featured--wrap">
                   <div class="blog__featured--texto-contenido">
                     <div class="blog__featured--texto">              
                       <h2><a class="blog__featured--titulo" href="'.get_the_permalink().'">'.get_the_title().'</a></h2>
-                      <p>'.wp_trim_words(get_the_excerpt(), 55).' <a class="ver__mas" href="'.get_the_permalink().'">(Ver más)</a></p>   
+                      <p>'.wp_trim_words(get_the_excerpt(), 55).' </p>   
+                      <a class="ver__mas" href="'.get_the_permalink().'">Ver artículo completo</a>
                     </div>
-                  </div>
-                  <div class="blog__featured--autor">
-                    <p>Por <span>'.$autor.'</span></p>
-                    <p class="tiempo">'.get_the_date( ' F, Y' ).'</p>
-                    <a href="https://www.addtoany.com/share" class="share a2a_dd btn__compartir">Compartir</a>
-                  </div>
+                  </div>                  
                </div>
-             </div>                          
+            </div>                                 
            </div>
          </div>
        </div>
@@ -711,38 +705,21 @@ function function_blog_ultimospage( $atts ) {
        $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'medium' );
        //$textoCorto=limitar_palabras(get_the_excerpt(), 25,'...&nbsp;&nbsp;');       
         $rpta .='
-        <div class="col-md-12">       
+        <div class="col-md-6">       
           <div class="blog__ultimo '.get_the_category(get_the_ID())[0]->slug.'">          
-            <div class="row">
-              <div class="col-md-2 d-none d-md-block d-lg-block">
-                <div class="blog__ultimo--autor">
-                  <p>Por <span>'.$autor.'</span></p>
-                  <p class="tiempo">'.get_the_date( ' F, Y' ).'</p>
-                  <a href="https://www.addtoany.com/share" class="share a2a_dd btn__compartir">Compartir</a>
-                </div>
-              </div>
-              <div class="col-md-5">
-                <div class="blog__ultimo--texto-contenido">
-                  <div class="blog__ultimo--texto">              
-                    <h2><a class="blog__ultimo--titulo" href="'.get_the_permalink().'">'.get_the_title().'</a></h2>
-                    <p>'.wp_trim_words(get_the_excerpt(), 55).' <a class="ver__mas" href="'.get_the_permalink().'">(Ver más)</a></p>   
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-5">
+            <div class="row">              
+              <div class="col-md-12">
                 <div class="blog__ultimo--img">
                   <a href="'.get_the_permalink().'">
                     <figure><img src="'.$large_image_url[0].'" alt=""></figure>
                   </a>              
                 </div>
-              </div>
-              <div class="col-md-2 d-block d-md-none d-lg-none">
-                <div class="blog__ultimo--autor">
-                  <p>Por <span>'.$autor.'</span></p>
-                  <p class="tiempo">'.get_the_date( ' F, Y' ).'</p>
-                  <a href="https://www.addtoany.com/share" class="share a2a_dd btn__compartir">Compartir</a>
+                <div class="blog__ultimo--texto-contenido">
+                  <div class="blog__ultimo--texto">              
+                    <h2><a class="blog__ultimo--titulo" href="'.get_the_permalink().'">'.get_the_title().'</a></h2>                  
+                  </div>
                 </div>
-              </div>              
+              </div>                               
             </div>
           </div>
         </div>

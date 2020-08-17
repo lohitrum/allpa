@@ -189,7 +189,7 @@ jQuery(function(){
     $('.owl-slider').owlCarousel({
         loop:true,
         //margin:10,
-        nav:false,
+        nav:true,
         items:1,
         autoplay:true,
         autoplayTimeout:5000,

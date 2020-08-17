@@ -40,21 +40,9 @@
 						</div>
 						<div class="col-md-11">												
 							<!-- article -->								
-							<div class="post__contenido">								
-								<div class="row">
-									<div class="col-md-12">
-										<div class="post__title">										
-												<a href="<?php the_permalink(10); ?>">Ver Baterías</a>
-												<a href="<?php the_permalink(12); ?>">Servicios Complementarios</a>
-										</div>	
-									</div>								
-								</div>											
+							<div class="post__contenido">																	
 								<div class="entry wow fadeIn" data-wow-duration="2.5s">									
-									<?php the_content(); // Dynamic Content ?>
-									<p class="p__share">
-										Por <span><?php echo $autor; ?></span>, <?php echo the_date( ' F Y' ); ?>										 
-										<a href="https://www.addtoany.com/share" class="share a2a_dd">Compartir</a>							
-									</p>	    
+									<?php the_content(); // Dynamic Content ?>										    
 								</div>
 							</div>
 									
@@ -90,21 +78,12 @@
 			<div class="container">
 				<div class="row">
 					<?php 
-						echo do_shortcode('[blog_ultimospage cuantos="1"]'); 
+						echo do_shortcode('[blog_ultimospage cuantos="2"]'); 
 					?>							  
-				</div>	
-				<div class="row">
-					<div class="col-md-3 align-self-center">
-						<div class="home__blog--btn">
-							<a href="<?php the_permalink(68); ?>">Cargar más Artículos de Interés</a>
-						</div>
-					</div>
-				</div>
+				</div>					
 			</div>
 		</div>
 	</section> 
-	<?php get_template_part('loops/loop', 'instagram'); ?>
-    <?php get_template_part('loops/loop', 'autosup'); ?>
 		
 </main>
 
