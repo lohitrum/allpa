@@ -42,7 +42,7 @@
 					<div class="row">					
 						<div class="col-md-12 cols-m-12">
 							<div class="footer__texto2">
-								<p>Diseño Web realizado por @BLeimarkt  |  Nerida Gallegos   |   <a href="#">Detalles</a></p>
+								<p>Diseño Web realizado por @Bleimarkt  |  Nerida Gallegos   |   <a href="#">Detalles</a></p>
 							</div>
 						</div>
 					</div>

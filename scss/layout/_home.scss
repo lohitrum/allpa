@@ -59,14 +59,22 @@ section.home__somos{
 
 section.home__productos{
     background-color: $color-secondary;
-    padding-top: 80px;
+    padding-top: 120px;
     .home__productos--contenedor{
         margin-bottom: -130px;
     }
     .home__productos--item{
-        text-align: center;        
+        text-align: center;     
+        position: relative;   
         h2{
-            margin: 0; font-size: 35px; color: $white; font-family: $altfont; margin-bottom: 5px;        
+            margin: 0; font-size: 35px; color: $white; font-family: $altfont; margin-bottom: 5px;       
+            display: none; 
+        }
+        .texto__img{
+            position: absolute;
+            top: -37px;
+            left: 32%;
+            &.img4{left: 56%;}
         }
         .home__productos--item-img{
             background-image: url(../img/icons/bg-producto.svg);

@@ -36,24 +36,28 @@
 								<div class="col-md-3">
 									<div class="home__productos--item">
 										<h2>Papa Única</h2>
+										<img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/texto1.png">
 										<div class="home__productos--item-img"><img src="<?php bloginfo("template_url"); ?>/img/producto1.png"></div>
 									</div>							
 								</div>
 								<div class="col-md-3">
 									<div class="home__productos--item">
 										<h2>Papa Canchan</h2>
+										<img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/texto2.png">
 										<div class="home__productos--item-img"><img src="<?php bloginfo("template_url"); ?>/img/producto2.png"></div>
 									</div>							
 								</div>
 								<div class="col-md-3">
 									<div class="home__productos--item">
 										<h2>Cebolla Morada</h2>
+										<img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/texto3.png">
 										<div class="home__productos--item-img"><img src="<?php bloginfo("template_url"); ?>/img/producto3.png"></div>
 									</div>							
 								</div>
 								<div class="col-md-3">
 									<div class="home__productos--item">
 										<h2>Palta Hass</h2>
+										<img class="texto__img img4" src="<?php bloginfo("template_url"); ?>/img/texto4.png">
 										<div class="home__productos--item-img"><img src="<?php bloginfo("template_url"); ?>/img/producto4.png"></div>
 									</div>							
 								</div>
