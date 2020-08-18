@@ -32,7 +32,7 @@ section.page__nosotros{
         h3{
             margin: 0; color: $color-base; font-size: 30px;
             display: inline-block;
-            margin-bottom: 40px; font-family: $altfont;
+            margin-bottom: 40px; font-family: $altfont; letter-spacing: -1px;
             &::after{
                 content: "";
                 width: 16px; height: 16px;
@@ -44,7 +44,7 @@ section.page__nosotros{
             }
         }
         p{
-            margin: 0; color: $textcolor; font-weight: 400; font-size: 14px;
+            margin: 0; color: $textcolor; font-weight: 600; font-size: 14px; line-height: 25px;
         }
         .page__nosotros--contenido--img{
             text-align: center;
@@ -88,7 +88,7 @@ section.pages__nosotros--cultivos{
                 border-radius: 50%;
             }
             img{margin: auto; max-width: 100%; margin-bottom: 20px; height: 57px;}
-            p{color: $textcolor; font-size: 16px; font-weight: 400; margin: 0;}
+            p{color: $textcolor; font-size: 16px; font-weight: 600; margin: 0;}
         }
     }
     .home__compromiso--item{
@@ -100,7 +100,7 @@ section.pages__nosotros--cultivos{
         &:last-child{margin-bottom: 0;}
         h2{font-size: 26px; font-family: $altfont2; color: $color-base; margin:0; margin-bottom: 10px; }
         p{
-            color: $textcolor; font-size: 14px; font-weight: 400; line-height: 27px; margin: 0;
+            color: $textcolor; font-size: 14px; font-weight: 600; line-height: 27px; margin: 0;
         }
         &.item2{left: 38%;}
         &.item3{left: 18%;}
@@ -119,7 +119,8 @@ section.page__productos{
     background-color: $color-base;    
     padding-top: 50px;
     background-size: contain;
-    min-height: 400px;    
+    height: 450px;
+    margin-bottom: 50px;
     .page__productos--wrap{          
         .page__productos--contenido{
             box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.2);
@@ -155,7 +156,7 @@ section.page__productos--lista{
             margin: 0; font-size: 30px; font-family: $altfont; color: $color-secondary; margin-bottom: 15px;
         }
         p{
-            color: #3f3f3f; font-size: 14px; font-weight: 400; line-height: 25px;
+            color: #3f3f3f; font-size: 14px; font-weight: 600; line-height: 25px;
             a{
                 color: $color-base; 
                 &:hover{color: $color-secondary;}

@@ -160,13 +160,14 @@ main.blog {
             p{
                 font-size: 14px;
                 color: $textcolor;
-                font-weight: 400;
+                font-weight: 600;
                 line-height: 25px;
                 margin: 0;            
             }
             a.ver__mas{
                 color: $textcolor;
                 display: inline-block;
+                font-weight: 600;
                 margin-top: 30px;          
                 font-size: 14px;
                 &:hover{
@@ -418,10 +419,7 @@ ul.latestposts {
 }
 
 .single__wrap {    
-    padding-top: 30px;
-    background-image: url(../img/bg-blog.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
+    padding-top: 30px;    
     background-color: $white;    
     article.post {
     }
@@ -483,7 +481,7 @@ ul.latestposts {
         font-size: 14px;
         line-height: 27px;
         padding-left: 0;
-        color: $color-extra1;
+        color: $textcolor;
         padding-bottom: 0px;        
         padding-left: 0;        
         padding-right: 0;

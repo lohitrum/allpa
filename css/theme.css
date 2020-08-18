@@ -8156,7 +8156,7 @@ li#menu-item-56 ul.sub-menu {
 
 .slicknav_open .slicknav_menutxt {
   font-size: 20px;
-  color: white;
+  color: #c52929;
   font-weight: 500;
   position: relative;
   padding-right: 30px;
@@ -8293,7 +8293,8 @@ section.page__nosotros {
       font-size: 30px;
       display: inline-block;
       margin-bottom: 40px;
-      font-family: "Neufreit-ExtraBold", sans-serif; }
+      font-family: "Neufreit-ExtraBold", sans-serif;
+      letter-spacing: -1px; }
       section.page__nosotros .page__nosotros--contenido h3::after {
         content: "";
         width: 16px;
@@ -8306,8 +8307,9 @@ section.page__nosotros {
     section.page__nosotros .page__nosotros--contenido p {
       margin: 0;
       color: #575757;
-      font-weight: 400;
-      font-size: 14px; }
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 25px; }
     section.page__nosotros .page__nosotros--contenido .page__nosotros--contenido--img {
       text-align: center; }
       section.page__nosotros .page__nosotros--contenido .page__nosotros--contenido--img img {
@@ -8358,7 +8360,7 @@ section.pages__nosotros--cultivos {
       section.pages__nosotros--cultivos .page__nosotros--cultivos--contenido .page__nosotros--cultivos--item p {
         color: #575757;
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 600;
         margin: 0; }
   section.pages__nosotros--cultivos .home__compromiso--item {
     background-color: white;
@@ -8377,7 +8379,7 @@ section.pages__nosotros--cultivos {
     section.pages__nosotros--cultivos .home__compromiso--item p {
       color: #575757;
       font-size: 14px;
-      font-weight: 400;
+      font-weight: 600;
       line-height: 27px;
       margin: 0; }
     section.pages__nosotros--cultivos .home__compromiso--item.item2 {
@@ -8395,7 +8397,8 @@ section.page__productos {
   background-color: #c52929;
   padding-top: 50px;
   background-size: contain;
-  min-height: 400px; }
+  height: 450px;
+  margin-bottom: 50px; }
   section.page__productos .page__productos--wrap .page__productos--contenido {
     box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.2);
     background-color: #ed9d3e;
@@ -8442,7 +8445,7 @@ section.page__productos--lista {
     section.page__productos--lista .page__productos--item p {
       color: #3f3f3f;
       font-size: 14px;
-      font-weight: 400;
+      font-weight: 600;
       line-height: 25px; }
       section.page__productos--lista .page__productos--item p a {
         color: #c52929; }
@@ -8608,13 +8611,15 @@ section.home__allpa {
       top: -20px;
       background-color: white;
       padding: 0 15px;
-      left: 20px; }
+      left: 20px;
+      letter-spacing: -1px; }
     section.home__allpa .home__allpa--contenido p {
       color: #575757;
       font-size: 14px;
       font-weight: 400;
-      line-height: 29px;
-      margin: 0; }
+      line-height: 28px;
+      margin: 0;
+      font-weight: 600; }
 
 section.home__compromiso {
   background-image: url(../img/bg-compromiso.jpg);
@@ -8643,7 +8648,8 @@ section.home__compromiso {
       font-size: 14px;
       font-weight: 400;
       line-height: 27px;
-      margin: 0; }
+      margin: 0;
+      font-weight: 600; }
     section.home__compromiso .home__compromiso--item.item2 {
       left: 38%; }
     section.home__compromiso .home__compromiso--item.item3 {
@@ -8970,12 +8976,13 @@ main.blog {
       main.blog .blog__featured .blog__featured--texto p {
         font-size: 14px;
         color: #575757;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 25px;
         margin: 0; }
       main.blog .blog__featured .blog__featured--texto a.ver__mas {
         color: #575757;
         display: inline-block;
+        font-weight: 600;
         margin-top: 30px;
         font-size: 14px; }
         main.blog .blog__featured .blog__featured--texto a.ver__mas:hover {
@@ -9217,9 +9224,6 @@ ul.latestposts {
 
 .single__wrap {
   padding-top: 30px;
-  background-image: url(../img/bg-blog.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
   background-color: white; }
   .single__wrap .single__compartir {
     text-align: center;
@@ -9282,7 +9286,7 @@ ul.latestposts {
     font-size: 14px;
     line-height: 27px;
     padding-left: 0;
-    color: #f27e00;
+    color: #575757;
     padding-bottom: 0px;
     padding-left: 0;
     padding-right: 0;
@@ -10368,7 +10372,8 @@ body.home .catalogo__final {
       font-size: 16px;
       margin: 0;
       color: #575757;
-      line-height: 38px; }
+      line-height: 38px;
+      font-weight: 600; }
       .footer__top .footer__contacto p a {
         color: #575757; }
         .footer__top .footer__contacto p a:hover {
@@ -10789,7 +10794,7 @@ px      68    160    252    344    436    528    620    712    */
     position: fixed;
     padding: 0;
     padding-top: 25px;
-    background-image: url(../img/img-responsive-header.jpg);
+    border-top: 20px solid #c52929;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.1); }
 
   .header__logo h1.logo {
@@ -10828,25 +10833,11 @@ px      68    160    252    344    436    528    620    712    */
     position: fixed;
     width: 100%;
     height: 100vh;
-    background-image: url(../img/bg-responsive.jpg);
-    background-position: center bottom;
-    background-size: cover;
+    background-color: #c52929;
     left: 0;
-    top: 125px;
+    top: 145px;
     z-index: -1;
     padding-top: 30px; }
-    .slicknav_nav::after {
-      content: "958900678";
-      position: absolute;
-      bottom: 160px;
-      right: 45px;
-      background-image: url(../img/icons/icon-tel.svg);
-      background-repeat: no-repeat;
-      padding-left: 75px;
-      background-position: center left;
-      height: 60px;
-      font-size: 29px;
-      line-height: 2; }
 
   .menu-image-title.menu-image-title-above, .menu-image-title.menu-image-title-below {
     text-align: left; }
@@ -10880,7 +10871,7 @@ px      68    160    252    */
     Encabezado
   *****************************************/
   .navbar-brand img, .menu__home .menu__home--header h1 img {
-    width: 232px;
+    width: auto;
     margin-left: 10px; }
 
   /************************************
@@ -10892,25 +10883,69 @@ px      68    160    252    */
     background-size: auto 100%; }
 
   section.home__slider .item {
-    background-position: -130px 0px;
-    min-height: 172px; }
+    background-position: center top;
+    min-height: 220px; }
 
-  .home__delivery--contenido h2 {
-    font-size: 20px;
-    width: 140px;
-    height: 140px;
-    line-height: 18px;
-    border: 5px solid rgba(255, 175, 30, 0.5); }
+  section.home__compromiso .home__compromiso--item.item2, section.home__compromiso .home__compromiso--item.item3, section.pages__nosotros--cultivos .home__compromiso--item.item2, section.pages__nosotros--cultivos .home__compromiso--item.item3 {
+    left: 0; }
 
-  .home__delivery--contenido h2 a.delivery img {
-    width: 30px;
-    height: 30px; }
+  section.home__somos .home__somos--wrap p {
+    font-size: 16px; }
 
-  .home__delivery--contenido h2 a.delivery, .home__delivery--contenido h2 span {
-    font-size: 13px; }
+  section.home__somos .home__somos--wrap {
+    padding: 0 40px;
+    padding-top: 70px;
+    padding-bottom: 60px; }
 
-  section.home__delivery {
-    padding-top: 20px; }
+  section.home__somos .home__somos--wrap2 h2 {
+    font-size: 35px; }
+
+  section.home__productos .home__productos--item h2 {
+    font-size: 30px; }
+
+  section.home__productos .home__productos--item {
+    margin-bottom: 30px; }
+
+  section.home__productos .home__productos--contenedor {
+    margin-bottom: 0; }
+
+  section.home__allpa {
+    padding-top: 100px; }
+
+  section.home__allpa img {
+    width: 100%;
+    margin-top: 30px; }
+
+  section.home__compromiso {
+    padding: 50px 0; }
+
+  .footer__top .footer__top-contenido h2 {
+    text-align: center;
+    font-size: 40px; }
+
+  .footer__top .footer__top-contenido p {
+    text-align: center;
+    padding: 0; }
+
+  .footer__top .footer__contacto img.img-icon {
+    display: block;
+    margin: auto;
+    margin-bottom: 5px; }
+
+  .footer__top .footer__contacto p {
+    text-align: center;
+    line-height: 25px; }
+
+  .footer__top .footer__contacto h3, .footer__top .footer__contacto h2, .footer__top .nav__productos ul {
+    text-align: center; }
+
+  .footer__top .nav__productos h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px; }
+
+  .footer__top .footer__contacto {
+    margin-top: 20px; }
 
   section.home__slider .item .item__titulo {
     display: none; }
@@ -10963,69 +10998,6 @@ px      68    160    252    */
   aside.catalogo__sidebar {
     padding: 0px; }
 
-  section.catalogo {
-    padding-bottom: 50px; }
-
-  .catalogo .catalogo__contenedor .post-listing {
-    margin-right: 0;
-    margin-top: 30px;
-    padding: 0;
-    height: auto; }
-
-  .medios__pagos .medios__pagos--texto p {
-    text-align: center; }
-
-  .medios__pagos .medios__pagos--item ul {
-    text-align: center;
-    margin-bottom: 30px; }
-
-  .medios__pagos .medios__pagos--item ul li {
-    margin: auto;
-    display: block;
-    padding-top: 20px; }
-
-  .medios__pagos .medios__pagos--item ul li:first-child {
-    padding-bottom: 0px;
-    padding-top: 30px;
-    margin-bottom: -15px; }
-
-  .medios__pagos .medios__pagos--item ul li:nth-child(2) {
-    padding-bottom: 0;
-    padding-top: 0;
-    margin-bottom: -10px; }
-
-  .medios__pagos .medios__pagos--item ul li:nth-child(3) {
-    padding-bottom: 0;
-    padding-top: 0; }
-
-  .medios__pagos .medios__pagos--item ul li:nth-child(5) {
-    padding-top: 30px; }
-
-  .mantenimiento {
-    background-image: none;
-    background-color: #f27e00;
-    padding-bottom: 30px; }
-
-  .mantenimiento .mantenimiento__contenido h2 {
-    text-align: center;
-    font-size: 28px; }
-
-  .mantenimiento .mantenimiento__contenido h2 span {
-    margin-left: 0 !important; }
-
-  .mantenimiento .mantenimiento__contenido h2 img {
-    display: none; }
-
-  .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--tel {
-    text-align: center; }
-
-  section.acceso__rapido .acceso__rapido--item {
-    margin-top: 0 !important;
-    margin-bottom: 30px; }
-
-  section.acceso__rapido {
-    padding-top: 50px; }
-
   section.home__contacto .home__contacto--wrap {
     position: relative;
     left: 0;
@@ -11056,45 +11028,26 @@ px      68    160    252    */
     text-align: center;
     margin-top: 10px; }
 
+  .footer__top .footer__contacto img.img-footer {
+    display: none; }
+
   .white-popup {
     margin-bottom: 0; }
 
   .blog__ultimo .blog__hashtag h2, .blog__primero .blog__hashtag h2 {
     padding: 5px 20px; }
 
-  /*--------Seccion-Distribuidor---------*/
-  section.page__distribuidor .page__distribuidor--wrap .page__distribuidor--btn {
-    display: none; }
-
-  .home__blog--top .align-right {
-    text-align: left; }
-
-  section.home__blog .home__blog--top {
-    margin-bottom: 30px; }
-
-  .blog__ultimo .blog__ultimo--texto h2, .blog__primero .blog__ultimo--texto h2 {
-    font-size: 25px;
-    line-height: 1.4em; }
-
-  section.home__pagos {
-    padding-top: 60px;
-    padding-bottom: 60px; }
-
-  section.home__autosup {
-    padding: 80px 10px;
-    padding-bottom: 100px; }
-
   /*----seccion-Nosotros---*/
   section.page__nosotros .page__nosotros--contenido {
-    margin-left: 0; }
+    margin-left: 0;
+    background-color: white; }
 
-  section.page__nosotros {
-    background-image: none;
-    background-color: #e0e0e0;
-    padding: 50px 0; }
+  section.page__nosotros .page__nosotros--contenido .page__nosotros--contenido--img img {
+    width: 100%; }
 
   section.page__nosotros .page__nosotros--contenido h3 {
-    font-size: 18px; }
+    font-size: 25px;
+    margin-bottom: 25px; }
 
   section.page__nosotros .page__nosotros--contenido p {
     font-size: 14px; }
@@ -11113,33 +11066,46 @@ px      68    160    252    */
   section.pages__nosotros--cualidades .pages__nosotros--cualidades-item img {
     margin-bottom: 15px; }
 
-  section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas {
+  section.pages__nosotros--cultivos .page__nosotros--cultivos--contenido {
+    margin-top: 50px;
+    margin-bottom: 20px; }
+
+  section.pages__nosotros--cultivos {
+    background-color: #e52425; }
+
+  section.pages__nosotros--cultivos .page__nosotros--cultivos--contenido .page__nosotros--cultivos--item {
+    margin-bottom: 50px; }
+
+  section.page__productos--lista .page__productos--item {
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 20px 30px; }
+
+  section.page__productos--lista .page__productos--item img {
+    position: relative;
+    top: 0;
+    left: 0; }
+
+  section.page__productos {
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 30px; }
+
+  .page__productos--img img {
+    width: 100%; }
+
+  section.page__productos--lista {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+
+  section.page__productos .page__productos--wrap .page__productos--contenido {
+    padding: 50px; }
+
+  section.page__productos .page__productos--wrap .page__productos--contenido h2, section.page__productos .page__productos--wrap .page__productos--contenido p {
     text-align: center; }
 
-  section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav a.btn__azul {
-    margin: 0;
-    margin: auto;
-    display: block;
-    margin-bottom: 15px; }
-
-  section.page__nosotros--mantenimiento .mantenimiento {
-    margin-top: 0;
-    background-color: #f27e00;
-    background-image: none; }
-
-  section.page__nosotros--mantenimiento .page__nosotros--mantenimiento-ventas nav a.llamanos {
-    margin: 0;
-    margin-top: 15px; }
-
-  section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--costo {
-    text-align: center;
-    margin-left: 0; }
-
-  section.page__nosotros--mantenimiento {
-    padding-bottom: 15px; }
-
-  section.page__nosotros--mantenimiento .mantenimiento .mantenimiento__contenido .mantenimiento__contenido--costo h3::before {
-    content: none; }
+  section.page__productos .page__productos--wrap .page__productos--contenido {
+    margin-bottom: 20px; }
 
   /*-------Seccion-Servicios----------*/
   section.page__servicios {
@@ -11164,61 +11130,33 @@ px      68    160    252    */
     right: 0;
     margin-top: -132px; }
 
-  /*-------Seccion-Empresa----------------------*/
-  section.page__empresa .page__empresa--wrap .page__empresa--titulo h2 {
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 20px; }
-
-  section.page__empresa .page__empresa--wrap {
-    padding: 25px;
-    padding-top: 50px; }
-
-  section.page__empresa .page__empresa--wrap .page__empresa--texto p {
-    text-align: center; }
-
-  section.page__empresa .page__empresa--wrap .page__empresa--btn, section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn {
-    text-align: center; }
-
-  section.page__empresa .page__empresa--wrap .page__empresa--btn a {
-    margin: auto;
-    display: block;
-    text-align: center;
-    margin-bottom: 10px;
-    display: none; }
-
-  section.page__empresa .page__empresa--wrap .page__empresa--texto {
-    padding-bottom: 50px; }
-
-  section.page__empresa .pages__empresa--cualidades-item {
-    margin-bottom: 45px; }
-
-  section.page__empresa .pages__empresa--cualidades-item img {
-    margin-bottom: 15px; }
-
-  section.page__empresa .page__empresa--cuadro-wrap {
-    padding-top: 0; }
-
-  section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-texto h2 {
-    padding: 20px 15px; }
-
-  section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-texto {
-    padding-top: 30px; }
-
-  section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn nav a.btn__azul {
-    margin: auto;
-    text-align: center;
-    display: block;
-    margin-top: 10px; }
-
-  section.page__empresa .page__empresa--cuadro-wrap .page__empresa--cuadro-btn nav a.llamanos {
-    margin-top: 15px;
-    margin-bottom: 15px; }
-
   .owl-theme .owl-nav.disabled + .owl-dots {
     padding-right: 0; }
 
   /*----seccion-blog----*/
+  main.blog .blog__featured .blog__featured--wrap {
+    position: relative;
+    bottom: 0;
+    right: 0; }
+
+  main.blog .blog__featured .blog__featured--img, .blog__ultimo .blog__ultimo--img, .blog__ultimo .blog__primero--img, .blog__primero .blog__ultimo--img, .blog__primero .blog__primero--img {
+    padding-right: 20px; }
+
+  .blog__ultimo .blog__ultimo--img, .blog__ultimo .blog__primero--img, .blog__primero .blog__ultimo--img, .blog__primero .blog__primero--img {
+    height: 210px; }
+
+  main.blog .blog__featured {
+    margin-bottom: 50px; }
+
+  .blog__ultimo .blog__ultimo--texto, .blog__primero .blog__ultimo--texto, main.blog .blog__featured .blog__featured--texto {
+    padding: 30px 40px; }
+
+  .blog__ultimo .blog__ultimo--texto h2, .blog__primero .blog__ultimo--texto h2 {
+    font-size: 25px; }
+
+  main.blog .blog__featured .blog__featured--texto h2 {
+    margin-bottom: 20px; }
+
   .blog__ultimo .blog__ultimo--autor a.btn__compartir, .blog__ultimo .blog__primero--autor a.btn__compartir, .blog__primero .blog__ultimo--autor a.btn__compartir, .blog__primero .blog__primero--autor a.btn__compartir {
     font-size: 14px; }
 
@@ -11233,17 +11171,6 @@ px      68    160    252    */
 
   .blog__ultimo .blog__ultimo--autor, .blog__ultimo .blog__primero--autor, .blog__primero .blog__ultimo--autor, .blog__primero .blog__primero--autor {
     padding: 0;
-    padding-top: 30px; }
-
-  .blog__ultimo .blog__ultimo--autor, .blog__ultimo .blog__primero--autor, .blog__primero .blog__ultimo--autor, .blog__primero .blog__primero--autor {
-    padding: 0;
-    padding-top: 30px;
-    text-align: left;
-    padding-left: 25px;
-    padding-bottom: 25px; }
-
-  .blog__ultimo .blog__ultimo--img, .blog__ultimo .blog__primero--img, .blog__primero .blog__ultimo--img, .blog__primero .blog__primero--img {
-    height: auto;
     padding-top: 30px; }
 
   main.blog .blog__featured .blog__featured--autor p, .blog__ultimo .blog__ultimo--autor p, .blog__ultimo .blog__primero--autor p, .blog__primero .blog__ultimo--autor p, .blog__primero .blog__primero--autor p {
@@ -11300,73 +11227,11 @@ px      68    160    252    */
     display: none; }
 
   .blog__ultimo .blog__ultimo--texto-contenido, .blog__primero .blog__ultimo--texto-contenido {
-    border-left: 0; }
+    position: relative;
+    top: 0; }
 
   .footer__top .logo__footer {
     margin-bottom: 30px; }
-
-  section.single__baterias {
-    background-repeat: repeat; }
-
-  section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-top .single__baterias--contenido-cat {
-    padding: 20px 0; }
-
-  section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-top .single__baterias--contenido-btn {
-    text-align: center; }
-
-  section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-top .single__baterias--contenido-btn a {
-    display: block;
-    text-align: center;
-    margin-bottom: 10px; }
-
-  section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto .single__baterias--contenido-garantia, section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto .single__baterias--contenido-garantia p.garantia {
-    display: block; }
-
-  section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto .single__baterias--contenido-garantia p.garantia {
-    font-size: 12px; }
-
-  section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto .single__baterias--contenido-garantia a {
-    display: block;
-    float: none;
-    width: 100%;
-    margin: auto;
-    max-width: 100%;
-    text-align: center; }
-
-  section.single__baterias .single__baterias--wrap {
-    padding: 25px; }
-
-  section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto nav a.btn__cotiza {
-    text-align: center;
-    display: block;
-    margin: auto; }
-
-  section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto nav a.whatsapp {
-    text-align: center;
-    display: block;
-    font-size: 12px; }
-
-  section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto nav a.llamanos {
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 15px; }
-
-  section.single__baterias .single__baterias--wrap .single__baterias--contenido .single__baterias--contenido-texto nav {
-    text-align: center; }
-
-  section.single__baterias .single__baterias--wrap .catalogo__contenedor .post-listing--titulo-single {
-    padding: 0;
-    padding-top: 50px; }
-
-  section.single__baterias .single__baterias--wrap .catalogo__contenedor .post-listing {
-    margin-right: 0;
-    padding-left: 0;
-    margin-top: 30px;
-    padding: 0;
-    height: auto; }
-
-  section.single__baterias .single__baterias--wrap .catalogo__contenedor .post-listing--titulo-single h2 {
-    text-align: center; }
 
   .formulario__contacto input.input__enviar {
     margin-top: 10px; }
