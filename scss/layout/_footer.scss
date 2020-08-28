@@ -1,7 +1,7 @@
 .footer__top{
   background-color: $color-extra1;
   padding-top: 70px;
-  padding-bottom: 50px;  
+  padding-bottom: 80px;  
     .nav__productos{
       h2{
         color: $white; font-size: 20px; margin: 0; margin-bottom: 30px; font-family: $altfont;
@@ -64,6 +64,9 @@
     }
     p{
       margin: 0; font-weight: 400; color: $white; font-size: 14px; line-height: 22px; padding-right: 50px;
+    }
+    .footer__logo {
+      max-width: 290px;
     }
   }
   .footer__contacto{

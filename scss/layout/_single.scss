@@ -19,7 +19,7 @@ article.post {
     overflow: hidden;    
     width: 100%;
     position: relative;
-    height: 550px;    
+    height: 400px;    
     h2{        
         font-size: 50px;
         color: $color-extra1;
@@ -29,7 +29,7 @@ article.post {
         position: absolute;
         top: 60px;
         width: 70%;
-        left: 60px;    
+        left: 60px;    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
     }
     img { 
         max-width: none;
@@ -51,6 +51,7 @@ article.post {
         font-size: 50px;
         color: $color-base;
         line-height: 50px;
+        margin-bottom: 20px;
     }
     .post__tiempo{
         text-align: right;

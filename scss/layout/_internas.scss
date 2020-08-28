@@ -102,7 +102,7 @@ section.pages__nosotros--cultivos{
         p{
             color: $textcolor; font-size: 14px; font-weight: 600; line-height: 27px; margin: 0;
         }
-        &.item2{left: 38%;}
+        &.item2{left: 30%;}
         &.item3{left: 18%;}
     }
 
@@ -136,7 +136,7 @@ section.page__productos{
 }
 section.page__productos--lista{
     padding-top: 300px;
-    padding-bottom: 250px;
+    padding-bottom: 180px;
     .page__productos--item{
         border-radius: 100px;
         border: 5px solid $color-secondary;
@@ -145,7 +145,7 @@ section.page__productos--lista{
         margin: auto;
         padding: 15px 65px;
         padding-left: 250px;
-        margin-bottom: 200px;
+        margin-bottom: 140px;
         &:last-child{margin-bottom: 0;}
         img{
             position: absolute;
