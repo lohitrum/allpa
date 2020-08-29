@@ -343,12 +343,14 @@ li#menu-item-56 ul.sub-menu {
     a{
         font-weight: 400;
         font-size: 35px;
+        padding: 0px 8px;
         display: inline-block;
         color: $white;      
         position: relative;       
         z-index: 1;
         outline: none;        
         text-align: left;
+        transition: all 0.5s;
         span{
           font-family: $altfont2;
         }        
@@ -366,7 +368,7 @@ li#menu-item-56 ul.sub-menu {
           transition: transform 0.3s;
         }           
         &:hover {
-            transition: all 0.5s; 
+            background-color: $color-secondary;
         }            
     }
     &:hover{transition: $hovertransition;

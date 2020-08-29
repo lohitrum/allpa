@@ -34,7 +34,7 @@
 						<div class="home__productos--contenedor">
 							<div class="row">
 								<div class="col-md-3">
-									<div class="home__productos--item">
+									<div class="home__productos--item d-none d-md-block d-lg-block">
 										<h2>Papa Única</h2>
 										<img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/texto1.png">
 										<div class="home__productos--item-img">
@@ -42,10 +42,17 @@
 												<img src="<?php bloginfo("template_url"); ?>/img/producto1.png">
 											</a>
 										</div>
-									</div>							
+									</div>
+									<div class="home__productos--item d-block d-md-none d-lg-none">										
+										<div class="home__productos--item-img">
+											<a href="<?php bloginfo("template_url"); ?>/pdf/papa-unica-allpa-inti.pdf" target="_blank">
+												<img src="<?php bloginfo("template_url"); ?>/img/producto_texto1.png">
+											</a>
+										</div>
+									</div>						
 								</div>
 								<div class="col-md-3">
-									<div class="home__productos--item">
+									<div class="home__productos--item d-none d-md-block d-lg-block">
 										<h2>Papa Canchan</h2>
 										<img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/texto2.png">
 										<div class="home__productos--item-img">
@@ -53,10 +60,17 @@
 												<img src="<?php bloginfo("template_url"); ?>/img/producto2.png" />
 											</a>
 										</div>
-									</div>							
+									</div>
+									<div class="home__productos--item d-block d-md-none d-lg-none">										
+										<div class="home__productos--item-img">
+											<a href="<?php bloginfo("template_url"); ?>/pdf/papa-canchan-allpa-inti.pdf" target="_blank">
+												<img src="<?php bloginfo("template_url"); ?>/img/producto_texto2.png" />
+											</a>
+										</div>
+									</div>						
 								</div>
 								<div class="col-md-3">
-									<div class="home__productos--item">
+									<div class="home__productos--item d-none d-md-block d-lg-block">
 										<h2>Cebolla Morada</h2>
 										<img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/texto3.png">
 										<div class="home__productos--item-img">
@@ -64,10 +78,17 @@
 												<img src="<?php bloginfo("template_url"); ?>/img/producto3.png">
 											</a>
 										</div>
-									</div>							
+									</div>
+									<div class="home__productos--item d-block d-md-none d-lg-none">										
+										<div class="home__productos--item-img">
+											<a href="<?php bloginfo("template_url"); ?>/pdf/cebolla-morada-allpa-inti.pdf" target="_blank">
+												<img src="<?php bloginfo("template_url"); ?>/img/producto_texto3.png">
+											</a>
+										</div>
+									</div>					
 								</div>
 								<div class="col-md-3">
-									<div class="home__productos--item">
+									<div class="home__productos--item d-none d-md-block d-lg-block">
 										<h2>Palta Hass</h2>
 										<img class="texto__img img4" src="<?php bloginfo("template_url"); ?>/img/texto4.png">
 										<div class="home__productos--item-img">
@@ -75,7 +96,14 @@
 												<img src="<?php bloginfo("template_url"); ?>/img/producto4.png" />
 											</a>
 										</div>
-									</div>							
+									</div>
+									<div class="home__productos--item d-block d-md-none d-lg-none">										
+										<div class="home__productos--item-img">
+											<a href="<?php bloginfo("template_url"); ?>/pdf/palta-hass-allpa-inti.pdf" target="_blank">
+												<img src="<?php bloginfo("template_url"); ?>/img/producto_texto4.png" />
+											</a>
+										</div>
+									</div>						
 								</div>
 							</div>
 						</div>

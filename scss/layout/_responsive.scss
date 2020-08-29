@@ -125,6 +125,9 @@ px      68    160    252    344    436    528    620    712    */
       width: 100%;      
       height: 100vh;
       background-color: $color-base;
+      background-image: url(../img/bg-responsive.jpg);
+      background-position: center bottom; 
+      background-size: cover;
       left: 0;
       top: 120px;
       z-index: -1;      
@@ -175,17 +178,18 @@ px      68    160    252    */
     /*******************************************
       Encabezado
     *****************************************/    
-    .navbar-brand img, .menu__home .menu__home--header h1 img { width: 190px; margin-left: 10px; }
-    
+    .navbar-brand img, .menu__home .menu__home--header h1 img { width: 200px; margin-left: 10px;    padding-top: 10px; }
+    .slicknav_nav li a::after{content: none;}
     
     /************************************
       Home
     ***********************************/
     section.home__banner { min-height: 0; height: 200px; background-size: auto 100%; }
     section.home__slider .item{ background-position:center top; min-height: 220px;}   
-    
+    section.home__productos .home__productos--item .home__productos--item-img{background:none;}
+
     section.home__compromiso .home__compromiso--item.item2, section.home__compromiso .home__compromiso--item.item3, section.pages__nosotros--cultivos .home__compromiso--item.item2, section.pages__nosotros--cultivos .home__compromiso--item.item3{left: 0;}
-    section.home__somos .home__somos--wrap p{font-size: 16px;}
+    section.home__somos .home__somos--wrap p{font-size: 16px; margin-top: 20px;}
     section.home__somos .home__somos--wrap{padding: 0 40px; padding-top: 70px; padding-bottom: 60px;}
     section.home__somos .home__somos--wrap2 h2{font-size: 35px;}
     section.home__productos .home__productos--item h2{font-size: 30px;}
@@ -193,15 +197,15 @@ px      68    160    252    */
     section.home__productos .home__productos--contenedor{margin-bottom: 0;}
     section.home__allpa{padding-top: 100px;}
     section.home__allpa img{width: 100%; margin-top: 30px;}
-    section.home__compromiso{padding: 50px 0;}
+    section.home__compromiso{padding: 50px 0; background-repeat: repeat-y;}
 
     .footer__top .footer__top-contenido h2{text-align: center; font-size: 40px;}
     .footer__top .footer__top-contenido p{ text-align: center; padding: 0;}
-    .footer__top .footer__contacto img.img-icon{display: block; margin: auto; margin-bottom: 5px;  }
-    .footer__top .footer__contacto p{text-align: center; line-height: 25px;}
+    .footer__top .footer__contacto img.img-icon{margin-bottom: 5px; float: left; }
+    .footer__top .footer__contacto p{text-align: left; line-height: 20px; font-size: 15px; float: left;}
     .footer__top .footer__contacto h3, .footer__top .footer__contacto h2, .footer__top .nav__productos ul{text-align: center;}
     .footer__top .nav__productos h2{text-align: center; margin-top: 30px; margin-bottom: 20px;}
-    .footer__top .footer__contacto{margin-top: 20px;}
+    .footer__top .footer__contacto{margin-top: 20px; float: left;}
 
     section.home__slider .item .item__titulo{display: none;}
     .js-categorias:hover{background-color: $color-secondary; color: $black; border-color: $color-secondary;}
@@ -232,7 +236,7 @@ px      68    160    252    */
        
         
    /*----seccion-Nosotros---*/
-   section.page__nosotros .page__nosotros--contenido{margin-left: 0; background-color: $white;}   
+   section.page__nosotros .page__nosotros--contenido{margin-left: 0; background-color: $white; padding-right: 35px;  padding-left: 35px;}    
    section.page__nosotros .page__nosotros--contenido .page__nosotros--contenido--img img{width: 100%;}
    section.page__nosotros .page__nosotros--contenido h3{font-size: 25px; margin-bottom: 25px;}
    section.page__nosotros .page__nosotros--contenido p{font-size: 14px;}
@@ -242,16 +246,17 @@ px      68    160    252    */
    section.pages__nosotros--cualidades .pages__nosotros--cualidades-item img{margin-bottom: 15px;}
 
    section.pages__nosotros--cultivos .page__nosotros--cultivos--contenido{margin-top: 50px; margin-bottom: 20px;}
-   section.pages__nosotros--cultivos{ background-color: #e52425;}
+   section.pages__nosotros--cultivos{ background-color: #e52425; padding-top: 100px; padding-bottom: 50px;}
    section.pages__nosotros--cultivos .page__nosotros--cultivos--contenido .page__nosotros--cultivos--item{margin-bottom: 50px;}
-   section.page__productos--lista .page__productos--item{margin-bottom: 50px;     text-align: center; padding: 20px 30px;}
+   section.page__productos--lista .page__productos--item{margin-bottom: 50px;     text-align: center; padding: 20px 30px; border-radius: 0;}
+   section.page__productos--lista .page__productos--item h2{margin-top: 15px;}
    section.page__productos--lista .page__productos--item img{ position: relative;  top: 0; left: 0;}
    section.page__productos{height: auto; margin-bottom: 0; padding-bottom: 30px;}
-   .page__productos--img img{width: 100%;}
+   .page__productos--img img{width: 100%;  margin-bottom: 30px;}
    section.page__productos--lista { padding-top: 50px; padding-bottom: 50px;}
    section.page__productos .page__productos--wrap .page__productos--contenido{padding: 50px;}
-   section.page__productos .page__productos--wrap .page__productos--contenido h2, section.page__productos .page__productos--wrap .page__productos--contenido p{text-align: center;}
-   section.page__productos .page__productos--wrap .page__productos--contenido{margin-bottom: 20px;}
+   section.page__productos .page__productos--wrap .page__productos--contenido h2, section.page__productos .page__productos--wrap .page__productos--contenido p{text-align: left;}
+   section.page__productos .page__productos--wrap .page__productos--contenido{margin-bottom: 60px;}
    /*-------Seccion-Servicios----------*/
    section.page__servicios{padding-bottom: 15px;}
    section.page__servicios .page__servicios--wrap .page__servicios--titulo h2{font-size: 20px; margin-bottom: 20px; text-align: center;}
@@ -264,6 +269,8 @@ px      68    160    252    */
     .owl-theme .owl-nav.disabled+.owl-dots{padding-right: 0;}
     
     /*----seccion-blog----*/
+    main.blog .blog__featured .blog__featured--texto a.ver__mas{    text-transform: capitalize;}
+    .post__contenido h2{font-size: 40px;}
     main.blog .blog__featured .blog__featured--wrap{ position: relative; bottom: 0; right: 0;}
     main.blog .blog__featured .blog__featured--img,.blog__ultimo .blog__ultimo--img, .blog__ultimo .blog__primero--img, .blog__primero .blog__ultimo--img, .blog__primero .blog__primero--img{padding-right: 20px;}
     .blog__ultimo .blog__ultimo--img, .blog__ultimo .blog__primero--img, .blog__primero .blog__ultimo--img, .blog__primero .blog__primero--img{height: 210px;}
@@ -406,6 +413,12 @@ px      68    160    252    344    436    */
   }
   .slicknav_nav .menu__icon{
     margin-top: 15px;
+    a{
+      padding: 0;
+      &:hover{
+        background-color: transparent;
+      }
+    }
   }
 }
 @media only screen and  (max-width: 367px) {
