@@ -8161,12 +8161,12 @@ li#menu-item-56 ul.sub-menu {
   position: relative;
   padding-right: 30px;
   left: -40px;
-  top: 0px; }
+  top: 6px; }
   .slicknav_open .slicknav_menutxt::after {
     content: "";
     position: absolute;
-    right: -12px;
-    top: -5px;
+    right: -40px;
+    top: -10px;
     width: 35px;
     height: 35px;
     background-size: cover;
@@ -8179,6 +8179,7 @@ li#menu-item-56 ul.sub-menu {
 .slicknav_btn {
   display: block;
   text-decoration: none;
+  outline: none;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -10759,7 +10760,7 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 @media only screen and (max-width: 1024px) {
   body.home main, main {
-    margin-top: 125px; }
+    margin-top: 121px; }
 
   .header__botones {
     display: none; }
@@ -10848,11 +10849,11 @@ px      68    160    252    344    436    528    620    712    */
     width: 100%;
     height: 100vh;
     background-color: #c52929;
-    background-image: url(../img/bg-responsive.jpg);
-    background-position: center bottom;
+    background-image: url(../img/bg-responsive.webp);
+    background-position: center;
     background-size: cover;
     left: 0;
-    top: 120px;
+    top: 121px;
     z-index: -1;
     padding-top: 30px; }
 
@@ -10890,7 +10891,7 @@ px      68    160    252    */
   .navbar-brand img, .menu__home .menu__home--header h1 img {
     width: 200px;
     margin-left: 10px;
-    padding-top: 10px; }
+    padding-top: 6px; }
 
   .slicknav_nav li a::after {
     content: none; }
@@ -10923,7 +10924,7 @@ px      68    160    252    */
     padding-bottom: 60px; }
 
   section.home__somos .home__somos--wrap2 h2 {
-    font-size: 35px; }
+    font-size: 30px; }
 
   section.home__productos .home__productos--item h2 {
     font-size: 30px; }
@@ -10949,19 +10950,26 @@ px      68    160    252    */
     text-align: center;
     font-size: 40px; }
 
+  .footer__top .footer__contacto h3 {
+    margin-bottom: 25px; }
+
   .footer__top .footer__top-contenido p {
     text-align: center;
     padding: 0; }
 
   .footer__top .footer__contacto img.img-icon {
-    margin-bottom: 5px;
-    float: left; }
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 10px; }
 
   .footer__top .footer__contacto p {
     text-align: left;
-    line-height: 20px;
+    line-height: 34px;
     font-size: 15px;
     float: left; }
+
+  .footer__top .footer__contacto p:nth-child(5) {
+    line-height: 15px; }
 
   .footer__top .footer__contacto h3, .footer__top .footer__contacto h2, .footer__top .nav__productos ul {
     text-align: center; }
@@ -11066,11 +11074,16 @@ px      68    160    252    */
     padding: 5px 20px; }
 
   /*----seccion-Nosotros---*/
+  section.page__nosotros .page__nosotros--contenido h3::after {
+    content: none; }
+
   section.page__nosotros .page__nosotros--contenido {
     margin-left: 0;
     background-color: white;
     padding-right: 35px;
-    padding-left: 35px; }
+    padding-left: 35px;
+    padding-top: 30px;
+    background-image: none; }
 
   section.page__nosotros .page__nosotros--contenido .page__nosotros--contenido--img img {
     width: 100%; }
@@ -11175,7 +11188,8 @@ px      68    160    252    */
     text-transform: capitalize; }
 
   .post__contenido h2 {
-    font-size: 40px; }
+    font-size: 40px;
+    line-height: 40px; }
 
   main.blog .blog__featured .blog__featured--wrap {
     position: relative;
@@ -11195,10 +11209,15 @@ px      68    160    252    */
     padding: 30px 40px; }
 
   .blog__ultimo .blog__ultimo--texto h2, .blog__primero .blog__ultimo--texto h2 {
-    font-size: 25px; }
+    font-size: 25px;
+    line-height: 27px; }
 
   main.blog .blog__featured .blog__featured--texto h2 {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    line-height: 27px; }
+
+  main.blog .blog__featured .blog__featured--texto p, .single__wrap .entry p {
+    line-height: 23px; }
 
   .blog__ultimo .blog__ultimo--autor a.btn__compartir, .blog__ultimo .blog__primero--autor a.btn__compartir, .blog__primero .blog__ultimo--autor a.btn__compartir, .blog__primero .blog__primero--autor a.btn__compartir {
     font-size: 14px; }
@@ -11251,7 +11270,8 @@ px      68    160    252    */
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 50px; }
+    padding-bottom: 50px;
+    background-color: #ed9d3e; }
 
   .single__wrap .entry .p__share {
     padding-top: 30px; }

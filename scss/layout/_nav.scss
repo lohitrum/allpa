@@ -306,12 +306,12 @@ li#menu-item-56 ul.sub-menu {
   position: relative;
   padding-right: 30px;
   left: -40px;
-  top: 0px;
+  top: 6px;
   &::after{
     content: "";
     position: absolute;
-    right: -12px;
-    top: -5px;
+    right: -40px;
+    top: -10px;
     width: 35px;
     height: 35px;
     background-size: cover;
@@ -325,7 +325,8 @@ li#menu-item-56 ul.sub-menu {
 
 .slicknav_btn {
     display: block;  
-  text-decoration: none;  
+  text-decoration: none;
+  outline: none;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;

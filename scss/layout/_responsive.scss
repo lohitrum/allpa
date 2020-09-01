@@ -29,7 +29,7 @@ px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (max-width: 1024px) {
   body.home main, main {
-    margin-top: 125px;
+    margin-top: 121px;
   } 
   .header__botones{display: none;}
   .slicknav_nav .btn__header{
@@ -125,11 +125,11 @@ px      68    160    252    344    436    528    620    712    */
       width: 100%;      
       height: 100vh;
       background-color: $color-base;
-      background-image: url(../img/bg-responsive.jpg);
-      background-position: center bottom; 
+      background-image: url(../img/bg-responsive.webp);
+      background-position: center;
       background-size: cover;
       left: 0;
-      top: 120px;
+      top: 121px;
       z-index: -1;      
       padding-top: 30px;
       // &::after{
@@ -178,7 +178,7 @@ px      68    160    252    */
     /*******************************************
       Encabezado
     *****************************************/    
-    .navbar-brand img, .menu__home .menu__home--header h1 img { width: 200px; margin-left: 10px;    padding-top: 10px; }
+    .navbar-brand img, .menu__home .menu__home--header h1 img { width: 200px; margin-left: 10px;    padding-top: 6px; }
     .slicknav_nav li a::after{content: none;}
     
     /************************************
@@ -191,7 +191,7 @@ px      68    160    252    */
     section.home__compromiso .home__compromiso--item.item2, section.home__compromiso .home__compromiso--item.item3, section.pages__nosotros--cultivos .home__compromiso--item.item2, section.pages__nosotros--cultivos .home__compromiso--item.item3{left: 0;}
     section.home__somos .home__somos--wrap p{font-size: 16px; margin-top: 20px;}
     section.home__somos .home__somos--wrap{padding: 0 40px; padding-top: 70px; padding-bottom: 60px;}
-    section.home__somos .home__somos--wrap2 h2{font-size: 35px;}
+    section.home__somos .home__somos--wrap2 h2{font-size: 30px;}
     section.home__productos .home__productos--item h2{font-size: 30px;}
     section.home__productos .home__productos--item{margin-bottom: 80px;}
     section.home__productos .home__productos--contenedor{margin-bottom: 0;}
@@ -200,9 +200,13 @@ px      68    160    252    */
     section.home__compromiso{padding: 50px 0; background-repeat: repeat-y;}
 
     .footer__top .footer__top-contenido h2{text-align: center; font-size: 40px;}
+    .footer__top .footer__contacto h3{margin-bottom: 25px;}
     .footer__top .footer__top-contenido p{ text-align: center; padding: 0;}
-    .footer__top .footer__contacto img.img-icon{margin-bottom: 5px; float: left; }
-    .footer__top .footer__contacto p{text-align: left; line-height: 20px; font-size: 15px; float: left;}
+    .footer__top .footer__contacto img.img-icon{margin-bottom: 10px; float: left; margin-right: 10px; }
+    .footer__top .footer__contacto p{text-align: left; line-height: 34px; font-size: 15px; float: left;}
+    .footer__top .footer__contacto p:nth-child(5){
+      line-height: 15px;
+    }
     .footer__top .footer__contacto h3, .footer__top .footer__contacto h2, .footer__top .nav__productos ul{text-align: center;}
     .footer__top .nav__productos h2{text-align: center; margin-top: 30px; margin-bottom: 20px;}
     .footer__top .footer__contacto{margin-top: 20px; float: left;}
@@ -236,7 +240,8 @@ px      68    160    252    */
        
         
    /*----seccion-Nosotros---*/
-   section.page__nosotros .page__nosotros--contenido{margin-left: 0; background-color: $white; padding-right: 35px;  padding-left: 35px;}    
+   section.page__nosotros .page__nosotros--contenido h3::after{content: none;}
+   section.page__nosotros .page__nosotros--contenido{margin-left: 0; background-color: $white; padding-right: 35px;  padding-left: 35px;  padding-top: 30px; background-image: none;}    
    section.page__nosotros .page__nosotros--contenido .page__nosotros--contenido--img img{width: 100%;}
    section.page__nosotros .page__nosotros--contenido h3{font-size: 25px; margin-bottom: 25px;}
    section.page__nosotros .page__nosotros--contenido p{font-size: 14px;}
@@ -270,15 +275,15 @@ px      68    160    252    */
     
     /*----seccion-blog----*/
     main.blog .blog__featured .blog__featured--texto a.ver__mas{    text-transform: capitalize;}
-    .post__contenido h2{font-size: 40px;}
+    .post__contenido h2{font-size: 40px; line-height: 40px;}
     main.blog .blog__featured .blog__featured--wrap{ position: relative; bottom: 0; right: 0;}
     main.blog .blog__featured .blog__featured--img,.blog__ultimo .blog__ultimo--img, .blog__ultimo .blog__primero--img, .blog__primero .blog__ultimo--img, .blog__primero .blog__primero--img{padding-right: 20px;}
     .blog__ultimo .blog__ultimo--img, .blog__ultimo .blog__primero--img, .blog__primero .blog__ultimo--img, .blog__primero .blog__primero--img{height: 210px;}
     main.blog .blog__featured{margin-bottom: 50px;}
     .blog__ultimo .blog__ultimo--texto, .blog__primero .blog__ultimo--texto, main.blog .blog__featured .blog__featured--texto{padding: 30px 40px;}
-    .blog__ultimo .blog__ultimo--texto h2, .blog__primero .blog__ultimo--texto h2{font-size: 25px;}
-    main.blog .blog__featured .blog__featured--texto h2{margin-bottom: 20px;}
-
+    .blog__ultimo .blog__ultimo--texto h2, .blog__primero .blog__ultimo--texto h2{font-size: 25px; line-height: 27px;}
+    main.blog .blog__featured .blog__featured--texto h2{margin-bottom: 20px; line-height: 27px;}
+    main.blog .blog__featured .blog__featured--texto p, .single__wrap .entry p{line-height: 23px;}
 
     .blog__ultimo .blog__ultimo--autor a.btn__compartir, .blog__ultimo .blog__primero--autor a.btn__compartir, .blog__primero .blog__ultimo--autor a.btn__compartir, .blog__primero .blog__primero--autor a.btn__compartir{font-size: 14px;}
     main.blog .home__blog__wrap{ background-position-y: -100px;}
@@ -294,7 +299,7 @@ px      68    160    252    */
     .post__thumb h2{font-size: 25px;}
     .single__wrap .post__title a{ margin: auto; text-align: center; display: block; margin-bottom: 10px;}
     .single__wrap .post__title a:last-child{margin-left: 0;}
-    .footer__top{padding-top: 50px; padding-left: 20px; padding-right: 20px; padding-bottom: 50px;}
+    .footer__top{padding-top: 50px; padding-left: 20px; padding-right: 20px; padding-bottom: 50px; background-color: #ed9d3e;}
     .single__wrap .entry .p__share{padding-top: 30px;}
 
 
