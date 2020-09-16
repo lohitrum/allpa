@@ -238,7 +238,9 @@ section.home__blog{
 }
 .blog__ultimo{    
     margin-bottom: 35px;
-    background-color: $white;    
+    background-color: $white;
+    position: relative;
+    overflow: hidden;
     .blog__ultimo--img{
         height: 390px;
         overflow: hidden;
@@ -251,6 +253,7 @@ section.home__blog{
         height: auto;
     }
 }
+
 .blog__ultimo, .blog__primero{
     width: 100%;     
     &:hover{
@@ -264,14 +267,10 @@ section.home__blog{
     }
     .blog__ultimo--img, .blog__primero--img{             
         width: 100%;
-        position: relative;
-        background-image: url(../img/img-blog.png);
-        background-position: right;
-        border-bottom: 20px solid $color-secondary;
+        position: relative;        
         background-repeat: no-repeat;
-        display: block;
-        padding-right: 60px;
-        max-width: 520px;
+        display: block;        
+        height: 260px;
         figure{
             overflow: hidden;
             width: 100%;
@@ -286,20 +285,18 @@ section.home__blog{
             min-height: 100%;
         }
     }
-    .blog__ultimo--texto-contenido{
-        box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.2);
+    .blog__ultimo--texto-contenido{        
         position: absolute;
-        bottom: -50px;
-        background-color: white;
-        max-width: 520px;
-        right: 0;
+        bottom: 0px;
+        background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.6) 100%);
+        width: 100%; 
     }
     .blog__ultimo--texto{
-        padding: 40px 50px;  
-        position: relative;                   
-        h2{margin: 0; font-size: 30px; color: $color-secondary; line-height: 35px;  font-family: $altfont;
+        padding: 15px 40px;  
+        position: relative;              
+        h2{margin: 0; font-size: 18px; color: $white; font-family: $altfont;
                a{text-transform: initial;
-                font-weight: bold; color: $color-extra1;
+                color: $white;
                 &:hover{
                     color: $color-secondary;
                     transition: $hovertransition;

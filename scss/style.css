@@ -8161,12 +8161,12 @@ li#menu-item-56 ul.sub-menu {
   position: relative;
   padding-right: 30px;
   left: -40px;
-  top: 0px; }
+  top: 6px; }
   .slicknav_open .slicknav_menutxt::after {
     content: "";
     position: absolute;
-    right: -12px;
-    top: -5px;
+    right: -40px;
+    top: -10px;
     width: 35px;
     height: 35px;
     background-size: cover;
@@ -8179,6 +8179,7 @@ li#menu-item-56 ul.sub-menu {
 .slicknav_btn {
   display: block;
   text-decoration: none;
+  outline: none;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -8195,12 +8196,14 @@ li#menu-item-56 ul.sub-menu {
     .slicknav_nav li a {
       font-weight: 400;
       font-size: 35px;
+      padding: 0px 8px;
       display: inline-block;
       color: white;
       position: relative;
       z-index: 1;
       outline: none;
-      text-align: left; }
+      text-align: left;
+      transition: all 0.5s; }
       .slicknav_nav li a span {
         font-family: "Kanit", sans-serif; }
       .slicknav_nav li a::after {
@@ -8216,7 +8219,7 @@ li#menu-item-56 ul.sub-menu {
         transform-origin: bottom right;
         transition: transform 0.3s; }
       .slicknav_nav li a:hover {
-        transition: all 0.5s; }
+        background-color: #ed9d3e; }
     .slicknav_nav li:hover {
       transition: 0.3s; }
       .slicknav_nav li:hover a::after {
@@ -10757,7 +10760,7 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 @media only screen and (max-width: 1024px) {
   body.home main, main {
-    margin-top: 125px; }
+    margin-top: 121px; }
 
   .header__botones {
     display: none; }
@@ -10846,8 +10849,11 @@ px      68    160    252    344    436    528    620    712    */
     width: 100%;
     height: 100vh;
     background-color: #c52929;
+    background-image: url(../img/bg-responsive.webp);
+    background-position: center;
+    background-size: cover;
     left: 0;
-    top: 120px;
+    top: 121px;
     z-index: -1;
     padding-top: 30px; }
 
@@ -10883,8 +10889,12 @@ px      68    160    252    */
     Encabezado
   *****************************************/
   .navbar-brand img, .menu__home .menu__home--header h1 img {
-    width: 190px;
-    margin-left: 10px; }
+    width: 200px;
+    margin-left: 10px;
+    padding-top: 6px; }
+
+  .slicknav_nav li a::after {
+    content: none; }
 
   /************************************
     Home
@@ -10898,11 +10908,15 @@ px      68    160    252    */
     background-position: center top;
     min-height: 220px; }
 
+  section.home__productos .home__productos--item .home__productos--item-img {
+    background: none; }
+
   section.home__compromiso .home__compromiso--item.item2, section.home__compromiso .home__compromiso--item.item3, section.pages__nosotros--cultivos .home__compromiso--item.item2, section.pages__nosotros--cultivos .home__compromiso--item.item3 {
     left: 0; }
 
   section.home__somos .home__somos--wrap p {
-    font-size: 16px; }
+    font-size: 16px;
+    margin-top: 20px; }
 
   section.home__somos .home__somos--wrap {
     padding: 0 40px;
@@ -10910,7 +10924,7 @@ px      68    160    252    */
     padding-bottom: 60px; }
 
   section.home__somos .home__somos--wrap2 h2 {
-    font-size: 35px; }
+    font-size: 30px; }
 
   section.home__productos .home__productos--item h2 {
     font-size: 30px; }
@@ -10929,24 +10943,33 @@ px      68    160    252    */
     margin-top: 30px; }
 
   section.home__compromiso {
-    padding: 50px 0; }
+    padding: 50px 0;
+    background-repeat: repeat-y; }
 
   .footer__top .footer__top-contenido h2 {
     text-align: center;
     font-size: 40px; }
+
+  .footer__top .footer__contacto h3 {
+    margin-bottom: 25px; }
 
   .footer__top .footer__top-contenido p {
     text-align: center;
     padding: 0; }
 
   .footer__top .footer__contacto img.img-icon {
-    display: block;
-    margin: auto;
-    margin-bottom: 5px; }
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 10px; }
 
   .footer__top .footer__contacto p {
-    text-align: center;
-    line-height: 25px; }
+    text-align: left;
+    line-height: 34px;
+    font-size: 15px;
+    float: left; }
+
+  .footer__top .footer__contacto p:nth-child(5) {
+    line-height: 15px; }
 
   .footer__top .footer__contacto h3, .footer__top .footer__contacto h2, .footer__top .nav__productos ul {
     text-align: center; }
@@ -10957,7 +10980,8 @@ px      68    160    252    */
     margin-bottom: 20px; }
 
   .footer__top .footer__contacto {
-    margin-top: 20px; }
+    margin-top: 20px;
+    float: left; }
 
   section.home__slider .item .item__titulo {
     display: none; }
@@ -11050,9 +11074,16 @@ px      68    160    252    */
     padding: 5px 20px; }
 
   /*----seccion-Nosotros---*/
+  section.page__nosotros .page__nosotros--contenido h3::after {
+    content: none; }
+
   section.page__nosotros .page__nosotros--contenido {
     margin-left: 0;
-    background-color: white; }
+    background-color: white;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 30px;
+    background-image: none; }
 
   section.page__nosotros .page__nosotros--contenido .page__nosotros--contenido--img img {
     width: 100%; }
@@ -11083,7 +11114,9 @@ px      68    160    252    */
     margin-bottom: 20px; }
 
   section.pages__nosotros--cultivos {
-    background-color: #e52425; }
+    background-color: #e52425;
+    padding-top: 100px;
+    padding-bottom: 50px; }
 
   section.pages__nosotros--cultivos .page__nosotros--cultivos--contenido .page__nosotros--cultivos--item {
     margin-bottom: 50px; }
@@ -11091,7 +11124,11 @@ px      68    160    252    */
   section.page__productos--lista .page__productos--item {
     margin-bottom: 50px;
     text-align: center;
-    padding: 20px 30px; }
+    padding: 20px 30px;
+    border-radius: 0; }
+
+  section.page__productos--lista .page__productos--item h2 {
+    margin-top: 15px; }
 
   section.page__productos--lista .page__productos--item img {
     position: relative;
@@ -11104,7 +11141,8 @@ px      68    160    252    */
     padding-bottom: 30px; }
 
   .page__productos--img img {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 30px; }
 
   section.page__productos--lista {
     padding-top: 50px;
@@ -11114,10 +11152,10 @@ px      68    160    252    */
     padding: 50px; }
 
   section.page__productos .page__productos--wrap .page__productos--contenido h2, section.page__productos .page__productos--wrap .page__productos--contenido p {
-    text-align: center; }
+    text-align: left; }
 
   section.page__productos .page__productos--wrap .page__productos--contenido {
-    margin-bottom: 20px; }
+    margin-bottom: 60px; }
 
   /*-------Seccion-Servicios----------*/
   section.page__servicios {
@@ -11146,6 +11184,13 @@ px      68    160    252    */
     padding-right: 0; }
 
   /*----seccion-blog----*/
+  main.blog .blog__featured .blog__featured--texto a.ver__mas {
+    text-transform: capitalize; }
+
+  .post__contenido h2 {
+    font-size: 40px;
+    line-height: 40px; }
+
   main.blog .blog__featured .blog__featured--wrap {
     position: relative;
     bottom: 0;
@@ -11164,10 +11209,15 @@ px      68    160    252    */
     padding: 30px 40px; }
 
   .blog__ultimo .blog__ultimo--texto h2, .blog__primero .blog__ultimo--texto h2 {
-    font-size: 25px; }
+    font-size: 25px;
+    line-height: 27px; }
 
   main.blog .blog__featured .blog__featured--texto h2 {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    line-height: 27px; }
+
+  main.blog .blog__featured .blog__featured--texto p, .single__wrap .entry p {
+    line-height: 23px; }
 
   .blog__ultimo .blog__ultimo--autor a.btn__compartir, .blog__ultimo .blog__primero--autor a.btn__compartir, .blog__primero .blog__ultimo--autor a.btn__compartir, .blog__primero .blog__primero--autor a.btn__compartir {
     font-size: 14px; }
@@ -11220,7 +11270,8 @@ px      68    160    252    */
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 50px; }
+    padding-bottom: 50px;
+    background-color: #ed9d3e; }
 
   .single__wrap .entry .p__share {
     padding-top: 30px; }
@@ -11357,7 +11408,11 @@ px      68    160    252    344    436    */
     line-height: 25px; }
 
   .slicknav_nav .menu__icon {
-    margin-top: 15px; } }
+    margin-top: 15px; }
+    .slicknav_nav .menu__icon a {
+      padding: 0; }
+      .slicknav_nav .menu__icon a:hover {
+        background-color: transparent; } }
 @media only screen and (max-width: 367px) {
   section.home__autosup .home__autosup--img h2 {
     font-size: 7px; } }

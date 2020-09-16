@@ -5,106 +5,198 @@
 
 	<main role="main">
 		<section class="home__slider">
-			<?php echo do_shortcode('[slider id="20"]'); ?>
+			<?php echo do_shortcode('[slider id="21"]'); ?>
 		</section>	
 
-		<section class="home__somos">
+		<section class="home__nosotros">
 			<div class="container">
 				<div class="row">					
-					<div class="col-md-12">
-						<div class="home__somos--wrap">
-							<p>Somos una empresa en constante innovación de procesos y servicios para que de esta forma logremos revolucionar el rubro agroindustrial y crear un precedente con <span>&nbsp;cultivos ricos en cultura&nbsp;</span></p>
-							<a href="https://www.instagram.com/allpainti_cultivos/" target="_blank">@allpainti_cultivos</a>                        	
+					<div class="col-md-5">
+						<div class="home__nosotros--wrap">
+							<img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/img-nosotros.jpg">							
+							                    	
 						</div>
 					</div>
-					<div class="col-md-12">
-						<div class="home__somos--wrap2">
-							<h2>De nuestra tierra solo<br/>
-							las mejores cosechas</h2>
+					<div class="col-md-7">
+						<div class="home__nosotros--wrap2">
+							<h2>Nosotros
+							<span>Somos una empresa HOMOLOGADA POR SGS DEL PERU</span></h2>
+							<p>Nuestros procesos, sistemas y servicios cumplen con las normas y reglamentos nacionales e internacionales. ATENEA CONSULTORES S.A.C. es una empresa dedicada a Servicios de Consultoría, Entrenamiento y Capacitación en Seguridad (Vial, Industrial, Minera, Marítima – Portuaria), HAZMAT (Materiales  Peligrosos) & Salud Ocupacional entre otros.</p>
+							<h3>en atenea Contamos con personal profesional altamente calificado y reconocido en la región.</h3>
+							<img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/img-nosotros2.jpg">
+							<a href="https://www.instagram.com/allpainti_cultivos/" target="_blank">Nuestros Servicios <img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/icons/icon-btn.png"></a>    
 						</div>
 					</div>
 				</div>				
 			</div>
 		</section>
 
-		<section class="home__productos">
+		<section class="home__atenea">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="home__productos--contenedor">
-							<div class="row">
-								<div class="col-md-3">
-									<div class="home__productos--item d-none d-md-block d-lg-block">
-										<h2>Papa Única</h2>
-										<a href="<?php bloginfo("template_url"); ?>/pdf/papa-unica-allpa-inti.pdf" target="_blank"><img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/texto1.png"></a>
-										<div class="home__productos--item-img">
-											<a href="<?php bloginfo("template_url"); ?>/pdf/papa-unica-allpa-inti.pdf" target="_blank">
-												<img src="<?php bloginfo("template_url"); ?>/img/producto1.png">
-											</a>
-										</div>
-									</div>
-									<div class="home__productos--item d-block d-md-none d-lg-none">										
-										<div class="home__productos--item-img">
-											<a href="<?php bloginfo("template_url"); ?>/pdf/papa-unica-allpa-inti.pdf" target="_blank">
-												<img src="<?php bloginfo("template_url"); ?>/img/producto_texto1.png">
-											</a>
-										</div>
-									</div>						
+						<div class="home__atenea--titulo">
+							<h2><span>Atenea</span> Consultores SAC</h2>							                    	
+						</div>
+					</div>				
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-5">
+								<div class="home__atenea--wrap">
+									<img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/img-atenea1.jpg">
 								</div>
-								<div class="col-md-3">
-									<div class="home__productos--item d-none d-md-block d-lg-block">
-										<h2>Papa Canchan</h2>
-										<a href="<?php bloginfo("template_url"); ?>/pdf/papa-canchan-allpa-inti.pdf" target="_blank"><img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/texto2.png"></a>
-										<div class="home__productos--item-img">
-											<a href="<?php bloginfo("template_url"); ?>/pdf/papa-canchan-allpa-inti.pdf" target="_blank">
-												<img src="<?php bloginfo("template_url"); ?>/img/producto2.png" />
-											</a>
-										</div>
-									</div>
-									<div class="home__productos--item d-block d-md-none d-lg-none">										
-										<div class="home__productos--item-img">
-											<a href="<?php bloginfo("template_url"); ?>/pdf/papa-canchan-allpa-inti.pdf" target="_blank">
-												<img src="<?php bloginfo("template_url"); ?>/img/producto_texto2.png" />
-											</a>
-										</div>
-									</div>						
+							</div>
+							<div class="col-md-7">
+								<div class="home__atenea--wrap">
+									<h2>MISIÓN</h2>
+									<p>Contribuir con empresas privadas e instituciones públicas a promover altos estándares de seguridad, salud y responsabilidad social, para el logro de sus objetivos a través de la formación, capacitación y gestión basadas en la seguridad y salud ocupacional integral.</p>
 								</div>
-								<div class="col-md-3">
-									<div class="home__productos--item d-none d-md-block d-lg-block">
-										<h2>Cebolla Morada</h2>
-										<a href="<?php bloginfo("template_url"); ?>/pdf/cebolla-morada-allpa-inti.pdf" target="_blank"><img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/texto3.png"></a>
-										<div class="home__productos--item-img">
-											<a href="<?php bloginfo("template_url"); ?>/pdf/cebolla-morada-allpa-inti.pdf" target="_blank">
-												<img src="<?php bloginfo("template_url"); ?>/img/producto3.png">
-											</a>
-										</div>
-									</div>
-									<div class="home__productos--item d-block d-md-none d-lg-none">										
-										<div class="home__productos--item-img">
-											<a href="<?php bloginfo("template_url"); ?>/pdf/cebolla-morada-allpa-inti.pdf" target="_blank">
-												<img src="<?php bloginfo("template_url"); ?>/img/producto_texto3.png">
-											</a>
-										</div>
-									</div>					
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-5">
+								<div class="home__atenea--wrap">
+									<img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/img-atenea2.jpg">
 								</div>
-								<div class="col-md-3">
-									<div class="home__productos--item d-none d-md-block d-lg-block">
-										<h2>Palta Hass</h2>
-										<a href="<?php bloginfo("template_url"); ?>/pdf/palta-hass-allpa-inti.pdf" target="_blank"><img class="texto__img img4" src="<?php bloginfo("template_url"); ?>/img/texto4.png"></a>
-										<div class="home__productos--item-img">
-											<a href="<?php bloginfo("template_url"); ?>/pdf/palta-hass-allpa-inti.pdf" target="_blank">
-												<img src="<?php bloginfo("template_url"); ?>/img/producto4.png" />
-											</a>
-										</div>
-									</div>
-									<div class="home__productos--item d-block d-md-none d-lg-none">										
-										<div class="home__productos--item-img">
-											<a href="<?php bloginfo("template_url"); ?>/pdf/palta-hass-allpa-inti.pdf" target="_blank">
-												<img src="<?php bloginfo("template_url"); ?>/img/producto_texto4.png" />
-											</a>
-										</div>
-									</div>						
+							</div>
+							<div class="col-md-7">
+								<div class="home__atenea--wrap">
+									<h2>VISIÓN</h2>
+									<p>Ser una consultora reconocida y de prestigio en la formación y capacitación de profesionales y/o técnicos en el campo de la seguridad vial, industrial, minera, materiales peligrosos & salud ocupacional. Además de convertirnos en socios estratégicos de nuestros clientes.</p>			                    	
 								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</section>
+
+		<section class="home__valores">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="home__valores--contenido">
+							<h2>Nuestros <span>valores</span></h2>
+							<ul>
+								<li>Calidad de<br/>nuestros servicios</li>
+								<li>compromiso</li>
+								<li>Satisfacción de<br/>nuestros clientes</li>
+								<li>GARANTÍA</li>
+								<li>HONESTIDAD</li>
+								<li>RESPONSABILIDAD</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="home__servicios">
+			<div class="home__servicios--header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="home__servicios--titulo">
+								<h2>NUESTROS <span class="rojo">SERVICIOS</span> <span>Acorde con las exigencias del mercado actual, cumpliendo estándares nacionales e internacionales vigentes.</span></h2>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="home__servicios--body servicio1">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="home__servicios--item">
+								<h2>SERVICIO DE <span>ASESORAMIENTO</span></h2>
+								<ul>
+									<li><p>Diseño y Elaboración de Programa de Seguridad y Salud Ocupacional.</p></li>
+									<li><p>Formulación y Gestión de Proyectos de Innovación.</p></li>
+									<li><p>Asesoramiento para la obtención de fuentes de financiamientos (Ministerio de la Producción, Ministerio de Agricultura y Riego, Licitaciones en general, etc.)</p></li>
+									<li><p>Estudios en Ingeniería.</p></li>
+									<li><p>Gestión Documentaria</p></li>
+									<li><p>Trámites relacionados a la placa única nacional de rodaje (cambio voluntario, cambio de uso, duplicados, etc.)</p></li>									
+								</ul>
+								<a href="#">Ver Más</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="home__servicios--icon"><img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/icons/icon-servicio.png"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="home__servicios--body servicio2">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6"></div>
+						<div class="col-md-6">
+							<div class="home__servicios--item">
+								<h2>SERVICIO DE <span>ASESORAMIENTO</span></h2>
+								<ul>
+									<li><p>Primeros Auxilios.</p></li>
+									<li><p>Manejo y Transporte de Materiales y Residuos Peligrosos (HAZMAT) en los Niveles I, II y III.</p></li>
+									<li><p>Lucha Contra Incendios.</p></li>
+									<li><p>Manejo y Control de Documentos y Herramientas de Seguridad.</p></li>
+									<li><p>Manejo Defensivo.</p></li>
+								</ul>
+								<a href="#">Ver Más</a>
+							</div>
+							<div class="home__servicios--icon"><img class="texto__img" src="<?php bloginfo("template_url"); ?>/img/icons/icon-servicio.png"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="home__servicios--body servicio3">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="home__servicios--item">
+								<h2>SERVICIO DE <span>ASESORAMIENTO</span></h2>
+								<ul>
+									<li><p>HAZMAT (Materiales Peligrosos) en los Niveles I, II y III.</p></li>
+									<li><p>Manejo Defensivo</p></li>
+									<li><p>Salud Ocupacional</p></li>
+									<li><p>Seguridad e Higiene Industrial</p></li>
+									<li><p>Gestión de Proyectos</p></li>
+									<li><p>Salud Ocupacional</p></li>
+									<li><p>Seguridad Vial</p></li>
+									<li><p>Procesos en Ingeniería</p></li>								
+								</ul>
+								<a href="#">Ver Más</a>
+							</div>
+						</div>
+						<div class="col-md-6"></div>
+					</div>
+				</div>
+			</div>
+		</section>  
+		
+		<section class="home__clientes">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="home__clientes--contenido">
+							<h2>nuestros <span>CLIENTES</span></h2>
+							<p><strong>En Atenea Consultores</strong> somos conscientes de la enorme responsabilidad que implica asesorar temas de ingeniería y capacitar en seguridad y salud ocupacional. Mediante un trato personalizado y un servicio de alta calidad, hemos contado con la <strong>confianza de empresas pequeñas, medianas y grandes, que se desarrollan en diversos sectores de la producción y transporte.</strong> A continuación, algunos ejemplos que evidencian nuestra experiencia empresarial.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="home__clientes--trabajan">
+							<h2>Trabajan con nosotros</h2>
+							<span>Empresas pequeñas, medianas y grandes de diversos sectores</span>
+							<div class="owl-carousel owl-clientes owl-theme">
+								<div class="item"><img class="img__cliente" src="<?php bloginfo("template_url"); ?>/img/cliente1.jpg"></div>
+								<div class="item"><img class="img__cliente" src="<?php bloginfo("template_url"); ?>/img/cliente2.jpg"></div>
+								<div class="item"><img class="img__cliente" src="<?php bloginfo("template_url"); ?>/img/cliente3.jpg"></div>
+								<div class="item"><img class="img__cliente" src="<?php bloginfo("template_url"); ?>/img/cliente4.jpg"></div>
+								<div class="item"><img class="img__cliente" src="<?php bloginfo("template_url"); ?>/img/cliente5.jpg"></div>
+								<div class="item"><img class="img__cliente" src="<?php bloginfo("template_url"); ?>/img/cliente3.jpg"></div>
 							</div>
 						</div>
 					</div>
@@ -112,46 +204,28 @@
 			</div>
 		</section>
 
-		<section class="home__allpa">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="home__allpa--contenido">
-							<h2>¿Por&nbsp;&nbsp;qué&nbsp;&nbsp;Allpa&nbsp;&nbsp;Inti?</h2>
-							<p>Nuestra forma de hacer las cosas es lo que nos hace diferentes, por qué en cada una de las etapas del proceso desde la siembra, cultivo, cosecha y distribución de nuestros alimentos de campo: papa única, papa canchan, palta Hass y cebolla morada,  lo hacemos con dedicación de hasta el más mínimo detalle, nuestros cultivos están localizados en Nazca y Arequipa, donde aplicamos estrategias de mejora constante, es así que cada uno de nuestros productos solo se presenten con calidad excepcional,  productos que sus clientes van a preferir.</p>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<img src="<?php bloginfo("template_url"); ?>/img/img-allpa.png">
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section class="home__compromiso">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4"></div>
-					<div class="col-md-8">
-						<div class="home__compromiso--item item1">
-							<h2>Compromiso Social</h2>
-							<p>Generamos oportunidades para el desarrollo integral y la mejora en las condiciones de vida de nuestro capital humano, sus familias y la comunidad.</p>
-						</div>
-						<div class="home__compromiso--item item2">
-							<h2>Compromiso Ambiental</h2>
-							<p>Promovemos el uso eficiente del agua, la energía y el tratamiento adecuado de residuos para preservar el medio ambiente para las siguientes generaciones.</p>
-						</div>
-						<div class="home__compromiso--item item3">
-							<h2>Compromiso Cultural</h2>
-							<p>Queremos fortalecer el lazo emocional de nuestra cultura gastronómica para que no se pierdan las tradiciones y el consumo de lo nuestro se mantenga en el tiempo.</p>
+		<section class="home__novedades">
+			<div class="home__novedades--header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="home__novedades--titulo">
+								<h2>Novedades</h2>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="home__blog--wrap">
+				<div class="container">
+					<div class="row">
+						<?php 
+							echo do_shortcode('[blog_ultimospage cuantos="3"]'); 
+						?>
+					</div>
+				</div>
+			</div>
 		</section>
-
-	   <?php get_template_part('loops/loop', 'instagram'); ?>	   
-		
 		
 	</main>
 <?php get_footer(); ?>

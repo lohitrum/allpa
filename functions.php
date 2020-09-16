@@ -698,6 +698,7 @@ require_once get_template_directory() . '/cmb2/init.php';
 require_once get_template_directory() . '/includes/widgets/recentpost.php';
 require_once get_template_directory() . '/includes/post-types/slider_define.php';
 require_once get_template_directory() . '/includes/post-types/blog_define.php';
+require_once get_template_directory() . '/includes/post-types/capacitacion_define.php';
 require_once get_template_directory() . '/includes/shortcodes.php';
 require_once get_template_directory() . '/includes/admin/customizer.php';
 ?>

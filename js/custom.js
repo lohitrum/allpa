@@ -432,7 +432,7 @@ jQuery(function(){
 
     
 
-  $('.owl-productos2').owlCarousel({
+  $('.owl-clientes').owlCarousel({
 
       loop:true,
 
@@ -440,7 +440,7 @@ jQuery(function(){
 
       nav:true,
 
-      items:4,        
+      items:5,        
 
       dots:false,
 
@@ -460,7 +460,7 @@ jQuery(function(){
 
           1000:{
 
-              items:4
+              items:5
 
           }
 

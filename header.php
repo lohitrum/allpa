@@ -20,9 +20,7 @@
 
     <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -72,7 +70,7 @@
 
                                         if($logo == "") {
 
-                                                $logo =  get_bloginfo("template_url").'/img/logo-allpa.svg';
+                                                $logo =  get_bloginfo("template_url").'/img/logo.png';
 
                                         }
 
@@ -186,6 +184,9 @@
 
                         ?>                                       
 
+                        <div class="llamanos">
+                            <img src="<?php bloginfo("template_url"); ?>/img/icons/icon-telmenu.png"> (054) 324 338
+                        </div>
                     </nav> 
 
                                 

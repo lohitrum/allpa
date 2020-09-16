@@ -1,5 +1,7 @@
 .footer__top{
-  background-color: $color-extra1;
+  background-image: url(../img/bg-contacto.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
   padding-top: 70px;
   padding-bottom: 80px;  
     .nav__productos{
@@ -12,7 +14,7 @@
           li { 
               display: inline-block;
               margin-bottom: 5px;
-              color: $white;   
+              color: $white;
               font-size: 14px;
               &.current-menu-item{          
                 a{
@@ -58,23 +60,57 @@
           }          
       }
   }
-  .footer__top-contenido{
-    h2{
-      margin: 0; color: $white; font-family: $altfont; font-size: 50px; margin-bottom: 20px;
-    }
-    p{
-      margin: 0; font-weight: 400; color: $white; font-size: 14px; line-height: 22px; padding-right: 50px;
-    }
-    .footer__logo {
-      max-width: 290px;
-    }
+  .footer__top-contenido{    
+    .footer__top--item{
+      border: 1px dotted $white;
+      margin-bottom: 20px;
+      padding: 15px;
+      p{
+        margin: 0; font-weight: 400; color: $white; font-family: $altfont; font-size: 14px; line-height: 22px; position: relative; padding-left: 30px;
+        a{color: $white; &:hover{color: $color-secondary;}}
+            &.ubi{
+                &::before{
+                    content: url(../img/icons/icon-ubi.png);                
+                    vertical-align: middle;                
+                    padding-right: 15px;
+                    width: 13px;
+                    height: 19px;
+                    position: absolute;
+                    left: 0;
+                }
+            }
+            &.tel{
+                &::before{
+                    content: url(../img/icons/icon-tel.png);                
+                    vertical-align: middle;                
+                    padding-right: 15px;
+                    width: 17px;
+                    height: 17px;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+            }
+            &.mail{
+                &::before{
+                    content: url(../img/icons/icon-mail.png);                
+                    vertical-align: middle;                
+                    padding-right: 15px;
+                    width: 17px;
+                    height: 13px;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+            }
+      }
+    } 
   }
-  .footer__contacto{
-    background-color: $white;
+  .footer__contacto{    
     position: relative;
-    padding: 30px 25px;
+    max-width: 467px;  
     h2{
-      margin: 0; font-family: $altfont2; font-size: 33px; color: $color-base;
+      margin: 0; font-size: 36px; color: $white; font-weight: 400; text-transform: uppercase; margin-bottom: 20px;
     }
     h3{
       margin: 0; font-family: $altfont2; font-size: 20px; color: $color-base; margin-bottom: 10px;
@@ -127,8 +163,8 @@
   .footer__texto2{            
     padding-top: 30px;
     padding-bottom: 30px;
-    text-align: right;
-    p{font-size: 16px; font-weight: 400; color:$white; margin: 0;
+    text-align: center;
+    p{font-size: 14px; font-weight: 400; color:$white; margin: 0; font-family: $altfont;
       a{
         color:$white;        
         padding-bottom: 3px;
